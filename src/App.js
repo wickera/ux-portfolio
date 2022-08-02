@@ -1,11 +1,13 @@
-import Home from './sections/Home/Home';
+import Home from './pages/Home/Home';
 import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
 
 export default function App() {
  return (
   <>
    <Navbar />
    <Home />
+   <Footer />
   </>
  );
 }

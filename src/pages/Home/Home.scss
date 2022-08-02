@@ -1,0 +1,121 @@
+.home {
+ display: flex;
+ flex-direction: row;
+ background-color: black;
+ color: white;
+ padding: 7rem;
+
+ &__button {
+  background: transparent;
+  color: white;
+  border: 1px solid darkgray;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &:hover {
+   cursor: pointer;
+   background: darkgray;
+  }
+ }
+ &__desc {
+  padding-right: 2rem;
+
+  &--title {
+   margin: 1rem 0;
+   font-family: 'OrpheusW05-Regular';
+   font-size: 3rem;
+   font-weight: 500;
+  }
+
+  &--text {
+   font-size: 1.7rem;
+   font-weight: 200;
+  }
+ }
+
+ &__image {
+  &--img {
+   width: 20rem;
+  }
+ }
+
+ &__location {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0 2rem;
+  font-size: 1.3rem;
+
+  &--icon {
+   margin-right: 1rem;
+  }
+ }
+ &__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--title {
+   color: white;
+   font-size: 2.5rem;
+   width: 33%;
+   text-align: center;
+  }
+ }
+
+ &__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 1rem 4rem 3rem;
+
+  &--title {
+   color: white;
+   font-size: 2rem;
+   text-align: center;
+  }
+
+  &--list {
+   border-collapse: collapse;
+   border-spacing: 0;
+   margin: 0px auto;
+
+   td {
+    padding: 0.25rem 2rem;
+    vertical-align: middle;
+    text-align: center;
+   }
+  }
+ }
+
+ &__about {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5rem 10rem;
+
+  &--info {
+   padding: 2rem 4rem;
+  }
+
+  &--title {
+   font-size: 4rem;
+   margin: 0;
+   padding: 0;
+   letter-spacing: 1px;
+  }
+
+  &--desc {
+   font-size: 0.9rem;
+   line-height: 1.4rem;
+  }
+
+  &--img {
+   width: 20rem;
+  }
+ }
+}

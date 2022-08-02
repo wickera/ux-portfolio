@@ -1,0 +1,50 @@
+.footer {
+ position: static;
+ bottom: 0;
+ left: 0;
+ background-color: black;
+ color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 0.5rem 10rem;
+
+ &__icon {
+  font-size: 1.4rem;
+ }
+
+ &__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+ }
+
+ &__credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.1px;
+  margin: 0;
+  padding: 0;
+ }
+
+ &__links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+
+  li {
+   margin: 0 1rem;
+
+   &:hover {
+    cursor: pointer;
+    color: lightblue;
+   }
+  }
+ }
+}

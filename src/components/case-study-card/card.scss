@@ -1,0 +1,85 @@
+.card {
+ width: 77%;
+ margin: 0 0 4rem;
+ display: flex;
+ flex-direction: row;
+ background-color: black;
+
+ &__reverse {
+  flex-direction: row-reverse;
+ }
+
+ &__details {
+  padding: 3rem;
+ }
+
+ &__button {
+  background: transparent;
+  color: white;
+  border: 1px solid darkgray;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &:hover {
+   cursor: pointer;
+   background: darkgray;
+  }
+ }
+
+ &__img {
+  height: 30rem;
+ }
+
+ &__project {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
+
+  &--desc {
+   margin: 0;
+   color: white;
+   font-size: 0.9rem;
+   font-weight: 300;
+   line-height: 1.2rem;
+  }
+ }
+
+ &__faq {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+
+  &--left,
+  &--right {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  }
+  &--info {
+   text-transform: capitalize;
+   color: white;
+   margin: 1rem 0 0.5rem;
+   font-size: 0.9rem;
+   font-weight: 300;
+  }
+  &--desc {
+   margin: 0;
+   color: white;
+   font-size: 0.8rem;
+   //    font-weight: 100;
+   line-height: 1rem;
+  }
+ }
+}
+
+hr {
+ display: block;
+ margin: 0;
+ border-style: inset;
+ border-width: 1px;
+}
