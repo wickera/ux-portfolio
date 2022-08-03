@@ -34,7 +34,7 @@ export default function Home() {
    </div>
 
    {/* Skills section */}
-   <div className='home__skills'>
+   {/* <div className='home__skills'>
     <h4 className='home__skills--title'>Here are also some of my skills:</h4>
     <table className='home__skills--list'>
      <tbody>
@@ -55,7 +55,7 @@ export default function Home() {
       </tr>
      </tbody>
     </table>
-   </div>
+   </div> */}
 
    {/* About Section */}
    <div className='home__about'>

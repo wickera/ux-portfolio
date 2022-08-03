@@ -2,9 +2,14 @@ import './navbar.scss';
 
 export default function Navbar() {
  return (
-  <nav id='nav' className='nav'>
-   <div className='nav__title'>
-    <h1 className='nav__title--text'>Mia Lewis</h1>
+  <nav id='nav' className='nav navbar'>
+   <div className='navbar__menu'>
+    <button className='navbar__menu--button'>
+     <i class='fa-solid fa-bars'></i>
+    </button>
+   </div>
+   <div className='nav__title navbar__title'>
+    <h1 className='nav__title--text navbar__title--text'>Mia Lewis</h1>
    </div>
    <ul className='nav__links'>
     <li>Home</li>

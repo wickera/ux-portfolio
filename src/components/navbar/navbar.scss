@@ -8,6 +8,7 @@
  flex-direction: row;
  justify-content: space-between;
  color: white;
+
  &__title {
   padding-left: 4rem;
   &--text {
@@ -41,6 +42,44 @@
    &:hover {
     cursor: pointer;
     font-weight: 700;
+   }
+  }
+ }
+}
+
+.navbar {
+ &__menu {
+  display: none;
+ }
+}
+
+@media screen and (max-width: 750px) {
+ .nav {
+  &__links {
+   display: none;
+  }
+ }
+ .navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  &__title {
+   padding-left: 1rem;
+
+   &--text {
+    font-size: 1.3rem;
+   }
+  }
+  &__menu {
+   display: flex;
+   &--button {
+    margin: 0 1rem;
+    border: none;
+    background: transparent;
+    font-size: 1.4rem;
+    color: white;
    }
   }
  }

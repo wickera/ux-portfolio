@@ -51,7 +51,7 @@
 
  &__faq {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0;
 
   &--left,
@@ -71,7 +71,6 @@
    margin: 0;
    color: white;
    font-size: 0.8rem;
-   //    font-weight: 100;
    line-height: 1rem;
   }
  }
@@ -82,4 +81,28 @@ hr {
  margin: 0;
  border-style: inset;
  border-width: 1px;
+}
+
+@media screen and (max-width: 750px) {
+ .card {
+  width: 85%;
+  flex-direction: column;
+  &__image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  &__button {
+   width: 100%;
+  }
+  &__details {
+   padding: 1rem;
+  }
+  &__faq {
+   flex-direction: column;
+  }
+  &__img {
+   height: 20rem;
+  }
+ }
 }

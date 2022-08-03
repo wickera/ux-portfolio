@@ -48,3 +48,21 @@
   }
  }
 }
+
+@media screen and (max-width: 750px) {
+ .footer {
+  padding: 0 1rem;
+  background-color: transparent;
+
+  &__links {
+   li {
+    margin: 0 1rem;
+   }
+  }
+
+  &__credit {
+   width: 50%;
+   text-align: center;
+  }
+ }
+}
