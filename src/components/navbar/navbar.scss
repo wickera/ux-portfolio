@@ -16,12 +16,12 @@
 
   &--text {
    font-family: 'OrpheusW05-Regular';
-   font-size: 1.4rem;
+   font-size: 24px;
   }
  }
 
  &__icon {
-  font-size: 1rem;
+  font-size: 18px;
 
   &:hover {
    color: lightblue;
@@ -30,16 +30,16 @@
 
  &__links {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   padding-right: 3rem;
-  justify-content: space-between;
 
   li {
    margin: 0 0.6rem;
-   text-transform: capitalize;
-   font-size: 0.85rem;
+   font-size: 14px;
    font-family: 'Open Sans', sans-serif;
+   text-transform: capitalize;
    letter-spacing: 1px;
    color: white;
 
@@ -67,7 +67,8 @@
 }
 
 .navbar {
- &__menu {
+ &__menu,
+ &__menu-slideout {
   display: none;
  }
 }

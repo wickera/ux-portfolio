@@ -1,4 +1,5 @@
 import miafair from '../../assets/images/miafair.jpg';
+import { Link } from 'react-router-dom';
 import './card.scss';
 
 export const Card = (props) => {
@@ -12,7 +13,9 @@ export const Card = (props) => {
    <div className='card__details'>
     <h5 className='card__project'>{props.project.ProjectName}</h5>
     <p className='card__project--desc'>{props.project.ProjectDescription}</p>
-    <button className='card__button'>View Case Study</button>
+    <Link to={props.project.link} replace>
+     <button className='card__button'>View Case Study</button>
+    </Link>
     <hr></hr>
     <div className='card__faq'>
      <div className='card__faq--left'>
