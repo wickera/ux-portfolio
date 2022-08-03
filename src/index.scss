@@ -124,3 +124,7 @@ table {
  border-collapse: collapse;
  border-spacing: 0;
 }
+:root {
+ --animate-duration: 1s;
+ --animate-delay: 0s;
+}

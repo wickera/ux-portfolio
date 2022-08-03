@@ -2,7 +2,7 @@ import './footer.scss';
 
 export default function Footer() {
  return (
-  <footer className='footer'>
+  <footer id='footer' className='footer'>
    <div className='footer__container'>
     <ul className='footer__links'>
      <li>
