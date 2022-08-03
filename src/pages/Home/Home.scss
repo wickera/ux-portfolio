@@ -18,10 +18,13 @@
    background: darkgray;
   }
  }
+
  &__desc {
   padding-right: 2rem;
+  background: transparent;
 
   &--title {
+   background: transparent;
    margin: 1rem 0;
    font-family: 'OrpheusW05-Regular';
    font-size: 3rem;
@@ -29,6 +32,7 @@
   }
 
   &--text {
+   background: transparent;
    font-size: 1.7rem;
    font-weight: 200;
   }
@@ -52,48 +56,31 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  background: transparent;
   margin: 1rem 0 2rem;
   font-size: 1.3rem;
 
+  & span {
+   background: transparent;
+  }
+
   &--icon {
+   background: transparent;
    margin-right: 1rem;
   }
  }
+
  &__work {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 4rem 0;
 
   &--title {
    color: white;
    font-size: 2.5rem;
    width: 33%;
    text-align: center;
-  }
- }
-
- &__skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  margin: 1rem 4rem 3rem;
-
-  &--title {
-   color: white;
-   font-size: 2rem;
-   text-align: center;
-  }
-
-  &--list {
-   border-collapse: collapse;
-   border-spacing: 0;
-
-   td {
-    padding: 0.25rem 2rem;
-    vertical-align: middle;
-    text-align: center;
-   }
   }
  }
 
@@ -106,10 +93,12 @@
 
   &--info {
    padding: 2rem 4rem;
+   background: transparent;
   }
 
   &--title {
    font-size: 4rem;
+   background: transparent;
    margin: 0;
    padding: 0;
    letter-spacing: 1px;
@@ -118,6 +107,7 @@
   &--desc {
    font-size: 0.9rem;
    line-height: 1.4rem;
+   background: transparent;
   }
 
   &--img {
@@ -162,10 +152,12 @@
     font-size: 2rem;
    }
   }
+
   &__about {
    flex-direction: column-reverse;
    background-color: transparent;
    padding: 1rem;
+
    &--info {
     padding: 1rem;
    }
@@ -198,6 +190,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+
    &__img {
     width: 100%;
    }

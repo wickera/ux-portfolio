@@ -33,30 +33,6 @@ export default function Home() {
     <Card project={RiffsFinancialCoach} />
    </div>
 
-   {/* Skills section */}
-   {/* <div className='home__skills'>
-    <h4 className='home__skills--title'>Here are also some of my skills:</h4>
-    <table className='home__skills--list'>
-     <tbody>
-      <tr>
-       <td>User Research</td>
-       <td>User Interviews</td>
-       <td>Usability Testing</td>
-      </tr>
-      <tr>
-       <td>Surveying</td>
-       <td>Experience Design</td>
-       <td>Information Arcitecture</td>
-      </tr>
-      <tr>
-       <td>Wireframes &amp; Mockups</td>
-       <td>Prototyping</td>
-       <td>Visual Design</td>
-      </tr>
-     </tbody>
-    </table>
-   </div> */}
-
    {/* About Section */}
    <div className='home__about'>
     <div className='home__about--info'>

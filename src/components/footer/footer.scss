@@ -1,45 +1,55 @@
 .footer {
- position: static;
+ position: relative;
  bottom: 0;
- left: 0;
+ width: 100%;
+ padding: 0;
  background-color: black;
  color: white;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- padding: 0.5rem 10rem;
+ padding: 1rem 0;
 
  &__icon {
   font-size: 1.4rem;
+  background: transparent;
  }
 
  &__container {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
  }
 
  &__credit {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: transparent;
   font-size: 0.8rem;
   letter-spacing: 0.1px;
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
+
+  & p {
+   background: transparent;
+  }
  }
 
  &__links {
   list-style: none;
   display: flex;
   flex-direction: row;
+  background: transparent;
   margin: 0;
   padding: 0;
 
   li {
    margin: 0 1rem;
+   background: transparent;
 
    &:hover {
     cursor: pointer;

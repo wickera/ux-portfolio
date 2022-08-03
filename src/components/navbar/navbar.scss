@@ -1,6 +1,7 @@
 .nav {
  position: fixed;
  width: 100%;
+ padding: 1rem 0;
  top: 0;
  left: 0;
  display: flex;
@@ -11,6 +12,7 @@
 
  &__title {
   padding-left: 4rem;
+
   &--text {
    font-family: 'OrpheusW05-Regular';
    font-size: 1.4rem;
@@ -18,7 +20,7 @@
  }
 
  &__icon {
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   &:hover {
    color: lightblue;
@@ -34,14 +36,30 @@
 
   li {
    margin: 0 0.6rem;
-   text-transform: uppercase;
+   text-transform: capitalize;
    font-size: 0.85rem;
    font-family: 'Open Sans', sans-serif;
    letter-spacing: 1px;
+   color: white;
 
    &:hover {
     cursor: pointer;
     font-weight: 700;
+   }
+  }
+
+  &--link {
+   padding-bottom: 0.25rem;
+   text-decoration: none;
+   color: white;
+
+   &:active {
+    color: white;
+   }
+
+   &:focus {
+    border-bottom: 2px solid;
+    border-color: white;
    }
   }
  }
@@ -74,6 +92,7 @@
   }
   &__menu {
    display: flex;
+
    &--button {
     margin: 0 1rem;
     border: none;

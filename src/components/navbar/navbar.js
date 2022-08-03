@@ -22,6 +22,7 @@ export default function Navbar() {
       to={e.link}
       replace
       tabIndex={tabIndex}
+      className='nav__links--link'
       onClick={() => setOpen(!open)}>
       {e.name}
      </Link>
