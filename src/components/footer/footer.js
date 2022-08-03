@@ -6,10 +6,10 @@ export default function Footer() {
    <div className='footer__container'>
     <ul className='footer__links'>
      <li>
-      <i class='fa-regular fa-envelope footer__icon'></i>
+      <i className='fa-regular fa-envelope footer__icon'></i>
      </li>
      <li>
-      <i class='fa-brands fa-linkedin-in footer__icon'></i>
+      <i className='fa-brands fa-linkedin-in footer__icon'></i>
      </li>
     </ul>
    </div>

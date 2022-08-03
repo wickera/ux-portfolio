@@ -2,7 +2,7 @@ import Card from '../../components/case-study-card/card';
 import MindEvolution from '../../assets/files/mind_evolution.json';
 import RiffsFinancialCoach from '../../assets/files/riffs_financial_coach.json';
 import miafair from '../../assets/images/miafair.jpg';
-import './Home.scss';
+import './home.scss';
 
 export default function Home() {
  return (

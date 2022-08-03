@@ -1,0 +1,34 @@
+.work {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3rem 1rem;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+ &__desc {
+ }
+
+ &__project {
+  width: 33%;
+  margin: 3rem;
+
+  &--img {
+   width: 100%;
+  }
+ }
+}
+
+@media screen and (max-width: 750px) {
+ .work {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+
+  &__project {
+   width: 70%;
+   margin: 1.5rem 0;
+  }
+ }
+}
