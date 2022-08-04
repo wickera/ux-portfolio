@@ -1,19 +1,19 @@
 import './navbar.scss';
 import 'animate.css';
 import { Link } from 'react-router-dom';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 
 export default function Navbar() {
  const [open, setOpen] = useState(false);
- const menu = useRef(null);
  const isHidden = open ? true : false;
  const tabIndex = isHidden ? 0 : -1;
 
  const pages = [
   { name: 'home', link: '/' },
   { name: 'work', link: '/work' },
-  { name: 'about', link: '/about' }
+  { name: 'about', link: '/about' },
+  { name: 'contact', link: './contact' }
  ];
 
  const icons = [
@@ -57,7 +57,7 @@ export default function Navbar() {
  };
 
  return (
-  <nav id='nav' ref={menu} className='nav navbar'>
+  <nav id='nav' className='nav navbar'>
    <div className='navbar__menu'>
     <button
      className='navbar__menu-slideout--button'
@@ -68,7 +68,7 @@ export default function Navbar() {
     </button>
    </div>
    <CSSTransition
-    in={!open}
+    in={open}
     timeout={1000}
     classNames={{
      enterActive: 'navbar__menu-slideout-enter-active',

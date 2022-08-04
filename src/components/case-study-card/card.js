@@ -1,4 +1,3 @@
-import miafair from '../../assets/images/miafair.jpg';
 import { Link } from 'react-router-dom';
 import './card.scss';
 
@@ -8,7 +7,7 @@ export const Card = (props) => {
  return (
   <div className={orientation}>
    <div className='card__image'>
-    <img src={miafair} alt='card' className='card__img' />
+    <img src={props.image} alt={props.alt} className='card__img' />
    </div>
    <div className='card__details'>
     <h5 className='card__project'>{props.project.ProjectName}</h5>

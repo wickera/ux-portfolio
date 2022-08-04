@@ -1,8 +1,26 @@
-import Card from '../../components/case-study-card/card';
-import MindEvolution from '../../assets/files/mind_evolution.json';
-import RiffsFinancialCoach from '../../assets/files/riffs_financial_coach.json';
-import miafair from '../../assets/images/miafair.jpg';
+import { Link } from 'react-router-dom';
 import './home.scss';
+
+// Components
+import Card from '../../components/case-study-card/card';
+import Footer from '../../components/footer/footer';
+
+// Projects
+import MindEvolution from '../Work/projects/MindEvolution/mind_evolution.json';
+import RiffsFinancialCoach from '../Work/projects/RiffsFinancialCoach/riffs_financial_coach.json';
+import CityPups from '../Work/projects/CityPups/city_pups.json';
+import NextLevelFitness from '../Work/projects/NextLevelFitness/next_level_fitness.json';
+
+// Project Images
+import CityPupsHeader from '../../assets/images/CPLanding.png';
+import MindEvolutionHeader from '../../assets/images/ME Header.png';
+import NextLevelFitnessHeader from '../../assets/images/Group 580.png';
+import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header.png';
+
+// Images
+import miafair from '../../assets/images/miafair.jpg';
+import headshot from '../../assets/images/miaheadshot.jpg';
+import aboutpic from '../../assets/images/miaabout.jpg';
 
 export default function Home() {
  return (
@@ -22,15 +40,33 @@ export default function Home() {
      <button className='home__button'>View Resume</button>
     </div>
     <div className='home__image'>
-     <img src={miafair} alt='Mia at the fair' className='home__image--img' />
+     <img
+      src={headshot}
+      alt='Headshot of Mia Lewis'
+      className='home__image--img'
+     />
     </div>
    </div>
 
    {/* Case Study Cards */}
    <div className='home__work'>
     <h4 className='home__work--title'>Some of the work I'm most proud of.</h4>
-    <Card project={MindEvolution} />
-    <Card project={RiffsFinancialCoach} />
+    <Card
+     project={MindEvolution}
+     image={MindEvolutionHeader}
+     alt='Mind Evolution'
+    />
+    <Card
+     project={RiffsFinancialCoach}
+     image={RiffsFinancialCoachHeader}
+     alt='Riffs Financial Coach'
+    />
+    <Card
+     project={NextLevelFitness}
+     image={NextLevelFitnessHeader}
+     alt='Next Level Fitness'
+    />
+    <Card project={CityPups} image={CityPupsHeader} alt='City Pups' />
    </div>
 
    {/* About Section */}
@@ -44,12 +80,20 @@ export default function Home() {
       sad when I must settle on any one solution... I know; I know, I'm actively
       working on it!"
      </p>
-     <button className='home__button'>More About Me</button>
+     <Link to='/about' replace>
+      <button className='home__button'>More About Me</button>
+     </Link>
     </div>
     <div className='home__about--image'>
-     <img src={miafair} alt='mia fair' className='home__about--img' />
+     <img
+      src={aboutpic}
+      alt='Mia smiling with arms crossed'
+      className='home__about--img'
+     />
     </div>
    </div>
+
+   <Footer />
   </div>
  );
 }

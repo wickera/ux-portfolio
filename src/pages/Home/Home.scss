@@ -44,13 +44,14 @@
  &__image {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin: 0;
   padding: 0;
 
   &--img {
    width: 100%;
+   max-width: 500px;
   }
  }
 
@@ -93,7 +94,6 @@
   padding: 5rem 10rem;
 
   &--info {
-   padding-right: 5rem;
    background: transparent;
   }
 
@@ -103,6 +103,9 @@
    margin: 0;
    padding: 0;
    letter-spacing: 1px;
+  }
+  &--image {
+   margin: 0 5rem;
   }
 
   &--desc {

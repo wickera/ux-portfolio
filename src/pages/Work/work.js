@@ -1,11 +1,23 @@
+import { Link } from 'react-router-dom';
 import './work.scss';
-import miafair from '../../assets/images/miafair.jpg';
+
+// Header Photos
+import CityPupsLanding from '../../assets/images/CPLanding.png';
+import MindEvolutionHeader from '../../assets/images/ME Header.png';
+import NextLevelFitnessHeader from '../../assets/images/Group 580.png';
+import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header.png';
 
 export default function Work() {
  return (
   <div className='work'>
    <div className='work__project'>
-    <img src={miafair} className='work__project--img' alt='Project' />
+    <Link to='/work/mind_evolution' replace>
+     <img
+      src={MindEvolutionHeader}
+      className='work__project--img'
+      alt='Project'
+     />
+    </Link>
     <div className='work__project--desc'>
      <h3>
       Mind Evolution <span>| UI/UX Mobile App</span>
@@ -14,7 +26,9 @@ export default function Work() {
     </div>
    </div>
    <div className='work__project'>
-    <img src={miafair} className='work__project--img' alt='Project' />
+    <Link to='/work/city_pups' replace>
+     <img src={CityPupsLanding} className='work__project--img' alt='Project' />
+    </Link>
     <div className='work__project--desc'>
      <h3>
       CityPups <span>| Modified GV Design Sprint</span>
@@ -23,7 +37,13 @@ export default function Work() {
     </div>
    </div>
    <div className='work__project'>
-    <img src={miafair} className='work__project--img' alt='Project' />
+    <Link to='/work/next_level_fitness' replace>
+     <img
+      src={NextLevelFitnessHeader}
+      className='work__project--img'
+      alt='Project'
+     />
+    </Link>
     <div className='work__project--desc'>
      <h3>
       Next Level Fitness <span>| UI/UX Fitness Tracking Mobile App</span>
@@ -35,7 +55,13 @@ export default function Work() {
     </div>
    </div>
    <div className='work__project'>
-    <img src={miafair} className='work__project--img' alt='Project' />
+    <Link to='/work/riffs_financial_coach' replace>
+     <img
+      src={RiffsFinancialCoachHeader}
+      className='work__project--img'
+      alt='Project'
+     />
+    </Link>
     <div className='work__project--desc'>
      <h3>
       Riff's Financial Coach <span>| UX Design Website Dashboard</span>

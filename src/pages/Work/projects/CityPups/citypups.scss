@@ -1,0 +1,35 @@
+.city-pups {
+ &__landing-photo {
+  width: 100vw;
+ }
+
+ &__desc {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  &--info {
+   width: 100%;
+   padding: 4rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+
+   &--title {
+    line-height: 4rem;
+   }
+
+   &--text {
+    text-align: center;
+   }
+  }
+ }
+ &__name {
+  font-family: 'OrpheusW05-Regular';
+  font-size: 48px;
+  font-weight: 500;
+ }
+}
