@@ -8,11 +8,14 @@ import MindEvolution from './Work/projects/MindEvolution/mindevolution';
 import NextLevelFitness from './Work/projects/NextLevelFitness/nextlevelfitness';
 import RiffsFinancialCoach from './Work/projects/RiffsFinancialCoach/riffsfinancialcoach';
 
+import Success from './Contact/success';
+
 export default (
  <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/about' element={<About />} />
   <Route path='/contact' element={<Contact />} />
+  <Route path='/contact/Email&Successfully&Sent' element={<Success />} />
   <Route path='/work' element={<Work />} />
   <Route path='/work/city_pups' element={<CityPups />} />
   <Route path='/work/mind_evolution' element={<MindEvolution />} />
