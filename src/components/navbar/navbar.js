@@ -1,8 +1,11 @@
 import './navbar.scss';
 import 'animate.css';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
+
+// Assets
+import logo from '../../assets/images/Iam.svg';
 import resume from '../../assets/files/Mia2022Resume.pdf';
 
 export default function Navbar() {
@@ -86,6 +89,7 @@ export default function Navbar() {
     </ul>
    </CSSTransition>
    <div className='nav__title navbar__title'>
+    <img src={logo} alt='Mia Lewis Logo' className='nav__logo' />
     <h1 className='nav__title--text navbar__title--text'>Mia Lewis</h1>
    </div>
    <ul className='nav__links'>

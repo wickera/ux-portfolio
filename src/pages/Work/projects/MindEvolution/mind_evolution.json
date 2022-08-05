@@ -1,8 +1,40 @@
 {
  "index": 1,
- "link": "/work/mind_eveolution",
+ "link": "/work/mind_evolution",
  "ProjectName": "Mind Evolution",
  "ProjectDescription": "UI/UX Mobile App was created to empower people struggling with mental health conditions to take control of their mental health.",
  "RoleDescription": "UI/UX Designer / Researcher / Product Design",
- "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles."
+ "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles.",
+ "sections": [
+  {
+   "name": "Overview",
+   "link": "overview",
+   "Main": "",
+   "Text": ""
+  },
+  {
+   "name": "Research",
+   "link": "research"
+  },
+  {
+   "name": "Synthesis",
+   "link": "synthesis"
+  },
+  {
+   "name": "Ideation",
+   "link": "ideation"
+  },
+  {
+   "name": "Implementation",
+   "link": "implementation"
+  },
+  {
+   "name": "Validate",
+   "link": "validate"
+  },
+  {
+   "name": "Conclusion",
+   "link": "conclusion"
+  }
+ ]
 }

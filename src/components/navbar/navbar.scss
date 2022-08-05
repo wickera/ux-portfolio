@@ -1,7 +1,7 @@
 .nav {
  position: fixed;
  width: 100vw;
- padding: 1rem 0;
+ //  padding: 1rem 0;
  top: 0;
  left: 0;
  display: flex;
@@ -11,12 +11,19 @@
  color: white;
  z-index: 100;
 
+ &__logo {
+  width: 4rem;
+ }
+
  &__title {
-  padding-left: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &--text {
    font-family: 'OrpheusW05-Regular';
    font-size: 24px;
+   padding-left: 1rem;
   }
  }
 

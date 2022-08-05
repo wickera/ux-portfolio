@@ -12,14 +12,17 @@
 
   &--info {
    width: 100%;
-   padding: 4rem;
+   padding: 3rem;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
 
    &--title {
-    line-height: 4rem;
+    font-family: 'OrpheusW05-Regular';
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 1rem;
    }
 
    &--text {

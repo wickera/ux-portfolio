@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import './home.scss';
+import { Link } from 'react-router-dom';
 
 // Components
 import Card from '../../components/card/card';
@@ -20,6 +20,7 @@ import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header
 // Images
 import headshot from '../../assets/images/miaheadshot.jpg';
 import aboutpic from '../../assets/images/miaabout.jpg';
+import logo from '../../assets/images/Iam.svg';
 
 // Resume
 import resume from '../../assets/files/Mia2022Resume.pdf';
@@ -30,6 +31,7 @@ export default function Home() {
    <div className='home'>
     {/* Landing section on homepage */}
     <div className='home__desc'>
+     <img src={logo} alt='Mia Lewis Logo' className='home__logo' />
      <h3 className='home__desc--title'>Hello there, I'm Mia.</h3>
      <p className='home__desc--text'>
       I am a UI/UX Designer &amp; Researcher who uses creative thinking and

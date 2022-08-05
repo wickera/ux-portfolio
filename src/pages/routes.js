@@ -1,14 +1,22 @@
 import { Routes, Route } from 'react-router-dom';
+
 import Home from './Home/home';
 import About from './About/about';
 import Contact from './Contact/contact';
-import Work from './Work/work';
-import CityPups from './Work/projects/CityPups/citypups';
-import MindEvolution from './Work/projects/MindEvolution/mindevolution';
-import NextLevelFitness from './Work/projects/NextLevelFitness/nextlevelfitness';
-import RiffsFinancialCoach from './Work/projects/RiffsFinancialCoach/riffsfinancialcoach';
-
 import Success from './Contact/success';
+import Work from './Work/work';
+
+// City Pups
+import CityPups from './Work/projects/CityPups/citypups';
+
+// Mind Evolution
+import MindEvolution from './Work/projects/MindEvolution/mindevolution';
+
+// Next Level Fitness
+import NextLevelFitness from './Work/projects/NextLevelFitness/nextlevelfitness';
+
+// Riff's Financial Coach
+import RiffsFinancialCoach from './Work/projects/RiffsFinancialCoach/riffsfinancialcoach';
 
 export default (
  <Routes>

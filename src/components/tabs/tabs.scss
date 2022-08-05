@@ -1,0 +1,40 @@
+.tabs {
+ margin: 0 4rem;
+
+ &__link {
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  font-family: 'OrpheusW05-Regular';
+  font-weight: 600;
+  border: 1px solid black;
+
+  &--active {
+   padding: 1rem 2rem;
+   border: 1px solid black;
+   font-size: 20px;
+  }
+
+  &:hover {
+   cursor: pointer;
+   background-color: darkgray;
+  }
+ }
+
+ &__static {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+ }
+
+ &__sticky {
+  width: 100%;
+  position: sticky;
+  top: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+ }
+}
