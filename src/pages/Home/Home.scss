@@ -1,17 +1,17 @@
 .home {
  display: flex;
  flex-direction: row;
- background-color: black;
- color: white;
+ background-image: url('../../assets/images/landing.png');
+ color: black;
  padding: 7rem;
 
  &__button {
   background: transparent;
-  color: white;
-  border: 1px solid darkgray;
+  color: black;
+  border: 2px solid black;
   padding: 1rem 2rem;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   margin: 1rem 0;
 
@@ -30,6 +30,7 @@
    font-family: 'OrpheusW05-Regular';
    font-size: 48px;
    font-weight: 500;
+   color: black;
   }
 
   &--text {
@@ -60,6 +61,7 @@
   flex-direction: row;
   align-items: center;
   background: transparent;
+  color: black;
   font-size: 20px;
 
   & span {
@@ -92,6 +94,22 @@
   display: flex;
   flex-direction: row;
   padding: 5rem 10rem;
+
+  &--button {
+   background: transparent;
+   color: white;
+   border: 2px solid white;
+   padding: 1rem 2rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 16px;
+   margin: 1rem 0;
+
+   &:hover {
+    cursor: pointer;
+    background: darkgray;
+   }
+  }
 
   &--info {
    background: transparent;

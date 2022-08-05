@@ -18,7 +18,6 @@ import NextLevelFitnessHeader from '../../assets/images/Group 580.png';
 import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header.png';
 
 // Images
-import miafair from '../../assets/images/miafair.jpg';
 import headshot from '../../assets/images/miaheadshot.jpg';
 import aboutpic from '../../assets/images/miaabout.jpg';
 
@@ -81,7 +80,7 @@ export default function Home() {
       working on it!"
      </p>
      <Link to='/about' replace>
-      <button className='home__button'>More About Me</button>
+      <button className='home__about--button'>More About Me</button>
      </Link>
     </div>
     <div className='home__about--image'>
