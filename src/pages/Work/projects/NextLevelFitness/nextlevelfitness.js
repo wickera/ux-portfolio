@@ -4,7 +4,7 @@ import './nextlevelfitness.scss';
 
 export default function NextLevelFitness() {
  return (
-  <div className='nlf' id='nlf'>
+  <div className='nlf' id='nlf' name='nlf'>
    <img
     src={LandingPhoto}
     alt='Next Level Fitness'

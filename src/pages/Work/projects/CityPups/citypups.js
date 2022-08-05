@@ -4,7 +4,7 @@ import './citypups.scss';
 
 export default function CityPups() {
  return (
-  <div className='city-pups'>
+  <div className='city-pups' id='city-pups' name='city-pups'>
    <img
     src={LandingPhoto}
     alt='City Pups'

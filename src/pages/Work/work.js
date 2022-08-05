@@ -9,7 +9,7 @@ import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header
 
 export default function Work() {
  return (
-  <div className='work'>
+  <div className='work' id='work' name='work'>
    <div className='work__project'>
     <Link to='/work/mind_evolution' replace>
      <img

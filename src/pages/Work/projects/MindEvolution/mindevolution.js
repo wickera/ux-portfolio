@@ -4,7 +4,7 @@ import './mindevolution.scss';
 
 export default function MindEvolution() {
  return (
-  <div className='mind-evo'>
+  <div className='mind-evo' id='mind-evo' name='mind-evo'>
    <img
     src={LandingPhoto}
     alt='Mind Evolution'

@@ -3,7 +3,7 @@ import miafair from '../../assets/images/miafair.jpg';
 
 export default function About() {
  return (
-  <div className='about'>
+  <div className='about' id='about' name='about'>
    <div className='about__image'>
     <img src={miafair} alt='About' className='about__image--img' />
    </div>

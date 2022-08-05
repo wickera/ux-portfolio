@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './home.scss';
 
 // Components
-import Card from '../../components/case-study-card/card';
+import Card from '../../components/card/card';
 import Footer from '../../components/footer/footer';
 
 // Projects
@@ -21,11 +21,12 @@ import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header
 import headshot from '../../assets/images/miaheadshot.jpg';
 import aboutpic from '../../assets/images/miaabout.jpg';
 
+// Resume
 import resume from '../../assets/files/Mia2022Resume.pdf';
 
 export default function Home() {
  return (
-  <div>
+  <div id='home' name='home'>
    <div className='home'>
     {/* Landing section on homepage */}
     <div className='home__desc'>

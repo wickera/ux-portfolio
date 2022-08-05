@@ -4,7 +4,7 @@ import './riffsfinancialcoach.scss';
 
 export default function RiffsFinancialCoach() {
  return (
-  <div className='rfc' id='rfc'>
+  <div className='rfc' id='rfc' name='rfc'>
    <img
     src={LandingPhoto}
     alt='Riffs Financial Coach'

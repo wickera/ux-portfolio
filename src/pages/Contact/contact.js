@@ -20,7 +20,7 @@ export const Contact = () => {
  };
 
  return (
-  <div className='contact'>
+  <div className='contact' id='contact' name='contact'>
    <h4 className='contact__title'>Contact</h4>
    <p className='contact__subtitle'>
     I'm currently based in LA in the US, and on the market for full-time
