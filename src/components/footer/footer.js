@@ -1,4 +1,5 @@
 import './footer.scss';
+import resume from '../../assets/files/Mia2022Resume.pdf';
 
 export default function Footer() {
  return (
@@ -6,10 +7,18 @@ export default function Footer() {
    <div className='footer__container'>
     <ul className='footer__links'>
      <li>
-      <i className='fa-regular fa-envelope footer__icon'></i>
+      <a href={resume} alt='Download Mia"s Resume' download>
+       <i className='fa-regular fa-envelope footer__icon'></i>
+      </a>
      </li>
      <li>
-      <i className='fa-brands fa-linkedin-in footer__icon'></i>
+      <a
+       href='https://linkedin.com/in/mia-lewis'
+       replace
+       target='_blank'
+       rel='noopener noreferrer'>
+       <i className='fa-brands fa-linkedin-in footer__icon'></i>
+      </a>
      </li>
     </ul>
    </div>

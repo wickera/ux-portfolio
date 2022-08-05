@@ -21,6 +21,8 @@ import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header
 import headshot from '../../assets/images/miaheadshot.jpg';
 import aboutpic from '../../assets/images/miaabout.jpg';
 
+import resume from '../../assets/files/Mia2022Resume.pdf';
+
 export default function Home() {
  return (
   <div>
@@ -36,7 +38,9 @@ export default function Home() {
       <i className='fa fa-location-dot home__location--icon'></i>
       <span>Los Angeles County</span>
      </div>
-     <button className='home__button'>View Resume</button>
+     <a href={resume} alt='Download Mia"s Resume' download>
+      <button className='home__button'>Download Resume</button>
+     </a>
     </div>
     <div className='home__image'>
      <img

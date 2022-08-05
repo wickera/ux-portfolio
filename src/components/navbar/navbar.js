@@ -3,6 +3,7 @@ import 'animate.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
+import resume from '../../assets/files/Mia2022Resume.pdf';
 
 export default function Navbar() {
  const [open, setOpen] = useState(false);
@@ -17,8 +18,11 @@ export default function Navbar() {
  ];
 
  const icons = [
-  { link: 'https://linkedin.com/in/wickera', icon: 'fa-brands fa-linkedin-in' },
-  { link: 'https://linkedin.com/in/wickera', icon: 'fa-regular fa-envelope' }
+  {
+   link: 'https://linkedin.com/in/mia-lewis',
+   icon: 'fa-brands fa-linkedin-in'
+  },
+  { link: resume, icon: 'fa-regular fa-envelope' }
  ];
 
  const links = (routes) => {
@@ -48,6 +52,7 @@ export default function Navbar() {
       replace='true'
       target='_blank'
       rel='noopener noreferrer'
+      download={e.icon.includes('envelope') ? true : false}
       onClick={() => setOpen(!open)}>
       <i className={icon} aria-hidden='true'></i>
      </a>
