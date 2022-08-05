@@ -77,6 +77,10 @@
  .nav {
   &__links {
    display: none;
+
+   &--link {
+    font-weight: 700;
+   }
   }
 
   &__icons {
