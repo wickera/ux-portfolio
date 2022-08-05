@@ -14,7 +14,7 @@ export default function Footer() {
      <li>
       <a
        href='https://linkedin.com/in/mia-lewis'
-       replace
+       replace='true'
        target='_blank'
        rel='noopener noreferrer'>
        <i className='fa-brands fa-linkedin-in footer__icon'></i>

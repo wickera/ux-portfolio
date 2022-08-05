@@ -84,7 +84,7 @@ export default function Home() {
       sad when I must settle on any one solution... I know; I know, I'm actively
       working on it!"
      </p>
-     <Link to='/about' replace>
+     <Link to='/about'>
       <button className='home__about--button'>More About Me</button>
      </Link>
     </div>
