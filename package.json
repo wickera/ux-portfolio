@@ -3,7 +3,6 @@
  "version": "1.0.0",
  "private": true,
  "dependencies": {
-  "@heroicons/react": "^1.0.6",
   "animate.css": "^4.1.1",
   "classnames": "^2.3.1",
   "react": "^18.2.0",
@@ -22,8 +21,7 @@
  },
  "eslintConfig": {
   "extends": [
-   "react-app",
-   "react-app/jest"
+   "react-app"
   ]
  },
  "browserslist": {
