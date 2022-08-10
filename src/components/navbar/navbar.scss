@@ -1,15 +1,14 @@
 .nav {
- position: fixed;
+ z-index: 100;
  width: 100vw;
- //  padding: 1rem 0;
+ position: fixed;
  top: 0;
  left: 0;
+ background-color: transparent;
+ backdrop-filter: blur(10px);
  display: flex;
- background-color: #181a1b;
  flex-direction: row;
  justify-content: space-between;
- color: white;
- z-index: 100;
 
  &__logo {
   width: 4rem;
@@ -21,9 +20,10 @@
   align-items: center;
 
   &--text {
+   padding-left: 1rem;
    font-family: 'OrpheusW05-Regular';
    font-size: 24px;
-   padding-left: 1rem;
+   color: black;
   }
  }
 
@@ -31,16 +31,17 @@
   font-size: 18px;
 
   &:hover {
-   color: lightblue;
+   cursor: pointer;
+   color: black;
   }
  }
 
  &__links {
+  padding-right: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding-right: 3rem;
 
   li {
    margin: 0 0.6rem;
@@ -48,7 +49,7 @@
    font-family: 'Open Sans', sans-serif;
    text-transform: capitalize;
    letter-spacing: 1px;
-   color: white;
+   color: black;
 
    &:hover {
     cursor: pointer;
@@ -58,16 +59,27 @@
 
   &--link {
    padding-bottom: 0.25rem;
+   font-size: 16px;
+   font-weight: 600;
    text-decoration: none;
-   color: white;
+   color: black;
 
    &:active {
-    color: white;
+    color: black;
+    border-bottom: 2px solid;
+    border-color: black;
    }
 
    &:focus {
     border-bottom: 2px solid;
-    border-color: white;
+    border-color: black;
+   }
+
+   &:hover {
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    border-color: black;
    }
   }
  }
@@ -140,7 +152,7 @@
    }
 
    &--button {
-    color: white;
+    color: black;
     font-size: 1.4rem;
     margin: 0 1rem;
     border: none;

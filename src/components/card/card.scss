@@ -2,83 +2,91 @@
  margin: 4rem 0;
  display: flex;
  flex-direction: row;
- background-color: black;
+ justify-content: center;
+ align-items: center;
+
+ &__details {
+  width: 350px;
+  padding: 0 2rem;
+  background-color: transparent;
+  font-weight: 600;
+ }
 
  &__reverse {
   flex-direction: row-reverse;
  }
 
- &__details {
-  margin: 3rem;
-  width: 350px;
- }
-
  &__button {
-  background: transparent;
-  color: white;
-  border: 1px solid darkgray;
-  padding: 1rem 2rem;
+  width: 100%;
   margin: 1rem 0;
-  text-transform: uppercase;
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 2px solid black;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
+  text-transform: uppercase;
+  color: black;
 
   &:hover {
    cursor: pointer;
-   background: darkgray;
+   background: black;
+   color: #ede3df;
   }
  }
 
  &__img {
-  height: 30rem;
-  width: 40vw;
+  width: 44vw;
+  height: 22rem;
  }
 
  &__project {
-  text-transform: uppercase;
-  color: white;
+  font-size: 30px;
   font-weight: 700;
-  font-size: 24px;
   line-height: 3rem;
+  text-transform: capitalize;
+  color: black;
 
   &--desc {
-   color: white;
-   font-size: 16px;
-   font-weight: 300;
+   font-size: 18px;
+   font-weight: 600;
    line-height: 1.5rem;
+   color: black;
   }
  }
 
  &__faq {
   display: flex;
   flex-direction: column;
-  color: white;
+  color: black;
 
   &--left,
   &--right {
+   width: 100%;
    display: flex;
    flex-direction: column;
-   width: 100%;
   }
   &--info {
    margin: 1rem 0 0.5rem;
-   text-transform: capitalize;
-   font-size: 16px;
+   font-size: 18px;
+   font-weight: 600;
    line-height: 1rem;
+   text-transform: capitalize;
   }
   &--desc {
-   font-size: 12px;
+   font-size: 14px;
+   font-weight: 600;
    line-height: 1.35rem;
+   letter-spacing: 1px;
   }
  }
 }
 
 hr {
- display: block;
  margin: 0;
- border-style: inset;
+ display: block;
  border-width: 1px;
+ border-style: inset;
 }
 
 @media screen and (max-width: 750px) {
@@ -97,14 +105,14 @@ hr {
   }
 
   &__details {
-   padding: 1rem;
-   margin: 1rem;
    width: auto;
+   margin: 1rem;
+   padding: 1rem;
   }
 
   &__img {
-   height: 20rem;
    width: 100%;
+   height: 20rem;
   }
  }
 }

@@ -18,9 +18,9 @@ export const Tabs = (props) => {
   const fireOnScroll = () => {
    let value = document.documentElement.scrollTop;
 
-   if (scrollStatus === 'landing' && value > 900) {
+   if (scrollStatus === 'landing' && value > 777) {
     setScrollStatus('scrolled');
-   } else if (value <= 900) {
+   } else if (value <= 777) {
     setScrollStatus('landing');
    }
   };
@@ -39,10 +39,10 @@ export const Tabs = (props) => {
  //  Sets each tab link to corresponding element
  let sections = props.project.sections.map((e, i) => {
   return (
-   <li key={i}>
+   <li key={i} role='tab'>
     <Link
-     className='tabs__link'
-     activeClass='tabs__link--active'
+     className='tabs__list--link'
+     activeClass='tabs__list--link-active'
      to={e.link}
      spy={true}
      smooth={true}
@@ -61,9 +61,21 @@ export const Tabs = (props) => {
   <>
    {/* Sets tabs bar based on user scroll status */}
    {scrollStatus === 'landing' ? (
-    <ul className='tabs__static'>{sections}</ul>
+    <nav
+     role='tablist'
+     className='tabs__list--static'
+     style={{ backgroundImage: `url(${props.bannerImg})` }}>
+     <h4 className='tabs__title'>City Pups</h4>
+     <ul>{sections}</ul>
+    </nav>
    ) : (
-    <ul className='tabs__sticky'>{sections}</ul>
+    <nav
+     role='tablist'
+     className='tabs__list--sticky'
+     style={{ backgroundImage: `url(${props.bannerImg})` }}>
+     <h4 className='tabs__title'>City Pups</h4>
+     <ul>{sections}</ul>
+    </nav>
    )}
 
    {/* Each section with each project's props passed along */}

@@ -1,137 +1,152 @@
 .home {
+ padding: 7rem;
+ background-image: url('../../assets/images/landing.png');
+ background: rbga(200, 200, 200, 0.7);
+ background-size: 115%;
  display: flex;
  flex-direction: row;
- background-image: url('../../assets/images/landing.png');
- background-size: 115%;
  color: black;
- padding: 7rem;
 
  &__button {
-  background: transparent;
-  color: black;
-  border: 2px solid black;
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 16px;
   margin: 2rem 0;
+  padding: 1rem 3rem;
+  background: transparent;
+  border: 2px solid black;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+  box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
 
   &:hover {
    cursor: pointer;
-   background: darkgray;
+   background: black;
+   color: #ede3df;
   }
  }
 
  &__logo {
   width: 12rem;
+  box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
  }
 
  &__desc {
   background: transparent;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   &--title {
+   margin: 2rem 0 1rem;
    background: transparent;
-   margin: 1rem 0;
-   font-family: 'OrpheusW05-Regular';
    font-size: 48px;
    font-weight: 600;
    color: black;
   }
 
   &--text {
-   background: transparent;
-   overflow-wrap: break-word;
-   line-height: 2rem;
-   font-weight: 500;
-   font-size: 24px;
    margin: 1rem 0;
+   background: transparent;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 2rem;
    text-align: center;
+   overflow-wrap: break-word;
   }
  }
 
  &__image {
   width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
 
   &--img {
    width: 100%;
    max-width: 500px;
+   border-top-left-radius: 10rem;
+   border-top-right-radius: 10rem;
+   box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+   -webkit-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
   }
  }
 
  &__location {
+  background: transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: transparent;
-  color: black;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
+  color: black;
 
   & span {
    background: transparent;
   }
 
   &--icon {
-   background: transparent;
    margin-right: 1rem;
+   background: transparent;
   }
  }
 
  &__work {
+  margin: 4rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 4rem 0;
 
   &--title {
-   color: white;
-   font-size: 40px;
    width: 33%;
+   font-size: 40px;
    text-align: center;
   }
  }
 
  &__about {
-  background-color: black;
-  color: white;
+  padding: 5rem;
+  background-color: #ede3df;
   display: flex;
   flex-direction: row;
-  padding: 5rem 10rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
 
   &--button {
-   background: transparent;
-   color: white;
-   border: 2px solid white;
-   padding: 1rem 2rem;
-   text-transform: uppercase;
-   font-weight: 600;
-   font-size: 16px;
    margin: 1rem 0;
+   padding: 1rem 2rem;
+   background: transparent;
+   border: 2px solid black;
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: black;
 
    &:hover {
     cursor: pointer;
-    background: darkgray;
+    background: black;
+    color: #ede3df;
    }
   }
 
   &--info {
    background: transparent;
+   text-align: center;
   }
 
   &--title {
-   font-size: 52px;
-   background: transparent;
    margin: 0;
    padding: 0;
+   background: transparent;
+   font-size: 52px;
    letter-spacing: 1px;
   }
   &--image {
@@ -139,15 +154,22 @@
   }
 
   &--desc {
-   font-size: 16px;
-   line-height: 1.5rem;
+   margin: 1rem;
    background: transparent;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.5rem;
+   letter-spacing: 1px;
    overflow-wrap: break-word;
-   margin: 1rem 0;
   }
 
   &--img {
    width: 20rem;
+   border-top-left-radius: 10rem;
+   border-top-right-radius: 10rem;
+   box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+   -webkit-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.4);
   }
  }
 }
@@ -195,9 +217,9 @@
    }
 
    &--title {
-    font-size: 40px;
     margin: 0;
     padding: 0;
+    font-size: 40px;
     letter-spacing: 1px;
    }
 

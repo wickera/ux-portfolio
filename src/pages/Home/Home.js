@@ -34,7 +34,7 @@ export default function Home() {
      <img src={logo} alt='Mia Lewis Logo' className='home__logo' />
      <h3 className='home__desc--title'>Hello there, I'm Mia.</h3>
      <p className='home__desc--text'>
-      I am a UI/UX Designer &amp; Researcher who uses creative thinking and
+      I am a UX/UI Designer &amp; Researcher who uses creative thinking and
       strategic planning to solve problems that simplify the lives of others.
      </p>
      <div className='home__location'>
