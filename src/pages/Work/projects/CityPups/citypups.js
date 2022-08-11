@@ -3,6 +3,13 @@ import project from './city_pups.json';
 import Tabs from '../../../../components/tabs/tabs';
 import Footer from '../../../../components/footer/footer';
 
+// Import Project Sections
+import CPOverview from './sections/overview';
+import CPResearch from './sections/research';
+import CPIdeation from './sections/ideation';
+import CPImplementation from './sections/implementation';
+import CPConclusion from './sections/conclusion';
+
 // Import Images, assign to variable, and pass to Tabs
 import AffinityMap from './images/AffinityMap.png';
 import CPLanding from './images/CPLanding.png';
@@ -47,13 +54,17 @@ export default function CityPups() {
 
  return (
   <>
-   <div className='city-pups' id='city-pups' name='city-pups'>
-    <img
-     src={images.CPLanding}
-     alt='City Pups'
-     className='city-pups__landing-photo'
+   <div id='city-pups' name='city-pups'>
+    <img src={images.CPLanding} alt='City Pups' className='cp__landing-photo' />
+    <Tabs project={project} bannerImg={images.CPLanding} />
+    <CPOverview overview={project.sections[0].overview} images={images} />
+    <CPResearch research={project.sections[1].research} images={images} />
+    <CPIdeation ideation={project.sections[2].ideation} images={images} />
+    <CPImplementation
+     implementation={project.sections[3].implementation}
+     images={images}
     />
-    <Tabs project={project} images={images} bannerImg={images.CPLanding} />
+    <CPConclusion conclusion={project.sections[4].conclusion} images={images} />
    </div>
    <Footer />
   </>

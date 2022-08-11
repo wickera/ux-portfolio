@@ -1,9 +1,6 @@
-.cp {
- &__landing-photo {
-  width: 100%;
- }
-
- &__overview {
+.project {
+ &__tab {
+  padding-top: 12rem;
   display: flex;
   flex-direction: column;
 
@@ -14,11 +11,33 @@
    justify-content: center;
 
    &--img {
-    width: 20%;
+    width: 50%;
+   }
+
+   &--full {
+    margin: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--desc {
+     width: 20rem;
+
+     & h5 {
+      margin: 0.5rem 0;
+     }
+
+     & p {
+      font-weight: 600;
+      line-height: 1.4rem;
+     }
+    }
    }
 
    &--title {
-    width: 30%;
+    width: 15rem;
+    padding: 0 1rem;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4rem;
@@ -27,13 +46,16 @@
     text-transform: uppercase;
    }
 
-   &--objective,
-   &--problem,
-   &--goal {
-    width: 27rem;
+   &--sub-section {
+    width: 35rem;
+    padding: 0 1rem 1rem;
     display: flex;
     flex-direction: column;
     text-align: left;
+
+    &--img {
+     width: 100%;
+    }
 
     &--desc {
      margin: 0 0 2rem;
@@ -74,6 +96,10 @@
  }
 }
 
+#conclusion {
+ margin-bottom: 15rem;
+}
+
 hr {
  margin: 0 7rem;
  display: block;
@@ -82,21 +108,26 @@ hr {
 }
 
 .column {
- display: flex;
  flex-direction: column;
 }
 
-.reverse-column {
- display: flex;
+.column-reverse {
  flex-direction: column-reverse;
 }
 
 .row {
- display: flex;
  flex-direction: row;
 }
 
-.reverse-row {
- display: flex;
+.row-reverse {
  flex-direction: row-reverse;
+}
+
+.margin {
+ margin: 0;
+ padding: 0;
+}
+
+.padding {
+ padding-bottom: 2rem;
 }

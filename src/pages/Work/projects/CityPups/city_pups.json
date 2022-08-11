@@ -9,32 +9,113 @@
   {
    "name": "Overview",
    "link": "overview",
-   "Main": "People who live in cities struggle to find the perfect dog to adopt to their lack of unique needs, such as living spaces, schedule & transportation, outdoor space, and other city-specific criteria.",
-   "Text": {
-    "0": "CityPups is a new startup that wants to help people living in cities find the perfect dog to adopt.",
-    "1": "People have not taken action because they do not feel confident that a dog will be a good fit for them AND the dog. Most adoption sites focus on making a connection between people and dogs. This is great for browsing, but it often leads to people falling in love with a dog that needs more space, attention, or activity than they can provide. This leads to disappointment and more indecision. Descriptions of dogs on sites are too general- for example, it may say “this dog doesn’t require a lot of space”- but how small is too small?",
-    "2": "To give people confidence that they will be a great fit both in emotional connection and practical factors related to their lifestyle, CityPups wants to offer an extensive “Find your match” assessment consisting of multiple questions that will narrow down the search and provide dogs that align with their requirements."
+   "overview": {
+    "objective": {
+     "main": "Modified GV Design Sprint which spans five days. The challenge is to connect more people who live in large citities with dogs based ont their specific needs and situations.",
+     "role": "For this project’s end-to-end product design. My contribution included the following: UX Research, Sketching, Rapid Prototyping, Usability Testing.",
+     "timeline": "1 week",
+     "projectType": "Modified GV Design Sprint",
+     "tools": "Figma & Miro"
+    },
+    "problem": {
+     "main": "People in cities struggle to find the right dog to adopt due to their unique needs, such as living spaces, schedule & transportation, outdoor space, and other city-specific criteria."
+    },
+    "goal": {
+     "main": "Validate a design solution for CityPups using the GV design sprint method in one week. The design should allow city dwellers to find the perfect dog to adopt based on their needs. CityPups aims to help people who live in the city find the perfect dog to adopt."
+    }
    }
   },
   {
-   "name": "Research",
-   "link": "research"
-  },
-  {
-   "name": "Synthesis",
-   "link": "synthesis"
+   "name": "Research & Synthesis",
+   "link": "research",
+   "research": {
+    "problem": "How might we help dog lovers who live in large city find the best dog for them?",
+    "understand": "I was presented with a challenging brief for this project, which provided me with research highlights, personas, and detailed user interview notes. Below are a few of the highlights that stood out to me from the brief:",
+    "affinity": "While reading through the material of the user interviews, I created an affinity map to organize the user's wants, needs, and desires and find the patterns that produced the overarching categories.",
+    "personas": "Meet Ellie; she is ready for a dog; however, she lacks confidence in the matching process due to a lack of practical factors related to her lifestyle.",
+    "mapping": "The most essential categories for users were a Lack of information (Matching Process), Space, and Training, which are all mapped out to address in the user flow below."
+   }
   },
   {
    "name": "Ideation",
-   "link": "ideation"
+   "link": "ideation",
+   "ideation": {
+    "sketch": "Before I began my hand sketching process, I conducted a lightning demo exercise to get inspiration and to research what other companies are doing with their design selections. Below are the three companies I researched:",
+    "lightening": {
+     "puppyshot": [
+      "PuppySpot has a quiz tool that allows users to narrow down their results and find the best dog for them.",
+      "PuppySpot also has a clean design layout for users.",
+      "PuppySpot has a fun, playful aesthetic."
+     ],
+     "petfinder": [
+      "PetFinder offers a quiz that provides some baseline questions.",
+      "PetFinder offers a welcoming and fun tone.",
+      "As a user, you are shown a detailed page of the dog you desire to adopt, providing the dog's personality and the different characteristics they possess."
+     ],
+     "proven": [
+      "This website provides a service that helps users formulate their custom skincare for their specific needs.",
+      "Proven uses a very detailed assessment to understand a user's needs and wants to be based on the specific questions they ask.",
+      "Only 10 mins of a user's time, they are emailed a detailed document of the products they are recommended."
+     ]
+    },
+    "crazy": [
+     "It was time for me to start sketching my own designs after gaining plenty of inspiration. I conducted an exercise called Crazy 8s, in which I chose 2 of the most critical screens for this project and came up with eight solution sketches for each essential screen in eight minutes each.",
+     "I selected these two screens as the most critical screens for the product because it aids in solving the problem of the user finding the perfect dog. Having the user take a detailed quiz addressing the most critical categories will assist in narrowing down their results, therefore, providing the best options for them to find their perfect dog. I also selected the results page after the quiz was completed.",
+     "I felt asking the right questions and the results were the most pronounced problems I needed to solve, and therefore I chose it as the focus of my Crazy 8s exercise. It is also critical in solidifying the user’s decision to adopt a dog.",
+     "The Crazy 8’s exercise helped me determine my final solution sketch, pictured in the three-panel storyboard below.",
+     "This last screen of the storyboard, which I would later call the profile screen, gives the user more detailed information about the dog they desire to adopt, from their personality and videos to grooming care. This screen will give the user everything they need to make a confident decision to start the adoption process."
+    ],
+    "decide": [
+     "STORYBOARD",
+     "I elaborated on the three-panel storyboard from the day before. Pictured below, this storyboard was the foundation of my prototype.",
+     "The process of my storyboard is simple: users answer questions about their living space, location, requirements for training, and the size of the dog they desire. This will allow the site to automatically curate dogs that match their needs. Users can then scroll through the results of dogs that fall into their lifestyle frame; they can further narrow their results by utilizing the filter on the screen. After users select a dog, they will then see the dog’s profile, where they can find out more information about the dog and start adopting.",
+     "The reason I kept this flow simple is that I wanted to make sure the CityPups users can quickly and easily get to the information they need and find out if a dog is a perfect match for them or not."
+    ]
+   }
   },
   {
    "name": "Implementation",
-   "link": "implementation"
+   "link": "implementation",
+   "implementation": {
+    "prototype": [
+     "My prototype reflects this project's most essential user flow: a user taking the online CityPups quiz to choose the perfect dog to adopt for themselves.",
+     "The quiz is simple, with 20 questions. Once users complete the quiz, they are shown the results of all dogs that fit their criteria, and they have the option to filter further (questions that were not touched on during the quiz).",
+     "They can learn more about specific dogs by selecting the dog's picture card, which brings them to the personalized page where they can start adopting."
+    ],
+    "test": [
+     "I conducted five moderated usability tests with users who live in big cities, are dog lovers, want to adopt a dog, or have adopted dogs. I recruited from the student network at Springboard and some personal friends. Each test was held over a video call and utilized screen-sharing technology.",
+     "My goal in testing the prototype was to discover if users struggle with navigating the website to find the perfect dog and to see if any more information can be included to help the user find the ideal dog.",
+     "In testing, I looked for any part of the process where users might get confused. I was inquisitive about the user's reactions to the quiz, whether the questions needed to be more detailed, the results page and personalized profile page or if they understood the content.",
+     "Given that this project was conducted as a GV sprint, my prototype was quite basic, and I worried I would have enough to test to get a lot of feedback. However, each participant provided valuable information, which I then used to better my design. The following section details the updates I made based on the user feedback."
+    ],
+    "findings": [
+     "Per-user feedback, I added more detailed questions and added more questions about the user’s lifestyle. The questions were too basic and didn’t give the user security that the most important questions were asked to get the best results.",
+     "I decided to eliminate specific categories in the filter on the results screen once the user completes the quiz. The users were confused about the filter after taking the quiz. After taking the quiz, all users expected to have the answers either preselected or removed as an option on the results page.",
+     "On the home screen, some users were unsure if they were adopting a dog. To clarify, I wanted to change the statement on the homepage to “Adopt.”",
+     "I removed the details dropdown on the profile screen and displayed the entire list on the page. Users thought the details should be displayed on the page and not as a dropdown. Most users would instead read the facts than the short summary, although they stated “nice to have the summary”.",
+     "1. I changed the statement from “Find” to Adopt”.",
+     "2. I changed the banner (from the image to a solid purple) at the top of the screen because it was too busy; I also reduced the size.",
+     "3. I repositioned the filter to the top of the screen and limited categories. (Filter options will be automatically generated when the user takes the quiz.",
+     "4. I added two more columns of dog cards to capitalize on space.",
+     "1. I repositioned the images and video gallery, and the summary.",
+     "2. I decided to display the full details & characteristics list.",
+     "3. I added an email address as an additional option of contact.",
+     "4. I also added a security statement underneath the “Adopt” button."
+    ],
+    "challenge": [
+     "It was tough to stick to the one-week time frame because I was the only designer. I overcame this by not overthinking every step and focusing on the goal, which allowed me to cut out anything that would distract me from arriving at the solution."
+    ]
+   }
   },
   {
    "name": "Conclusion",
-   "link": "conclusion"
+   "link": "conclusion",
+   "conclusion": [
+    "This project aimed to validate a design that allows users to find the perfect dog to adopt. While this project was conducted quickly on a modified GV sprint timeline, I know this design has potential, given the feedback received from users during testing. With more time to flesh out the prototype, we will be able to increase and add to the following features and design:",
+    "1. Add the adoption application process.",
+    "2. Add a video reel tool.",
+    "3. Explore the resource page to connect users to third parties for more assistance with the care and training of their dogs."
+   ]
   }
  ]
 }
