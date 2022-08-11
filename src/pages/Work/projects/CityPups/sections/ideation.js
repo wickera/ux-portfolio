@@ -16,7 +16,7 @@ export const CPIdeation = (props) => {
      </p>
      <img
       alt='City Pups Mapping'
-      src={props ? props.images.DesignSprintGraphic : null}
+      src={props ? props.images.LighteningDemo2 : null}
       className='project__tab--section--sub-section--img'
      />
     </div>
@@ -39,7 +39,7 @@ export const CPIdeation = (props) => {
       </p>
       <img
        alt='City Pups Mapping'
-       src={props ? props.images.DesignSprintGraphic : null}
+       src={props ? props.images.LighteningDemo12 : null}
        className='project__tab--section--sub-section--img'
       />
      </div>
@@ -57,7 +57,7 @@ export const CPIdeation = (props) => {
       </p>
       <img
        alt='City Pups Mapping'
-       src={props ? props.images.DesignSprintGraphic : null}
+       src={props ? props.images.crazy81 : null}
        className='project__tab--section--sub-section--img'
       />
      </div>
@@ -75,7 +75,7 @@ export const CPIdeation = (props) => {
       </p>
       <img
        alt='City Pups Mapping'
-       src={props ? props.images.DesignSprintGraphic : null}
+       src={props ? props.images.Crazy81 : null}
        className='project__tab--section--sub-section--img'
       />
      </div>
@@ -108,7 +108,7 @@ export const CPIdeation = (props) => {
      </p>
      <img
       alt='City Pups Mapping'
-      src={props ? props.images.DesignSprintGraphic : null}
+      src={props ? props.images.Storyboard1 : null}
       className='project__tab--section--sub-section--img'
      />
     </div>

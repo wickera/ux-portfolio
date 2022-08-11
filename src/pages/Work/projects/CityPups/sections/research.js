@@ -13,7 +13,7 @@ export const CPResearch = (props) => {
       {props ? props.research.problem : null}
      </p>
      <img
-      alt='City Pups Mapping'
+      alt='Design Sprint sticky note map'
       src={props ? props.images.DesignSprintGraphic : null}
       className='project__tab--section--sub-section--img'
      />
@@ -30,8 +30,8 @@ export const CPResearch = (props) => {
       {props ? props.research.understand : null}
      </p>
      <img
-      alt='City Pups Mapping'
-      src={props ? props.images.Storyboard1 : null}
+      alt='User Interview Charts'
+      src={props ? props.images.Interviews : null}
       className='project__tab--section--sub-section--img'
      />
     </div>
@@ -45,8 +45,8 @@ export const CPResearch = (props) => {
       {props ? props.research.affinity : null}
      </p>
      <img
-      alt='City Pups Mapping'
-      src={props ? props.images.Interviews : null}
+      alt='Affinity Map'
+      src={props ? props.images.AffinityMap : null}
       className='project__tab--section--sub-section--img'
      />
     </div>
@@ -60,7 +60,7 @@ export const CPResearch = (props) => {
       {props ? props.research.personas : null}
      </p>
      <img
-      alt='City Pups Mapping'
+      alt='Woman greeting white puppy'
       src={props ? props.images.Ellie : null}
       className='project__tab--section--sub-section--img'
      />
@@ -75,7 +75,7 @@ export const CPResearch = (props) => {
       {props ? props.research.mapping : null}
      </p>
      <img
-      alt='City Pups Mapping'
+      alt='User Flow Mapping'
       src={props ? props.images.Userflowmapping : null}
       className='project__tab--section--sub-section--img'
      />

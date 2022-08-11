@@ -57,7 +57,7 @@ export const Tabs = (props) => {
      role='tablist'
      className='tabs__list--static'
      style={{ backgroundImage: `url(${props.bannerImg})` }}>
-     <h4 className='tabs__title'>City Pups</h4>
+     <h4 className='tabs__title'>project name</h4>
      <ul>{sections}</ul>
     </nav>
    ) : (
@@ -65,7 +65,7 @@ export const Tabs = (props) => {
      role='tablist'
      className='tabs__list--sticky'
      style={{ backgroundImage: `url(${props.bannerImg})` }}>
-     <h4 className='tabs__title'>City Pups</h4>
+     <h4 className='tabs__title'>project name</h4>
      <ul>{sections}</ul>
     </nav>
    )}

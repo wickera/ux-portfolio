@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 import './work.scss';
 
 // Header Photos
-import CityPupsLanding from '../../assets/images/CPLanding.png';
-import MindEvolutionHeader from '../../assets/images/ME Header.png';
-import NextLevelFitnessHeader from '../../assets/images/Group 580.png';
-import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header.png';
+import CityPupsLanding from './projects/CityPups/images/CPLanding.png';
+import MindEvolutionHeader from './projects/MindEvolution/images/MEHeader.png';
+import NextLevelFitnessHeader from './projects/NextLevelFitness/images/Group 580.png';
+import RiffsFinancialCoachHeader from './projects/RiffsFinancialCoach/images/workheader.png';
 
 export default function Work() {
  return (

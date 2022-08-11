@@ -12,10 +12,10 @@ import CityPups from '../Work/projects/CityPups/city_pups.json';
 import NextLevelFitness from '../Work/projects/NextLevelFitness/next_level_fitness.json';
 
 // Project Images
-import CityPupsHeader from '../../assets/images/CPLanding.png';
-import MindEvolutionHeader from '../../assets/images/ME Header.png';
-import NextLevelFitnessHeader from '../../assets/images/Group 580.png';
-import RiffsFinancialCoachHeader from '../../assets/images/Riff work page header.png';
+import CityPupsHeader from '../Work/projects/CityPups/images/CPLanding.png';
+import MindEvolutionHeader from '../Work/projects/MindEvolution/images/MEHeader.png';
+import NextLevelFitnessHeader from '../Work/projects/NextLevelFitness/images/Group 580.png';
+import RiffsFinancialCoachHeader from '../Work/projects/RiffsFinancialCoach/images/workheader.png';
 
 // Images
 import headshot from '../../assets/images/miaheadshot.jpg';

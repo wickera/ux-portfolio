@@ -19,8 +19,8 @@ export const CPImplementation = (props) => {
       {props ? props.implementation.prototype[2] : null}
      </p>
      <img
-      alt='City Pups Mapping'
-      src={props ? props.images.DesignSprintGraphic : null}
+      alt='City Pups mock up'
+      src={props ? props.images.Mockup1 : null}
       className='project__tab--section--sub-section--img'
      />
     </div>
@@ -43,8 +43,8 @@ export const CPImplementation = (props) => {
       {props ? props.implementation.test[3] : null}
      </p>
      <img
-      alt='City Pups Mapping'
-      src={props ? props.images.DesignSprintGraphic : null}
+      alt='testing'
+      src={props ? props.images.Group9 : null}
       className='project__tab--section--sub-section--img'
      />
     </div>

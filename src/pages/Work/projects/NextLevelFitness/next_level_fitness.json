@@ -14,27 +14,33 @@
     "0": "CityPups is a new startup that wants to help people living in cities find the perfect dog to adopt.",
     "1": "People have not taken action because they do not feel confident that a dog will be a good fit for them AND the dog. Most adoption sites focus on making a connection between people and dogs. This is great for browsing, but it often leads to people falling in love with a dog that needs more space, attention, or activity than they can provide. This leads to disappointment and more indecision. Descriptions of dogs on sites are too general- for example, it may say “this dog doesn’t require a lot of space”- but how small is too small?",
     "2": "To give people confidence that they will be a great fit both in emotional connection and practical factors related to their lifestyle, CityPups wants to offer an extensive “Find your match” assessment consisting of multiple questions that will narrow down the search and provide dogs that align with their requirements."
-   }
+   },
+   "overview": {}
   },
   {
    "name": "Research",
-   "link": "research"
+   "link": "research",
+   "research": {}
   },
   {
    "name": "Synthesis",
-   "link": "Synthesis"
+   "link": "synthesis",
+   "synthesis": {}
   },
   {
    "name": "Ideation",
-   "link": "ideation"
+   "link": "ideation",
+   "ideation": {}
   },
   {
    "name": "Implementation",
-   "link": "implementation"
+   "link": "implementation",
+   "implementation": {}
   },
   {
    "name": "Conclusion",
-   "link": "conclusion"
+   "link": "conclusion",
+   "conclusion": {}
   }
  ]
 }

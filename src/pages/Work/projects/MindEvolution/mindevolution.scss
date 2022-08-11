@@ -1,33 +1,5 @@
-.mind-evo {
+.me {
  &__landing-photo {
   width: 100%;
- }
-
- &__desc {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-
-  &--info {
-   width: 100%;
-   padding: 3rem;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-
-   &--title {
-    margin-bottom: 1rem;
-    font-size: 24px;
-    font-weight: 600;
-   }
-
-   &--text {
-    text-align: center;
-    line-height: 1rem;
-   }
-  }
  }
 }

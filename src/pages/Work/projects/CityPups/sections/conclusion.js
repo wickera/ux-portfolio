@@ -5,7 +5,6 @@ export const CPConclusion = (props) => {
  return (
   <Element id='conclusion' name='conclusion' className='project__tab'>
    <hr></hr>
-
    <div className='project__tab--section'>
     <h4 className='project__tab--section--title'>conclusion</h4>
     <div className='project__tab--section--sub-section'>

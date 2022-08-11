@@ -10,7 +10,7 @@ import CPIdeation from './sections/ideation';
 import CPImplementation from './sections/implementation';
 import CPConclusion from './sections/conclusion';
 
-// Import Images, assign to variable, and pass to Tabs
+// Import Images, assign to variable to pass to sections
 import AffinityMap from './images/AffinityMap.png';
 import CPLanding from './images/CPLanding.png';
 import Crazy81 from './images/Crazy-81.png';
@@ -31,7 +31,7 @@ import Storyboard1 from './images/Storyboard1.png';
 import Userflowmapping from './images/Userflowmapping.png';
 
 export default function CityPups() {
- const images = {
+ const CPimages = {
   AffinityMap,
   CPLanding,
   Crazy81,
@@ -55,16 +55,23 @@ export default function CityPups() {
  return (
   <>
    <div id='city-pups' name='city-pups'>
-    <img src={images.CPLanding} alt='City Pups' className='cp__landing-photo' />
-    <Tabs project={project} bannerImg={images.CPLanding} />
-    <CPOverview overview={project.sections[0].overview} images={images} />
-    <CPResearch research={project.sections[1].research} images={images} />
-    <CPIdeation ideation={project.sections[2].ideation} images={images} />
+    <img
+     src={CPimages.CPLanding}
+     alt='City Pups'
+     className='cp__landing-photo'
+    />
+    <Tabs project={project} bannerImg={CPimages.CPLanding} />
+    <CPOverview overview={project.sections[0].overview} images={CPimages} />
+    <CPResearch research={project.sections[1].research} images={CPimages} />
+    <CPIdeation ideation={project.sections[2].ideation} images={CPimages} />
     <CPImplementation
      implementation={project.sections[3].implementation}
-     images={images}
+     images={CPimages}
     />
-    <CPConclusion conclusion={project.sections[4].conclusion} images={images} />
+    <CPConclusion
+     conclusion={project.sections[4].conclusion}
+     images={CPimages}
+    />
    </div>
    <Footer />
   </>

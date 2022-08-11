@@ -9,32 +9,32 @@
   {
    "name": "Overview",
    "link": "overview",
-   "Main": "",
-   "Text": ""
+   "overview": {}
   },
   {
    "name": "Research",
-   "link": "research"
+   "link": "research",
+   "research": {}
   },
   {
    "name": "Synthesis",
-   "link": "synthesis"
+   "link": "synthesis",
+   "synthesis": {}
   },
   {
    "name": "Ideation",
-   "link": "ideation"
+   "link": "ideation",
+   "ideation": {}
   },
   {
    "name": "Implementation",
-   "link": "implementation"
-  },
-  {
-   "name": "Validate",
-   "link": "validate"
+   "link": "implementation",
+   "implementation": {}
   },
   {
    "name": "Conclusion",
-   "link": "conclusion"
+   "link": "conclusion",
+   "conclusion": {}
   }
  ]
 }
