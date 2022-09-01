@@ -1,77 +1,77 @@
 .footer {
- position: relative;
- bottom: 0;
- padding: 1rem 0;
- background-color: #ede3df;
- color: black;
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-
- &__icon {
-  background: transparent;
-  font-size: 20px;
- }
-
- &__container {
-  margin: 0;
-  padding: 0 1rem;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
-
- &__credit {
-  margin: 0;
-  padding: 0 1rem;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-
-  & p {
-   background: transparent;
-  }
- }
-
- &__links {
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-
-  li {
-   margin: 0 1rem;
-   background: transparent;
-
-   &:hover {
-    cursor: pointer;
+    position: relative;
+    bottom: 0;
+    padding: 1rem 0;
+    background-color: white;
     color: black;
-   }
-  }
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__icon {
+        background: transparent;
+        font-size: 20px;
+    }
+
+    &__container {
+        margin: 0;
+        padding: 0 1rem;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__credit {
+        margin: 0;
+        padding: 0 1rem;
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+
+        & p {
+            background: transparent;
+        }
+    }
+
+    &__links {
+        margin: 0;
+        padding: 0;
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        li {
+            margin: 0 1rem;
+            background: transparent;
+
+            &:hover {
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 750px) {
- .footer {
-  width: 100vw;
-  background-color: transparent;
+    .footer {
+        width: 100vw;
+        background-color: transparent;
 
-  &__links {
-   li {
-    margin: 0 1rem;
-   }
-  }
+        &__links {
+            li {
+                margin: 0 1rem;
+            }
+        }
 
-  &__credit {
-   width: 50%;
-   text-align: center;
-  }
- }
+        &__credit {
+            width: 50%;
+            text-align: center;
+        }
+    }
 }

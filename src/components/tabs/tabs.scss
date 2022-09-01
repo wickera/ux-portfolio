@@ -1,57 +1,58 @@
 .tabs {
- margin: 0 4rem;
+    margin: 0 4rem;
 
- &__title {
-  margin: 1rem 0;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 1px;
- }
+    &__title {
+        margin: 1rem 0;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
 
- &__list {
-  &--link {
-   padding: 0.25rem 1rem;
-   margin: 0 0.25rem;
-   font-size: 16px;
-   font-family: 'OrpheusW05-Regular';
-   font-weight: 700;
-   border: 1px solid black;
-   background-color: white;
+    &__list {
+        &--link {
+            padding: 0.25rem 1rem;
+            margin: 0 0.25rem;
+            font-size: 16px;
+            font-family: "OrpheusW05-Regular";
+            font-weight: bold;
+            border: 1px solid #000;
+            background-color: #fff;
+            letter-spacing: 1px;
 
-   &-active {
-    font-weight: 700;
-    background-color: black;
-    color: white;
-   }
+            &-active {
+                font-weight: 700;
+                background-color: #000;
+                color: #fff;
+            }
 
-   &:hover {
-    cursor: pointer;
-   }
-  }
+            &:hover {
+                cursor: pointer;
+            }
+        }
 
-  &--static,
-  &--sticky {
-   position: relative;
-   width: 100%;
-   height: 7rem;
-   background-position: 40% 100%;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-   align-items: center;
-   list-style: none;
+        &--static,
+        &--sticky {
+            position: relative;
+            width: 100%;
+            height: 7rem;
+            background-position: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            list-style: none;
 
-   & ul {
-    position: absolute;
-    bottom: 16px;
-    display: flex;
-    flex-direction: row;
-   }
-  }
+            & ul {
+                position: absolute;
+                bottom: 16px;
+                display: flex;
+                flex-direction: row;
+            }
+        }
 
-  &--sticky {
-   position: sticky;
-   top: 63px;
-  }
- }
+        &--sticky {
+            position: sticky;
+            top: 63px;
+        }
+    }
 }

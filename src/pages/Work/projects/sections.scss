@@ -1,133 +1,129 @@
 .project {
- &__tab {
-  padding-top: 12rem;
-  display: flex;
-  flex-direction: column;
-
-  &--section {
-   margin: 2rem 12rem;
-   flex: 1;
-   display: flex;
-   justify-content: center;
-
-   &--img {
-    width: 50%;
-   }
-
-   &--full {
-    margin: 2rem 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &--desc {
-     width: 20rem;
-
-     & h5 {
-      margin: 0.5rem 0;
-     }
-
-     & p {
-      font-weight: 600;
-      line-height: 1.4rem;
-     }
-    }
-   }
-
-   &--title {
-    width: 15rem;
-    padding: 0 1rem;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.4rem;
-    letter-spacing: 1px;
-    text-align: left;
-    text-transform: uppercase;
-   }
-
-   &--sub-section {
-    width: 35rem;
-    padding: 0 1rem 1rem;
+    padding-top: 12rem;
     display: flex;
     flex-direction: column;
-    text-align: left;
-
-    &--img {
-     width: 100%;
-    }
-
-    &--desc {
-     margin: 0 0 2rem;
-     font-size: 14px;
-     font-weight: 600;
-     line-height: 1.4rem;
-     letter-spacing: 1px;
-
-     & span:first-child {
-      text-transform: uppercase;
-     }
-    }
-
-    &--info {
-     display: flex;
-     flex-direction: row;
-     justify-content: flex-start;
-     align-items: flex-start;
-
-     & div {
-      flex: 1;
-
-      & p {
-       padding: 2px;
-       font-size: 14px;
-       font-weight: 800;
-       line-height: 1rem;
-       letter-spacing: 1px;
-      }
-
-      & p:first-child {
-       text-transform: uppercase;
-      }
-     }
-    }
-   }
-  }
- }
 }
 
-#conclusion {
- margin-bottom: 15rem;
+.tab-section {
+    margin: 3rem 7rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    &__img {
+        width: 50%;
+    }
+
+    &__full {
+        width: 100%;
+        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        &--desc {
+            width: 20rem;
+
+            & h5 {
+                margin: 0.5rem 0;
+            }
+
+            & p {
+                font-weight: 600;
+                line-height: 1.4rem;
+            }
+        }
+    }
+
+    &__title {
+        width: 17%;
+        margin-right: 1rem;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4rem;
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+
+        &--title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.3rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+
+        &--center {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin: 0 0 2rem;
+        }
+
+        &--img {
+            width: 100%;
+        }
+
+        &--desc {
+            padding: 0 0 1rem;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.3rem;
+            letter-spacing: 1px;
+
+            & span:first-child {
+                text-transform: uppercase;
+            }
+        }
+
+        &--info {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            & div {
+                flex: 1;
+
+                & p {
+                    padding: 2px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    line-height: 1.3rem;
+                    letter-spacing: 1px;
+                }
+
+                & p:first-child {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
 }
 
 hr {
- margin: 0 7rem;
- display: block;
- border-width: 1px;
- border-style: inset;
-}
-
-.column {
- flex-direction: column;
-}
-
-.column-reverse {
- flex-direction: column-reverse;
-}
-
-.row {
- flex-direction: row;
+    margin: 0 7rem;
+    display: block;
+    border-width: 1px;
+    border-style: inset;
 }
 
 .row-reverse {
- flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
-.margin {
- margin: 0;
- padding: 0;
-}
-
-.padding {
- padding-bottom: 2rem;
+.column {
+    display: flex;
+    flex-direction: column;
 }

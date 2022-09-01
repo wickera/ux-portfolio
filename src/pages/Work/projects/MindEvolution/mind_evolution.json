@@ -1,40 +1,255 @@
 {
- "index": 1,
- "link": "/work/mind_evolution",
- "ProjectName": "Mind Evolution",
- "ProjectDescription": "UI/UX Mobile App was created to empower people struggling with mental health conditions to take control of their mental health.",
- "RoleDescription": "UI/UX Designer / Researcher / Product Design",
- "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles.",
- "sections": [
-  {
-   "name": "Overview",
-   "link": "overview",
-   "overview": {}
-  },
-  {
-   "name": "Research",
-   "link": "research",
-   "research": {}
-  },
-  {
-   "name": "Synthesis",
-   "link": "synthesis",
-   "synthesis": {}
-  },
-  {
-   "name": "Ideation",
-   "link": "ideation",
-   "ideation": {}
-  },
-  {
-   "name": "Implementation",
-   "link": "implementation",
-   "implementation": {}
-  },
-  {
-   "name": "Conclusion",
-   "link": "conclusion",
-   "conclusion": {}
-  }
- ]
+    "index": 1,
+    "link": "/work/mind_evolution",
+    "ProjectName": "Mind Evolution",
+    "ProjectDescription": "UI/UX Mobile App was created to empower people struggling with mental health conditions to take control of their mental health.",
+    "RoleDescription": "UI/UX Designer / Researcher / Product Design",
+    "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles.",
+    "sections": [
+        {
+            "name": "Overview",
+            "link": "overview",
+            "overview": {
+                "objective": {
+                    "main": [
+                        "The treatment gap has to be addressed",
+                        "Mental health has been a hot topic for a couple of years. Every month, a celebrity or professional athlete comes out with a public statement about their battle with mental health. Their ultimate conclusion is that Mental Health is essential, and it is vital to seek help. It's great to know that society's perspective on Mental Health is changing; however, the treatment gap is still an issue that must be addressed.",
+                        "From onset to treatment, it takes a person, on average, 11 years to receive treatment, this is known as the Treatment Gap, and Mind Evolution's goal is to solve it. Mind Evolution is a mental health service app that provides educational tools for people without mental health struggles and treatment for people with mental health struggles.",
+                        "To create a user-centered product, I adopted the design thinking mindset. By utilizing existing research, I conducted a series of empathy interviews to define the customer problem. I then did a series of ideation sessions that I validated with users to understand better the user's goals, frustrations, and the jobs to be done."
+                    ],
+                    "role": "For this project’s end-to-end product design. My contribution included the following: UX Research, UI/UX Design, Sketching, Rapid Prototyping, Usability Testing",
+                    "timeline": "8 months",
+                    "projectType": "Conceptual",
+                    "tools": "Figma & Miro"
+                },
+                "problem": [
+                    "It takes on average, 11 years for an individual to receive treatment",
+                    "Over 650 million people are affected by mental health conditions, and 30-50% of the people go without receiving help.",
+                    "There is an average of 11 years from onset to treatment. 280 million people worldwide have depression, and over 700,000 people die from suicide yearly; if we do not address this issue, our society will continue to be adversely impacted."
+                ],
+                "goal": "Design a user centered product that people with mental health conditions can utilize to help empower them by taking control of their own journey to healing. Also giving the those without mental health conditions information that will help destigmatize mental health.",
+                "solutions": [
+                    "Taking control of your mental health is essential",
+                    "THE JOURNEY BEGINS",
+                    "View personalized plan on the dashboard",
+                    "Know current plans that are recommended",
+                    "Quickly view status with current score",
+                    "View coping techniques",
+                    "NOTHING BUT RECOMMENDATIONS",
+                    "View all of the recommendations for your specific mental health condition",
+                    "View different resources of videos, articles, and classes that associated with your specific mental health condition",
+                    "Filter through the options",
+                    "Save any resource to your account for later",
+                    "TAKE AN ASSESSMENT",
+                    "Find out what your mental health status",
+                    "Your information is protected. All answers are confidential",
+                    "SEE YOUR RESULTS",
+                    "View your possible mental health condition + score",
+                    "Learn more about the meaning of your score",
+                    "Begin your journey",
+                    "TRACK YOUR PROGRESS",
+                    "Monitor your mental health journey",
+                    "View by month, day, and year",
+                    "CALL FOR HELP",
+                    "Speak to a therapist",
+                    "Call the suicide prevention if needed",
+                    "Exercise the tips available if you cannot speak with a therapist"
+                ]
+            }
+        },
+        {
+            "name": "Research",
+            "link": "research",
+            "research": {
+                "problem": "How might we help dog lovers who live in large city find the best dog for them?",
+                "research": [
+                    "I was presented with a challenging brief for this project, which provided me with research highlights, personas, and detailed user interview notes. Below are a few of the highlights that stood out to me from the brief:",
+                    "Mental health conditions are common in the US, with 51.5 million adults.",
+                    "Over 650 million people worldwide live with mental health conditions.",
+                    "With mental health conditions on the rise, the increase in awareness, and Mental health apps and telehealth, 30-50% of people still go untreated."
+                ],
+                "interviews": [
+                    "After receiving the data from the survey, I recruited five individuals to interview between the ages of 26-45, who range from having minimal knowledge of mental health to a fair amount of expertise, who struggle with mental health conditions, or were in alignment with the qualifications above.",
+                    "I asked questions about:",
+                    "Their mental health experience.",
+                    "Their knowledge about treatment.",
+                    "Their coping mechanisms.",
+                    "Their experience with mental health apps."
+                ],
+                "survey": [
+                    "After doing the competitive analysis, I wanted to gather information from my potential users: ages 18-65, who use the web and mobile services regularly, own a smartphone, and have experienced emotional unrest. There was 23 response from people who are actively struggling with mental health conditions.",
+                    "Have some knowledge about mental health but would like to know more.",
+                    "I have coped by going to Therapy.",
+                    "Have struggled or struggle with mental health conditions, especially Depression and Anxiety."
+                ],
+                "insights": [
+                    "People had a desire to increase their knowledge about mental health.",
+                    "People believe there is limited access to treatment.",
+                    "The researching process is difficult and time consuming.",
+                    "People did not have a lot of experience using mental health apps. Most people mainly used meditation apps.",
+                    "People believe that society lacks in the education of mental health.",
+                    "Protection of personal information is important."
+                ],
+                "quote": [
+                    "“Treatment is not easily found, even for someone in a fairly privileged position.”",
+                    "-Participant 3"
+                ]
+            }
+        },
+        {
+            "name": "Synthesis",
+            "link": "synthesis",
+            "synthesis": {
+                "mapping": "I took all the qualitative data from the user interviews. I grouped them into categories to find patterns and see the commonality of the user's thoughts, feelings, experiences, likes, and dislikes. The main three points I focused on were Research, Treatment, and Knowledge.",
+                "insights": [
+                    "Based on the trends from my Affinity Map, I have noticed that users desired to learn more about their conditions and mental health in general, but the research is overwhelming. Their desire to gain the knowledge they seek would encourage them to use the tools they learn to aid their treatment",
+                    "THEME 1: RESEARCH",
+                    "Where is the centralized place to find all of the knowledge",
+                    "Trying to find information is like a research project",
+                    "Finding reputable resources is challenging",
+                    "THEME 2: TREATMENT",
+                    "Not great at asking for help",
+                    "Treatment is not easily found, even for someone in a fairly privileged position.",
+                    "Mental Health treatment is a luxury",
+                    "THEME 3: KNOWLEDGE",
+                    "I do not know enough.",
+                    "Still gaining knowledge of personal mental health",
+                    "Pretty well versed in mental health knowledge",
+                    "People in society don't understand it collectively because we do not prioritize mental health."
+                ],
+                "quote": [
+                    "“I don’t feel like we educate people enough about how to handle mental illness.”",
+                    "-Participant 2"
+                ],
+                "challenges": "The information gathered was a bit overwhelming. Gathering information, finding patterns, and getting down to the issue's core was challenging. This was because I wanted to keep every piece of information. I took the information and broke it into multiple subcategories, which caused analysis paralysis for a brief moment. I overcame this by stepping back and taking a 24-hour break to gain fresh eyes. Once I returned, I focused on the detailed post-it notes, and as a result, I could see the patterns.",
+                "empathy": [
+                    "After mapping out the findings from the user interviews, I identified three different user types to design for. I created an empathy map for each user type to gain deeper insight into my potential user.",
+                    "The user is open to discussing their mental health and is not ashamed to get help when needed.",
+                    "The user who will do the research knows that their mental health is essential but does not trust tech and mental health merging. However, they are willing to try it as long as it is done right.",
+                    "The user who battles their mental health conditions would instead obtain the tools they need to facilitate their care."
+                ],
+                "personas": [
+                    "It was a smooth transition to develop personas by taking the empathizing process deeper. This helped me identify the user.",
+                    "Cecila is motivated to take matters into her own hands, gather the tools she needs, and apply them for her mental health wellness.",
+                    "Mina does not need the motivation to take control of her mental health. She loves therapy, but she likes being able to do the work independently.",
+                    "Richard does not trust mental health apps and does not mind doing his research from credible sources."
+                ]
+            }
+        },
+        {
+            "name": "Ideation",
+            "link": "ideation",
+            "ideation": {
+                "how": [
+                    "As a result of the Primary Research findings, I put together a list of “How Might We” questions to help generate potential solutions.",
+                    "How might we help the user increase their mental health knowledge?",
+                    "How might we protect the users’ sensitive information?",
+                    "How might we reduce the time users spend searching for a Therapist?",
+                    "How might we provide a place for users to find everything they need?",
+                    "How might we provide help for users’ mental health challenges?"
+                ],
+                "brainstorm": [
+                    "Utilizing the information from the primary research, the next step in the process was ideation. I brainstormed ideas ranging from “realistic” to “out of the box” to find the best solution for the problem.",
+                    "While brainstorming, I had the idea of an educational platform that is user-friendly, interactive, and fun."
+                ],
+                "architecture": "Once I had the idea, the next step was to build the design structure by creating a sitemap. I prioritized user needs, features, and other design choices.",
+                "stories": [
+                    "In determining the design features, I considered the essential user-centered elements. I wanted to design an app that was educational and easy to use on the go. I did not like the user to require an extensive cognitive load. Also, I wanted to give them options they may not have seen before. It was essential always to keep my target audience in mind and prioritize what they wanted to achieve.",
+                    "As a user, I want to explore different coping techniques/treatments",
+                    "As a user, I want to take an assessment to find out my mental state.",
+                    "As a user, I want to be able to talk to a Therapist whenever I need to.",
+                    "These stories helped show the essential features needed and why they would benefit the end-user. These user stories progressed into three primary user flows."
+                ],
+                "flow": "The user stories transitioned into three primary user flows.",
+                "sketches": [
+                    "To bring the user stories to life, I decided to focus on three primary user flows:",
+                    "1. The user would select the “My Mental Health” tab and then route to the dashboard screen to see all of their activity. When the user selects one of the generated coping techniques, they are routed to that specific screen.",
+                    "2. The user would take the assessment and receive their results. On the results screen, there will be a description of their mental health condition (which is not a diagnosis).",
+                    "3. The user would select the “Call Now” tab to speak with a Therapist. Then they are routed to the “call now” screen, where they would choose the button with the contact number."
+                ],
+                "guerilla": "After completing the sketches, it was time to test the design solution. I did my first user testing stage to validate ideas and designs with users. I recruited 5 participants for the primary research, three were in person, and two were remote. The test lasted for 20 minutes, and each participant had to navigate various areas of the app by following different tasks.",
+                "insights": [
+                    "STRUGGLE TO NAVIGATE",
+                    "Users struggled to navigate through the dashboard. Too much copy, and I need to draw more attention to the coping techniques section.",
+                    "CONFUSED ON LOCATION",
+                    "Users were confused about where to locate the assessment.",
+                    "DO NOT LOGIN",
+                    "Users prefer not to log in every time they use the app.",
+                    "RESULTS ARE BUSY",
+                    "The results screen was too busy for the user."
+                ],
+                "wireframes": "Next, I refined the hand-drawn sketches and created the primary user flows wireframes.",
+                "branding": "At this stage, I focused on what I wanted the look and feel of the app to reflect. It was also time to give the app a purposeful name. “Mind Evolution” summed up what this app is all about. “M.E.” I wanted this app to encompass the importance of each user by empowering them to take control of their mind, grow, learn, and heal because their reason is vitally important and should never be neglected. As a brand, I wanted Mind Evolution to be viewed as uplifting, encouraging, insightful, accessible, and trustworthy.",
+                "screens": "Taking the wireframe layout and creating high-fidelity screens made me realize that these screens do not align with the brand and do not give the feel that the user should experience while using the app. After completing these screens, I realized that I had to change the screens' look, feel, and layout.",
+                "challenge": "Creating high-fidelity screens was a challenge for me. The product did not reflect the brand and did not meet the standards of the user. I believe this was a result of losing the focus of the user. Therefore, I went back to the personas to regain an understanding of who I was designing for."
+            }
+        },
+        {
+            "name": "Implementation",
+            "link": "implementation",
+            "implementation": {
+                "prototype": [
+                    "I used Figma to create a prototype for usability testing. I conducted two rounds of moderated usability tests with five different participants per round.",
+                    "The goal was to determine:",
+                    "If users can locate their coping techniques.",
+                    "If users can take the assessment.",
+                    "If users can find out how to speak with a Therapist."
+                ],
+                "findings": [
+                    "DIFFICULTY FINDING RECOMMENDED VIDEO",
+                    "Users had difficulty completing the first task and finding a recommended video",
+                    "HOW ARE YOU FEELING TODAY?",
+                    "The “How are you feeling today” button confused the users.",
+                    "SCORING SYSTEM",
+                    "Users had extreme difficulty understanding the scoring system.",
+                    "ASSESSMENT CHECK-IN SCREEN",
+                    "Users took a long time getting through the assessment check-in screen.",
+                    "SHORT SYNOPSIS FOR RESULTS",
+                    "Users preferred a short synopsis of their results",
+                    "TRACKING FEATURE FOR PROGRESS",
+                    "Users expected to see a tracking feature of their progress."
+                ],
+                "changes": [
+                    "ADDED A LABEL TO HOME SCREEN",
+                    "To correct this issue, I added a label to the score on the Home screen.",
+                    "REPHRASED “HOW ARE YOU FEELING TODAY?”",
+                    "I also rephrased the question 'How are you feeling today?' to 'Track your mental health.'",
+                    "INCREASED IMAGES ON HOME SCREEN",
+                    "I increased the size of the images in the 'Recommendations for your sections.'",
+                    "CHANGED LAYOUT OF THE ASSESSMENT SCREEN",
+                    "I changed the layout to match the original assessment to provide familiarity for the user.",
+                    "ADDED SHORT SYNOPSIS TO RESULTS SCREEN",
+                    "I added a short synopsis of the user's results and an explanation of the score.",
+                    "ADDED TRACKING FEATURE",
+                    "Added a tracking feature.",
+                    "The updates were verified for the second round of testing, as users could complete the tasks that were previously a struggle. However, users were still unfamiliar with the clarity of the scoring system. This was the only issue moving forward."
+                ]
+            }
+        },
+        {
+            "name": "Conclusion",
+            "link": "conclusion",
+            "conclusion": {
+                "main": [
+                    "This was a long and intense process but a fantastic learning experience. Before starting this project, I thought my creative processing and research skill sets would make the task manageable. However, to my surprise, I had no idea that:",
+                    "Don’t judge a book by its cover",
+                    "Before I got into UI/UX, I thought it was mainly about graphic design. It was not until I worked at a tech company that I learned there was much more to UI/UX with the inclusion of science, psychology, and creative design. Little did I know that gathering that initial data was only the surface. There is a lot of research and pattern finding that goes into the development of a product. I underestimated how much work goes into developing an app.",
+                    "Your user is your everything",
+                    "Like in fashion, you must know who you are designing for. Their likes, dislikes, hobbies, occupations, passions, desires, etc. You must know what they want and need and provide that for them. However, in UI/UX, I feel you have to walk hand in hand with your user and keep them close while developing the end product, or else you risk the chance of going astray, which is what I almost did.",
+                    "Never Stray away from Home",
+                    "There was a moment in this process (Wireframe/Low Fidelity phase) where I created mockups that were not consistent with what the user would want and the brand of the product. I was disappointed that I allowed myself to take the focus off my user while simultaneously trying to give them everything they needed. I learned to never take your focus off of your user and keep them close by studying your research data to the point that you know them inside and out. If you pay close attention, they will tell you everything you need to know.",
+                    "Trust the Research",
+                    "In the beginning, I had a battle in my mind with trusting the research. I focused on finding a solution that backed me into a corner. I developed my ideas instead of relying on research. This caused me to become skeptical of the research. With my mentor's help, I regained focus by emptying preconceived notions and looking at the research with fresh eyes and a clean slate.",
+                    "There is No “I” in Team",
+                    "There were many times that I said to myself, 'I see why you need a team.' Not because I didn't want to do the work but to brainstorm with other people. Brainstorming helps you keep fresh eyes on the problem and focus on who you are designing for. Only having my perspective was highly exhausting at times. I see why the UX field is team-orientated."
+                ],
+                "outcomes": [
+                    "Version one of the Mind Evolution app accomplished the initial project goals by providing users with various resources to help them along their journey of obtaining knowledge of their mental health conditions. I was able to develop a solution.",
+                    "The reactions from both rounds of testing were positive. People liked the idea of having a mental health app that provides different treatment options they can do independently, along with educating themselves.",
+                    "Next Steps",
+                    "To refine this prototype, I still want to expand some features like the Tracking feature, Dashboard customization, Find Therapist feature, and gamify the scoring system."
+                ]
+            }
+        }
+    ]
 }

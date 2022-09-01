@@ -1,40 +1,188 @@
 {
- "index": 2,
- "link": "/work/riffs_financial_coach",
- "ProjectName": "Riff's Financial Coach",
- "ProjectDescription": "Contracted to design Riff's financial tool to help musicians better manage their money to make music full-time.",
- "RoleDescription": "UI/UX Designer / UX Researcher",
- "GoalDescription": "With a team of three other designers, we were responsible for simplifying the UI of the financial tool prototype for artists to feel in control and easily understand (educate) the financial aspect of their business as they dedicate more time to their craft.",
- "sections": [
-  {
-   "name": "Overview",
-   "link": "overview",
-   "Main": "People who live in cities struggle to find the perfect dog to adopt to their lack of unique needs, such as living spaces, schedule & transportation, outdoor space, and other city-specific criteria.",
-   "Text": {
-    "0": "CityPups is a new startup that wants to help people living in cities find the perfect dog to adopt.",
-    "1": "People have not taken action because they do not feel confident that a dog will be a good fit for them AND the dog. Most adoption sites focus on making a connection between people and dogs. This is great for browsing, but it often leads to people falling in love with a dog that needs more space, attention, or activity than they can provide. This leads to disappointment and more indecision. Descriptions of dogs on sites are too general- for example, it may say “this dog doesn’t require a lot of space”- but how small is too small?",
-    "2": "To give people confidence that they will be a great fit both in emotional connection and practical factors related to their lifestyle, CityPups wants to offer an extensive “Find your match” assessment consisting of multiple questions that will narrow down the search and provide dogs that align with their requirements."
-   }
-  },
-  {
-   "name": "Research",
-   "link": "research"
-  },
-  {
-   "name": "Synthesis",
-   "link": "synthesis"
-  },
-  {
-   "name": "Ideation",
-   "link": "ideation"
-  },
-  {
-   "name": "Implementation",
-   "link": "implementation"
-  },
-  {
-   "name": "Conclusion",
-   "link": "conclusion"
-  }
- ]
+    "index": 2,
+    "link": "/work/riffs_financial_coach",
+    "ProjectName": "Riff's Financial Coach",
+    "ProjectDescription": "Contracted to design Riff's financial tool to help musicians better manage their money to make music full-time.",
+    "RoleDescription": "UI/UX Designer / UX Researcher",
+    "GoalDescription": "With a team of three other designers, we were responsible for simplifying the UI of the financial tool prototype for artists to feel in control and easily understand (educate) the financial aspect of their business as they dedicate more time to their craft.",
+    "sections": [
+        {
+            "name": "Overview",
+            "link": "overview",
+            "overview": {
+                "objective": {
+                    "main": [
+                        "Drive music creators to achieve a sustainable income",
+                        "Riff is a virtual business partner for creators. Its mission is to drive music creators to achieve a sustainable income in the post-COVID world through providing multiple self-serve tools & tailored (automated) guidance from a blend of best practices, predictive algorithms, and relevant growth opportunities. By creating a clear path for a music career, they look to increase music influences from all cultures, removing financial & social barriers."
+                    ],
+                    "role": "With a team of four designers including myself we were responsible for simplifying the UI and UX of the financial coach tool. I specifically responsible for UI/IX Design: Low-Fidelity Wireframes/ Wireflows/ Iterations. UX Research: User Flows/ Information Architecture. Validation: Usability Testing",
+                    "timeline": "4 weeks",
+                    "projectType": "Internship/Contract",
+                    "tools": "Figma & Miro"
+                },
+                "project": [
+                    "My team collaborated on the project plan after spending enough time digesting information to pose our problem statement, which was necessary to identify what kind of contributions we needed to make to the project. Even then, our plans had adjusted slightly towards the final week of the internship.",
+                    "Scope & Timeline",
+                    "Since the project had a hard deadline of 4 weeks, our team focused on the following deliverables to have the most impact while staying lean:",
+                    "1. Problem Statement",
+                    "2. User Flows",
+                    "3. Red Routes & Lightening Demos",
+                    "4. Lo-Fi Wireframes",
+                    "5. Usability Testing",
+                    "6. Iterate Lo-Fi Prototype"
+                ],
+                "problem": [
+                    "Our first step was to identify the significant issues in the current financial tool framework as presented to us initially. Our problem statement was the guiding star for the project as we kept asking ourselves:",
+                    "How can we simplify the financial coach dashboard so that users feel control over how they earn, spend, and invest their money? How do we design this in a way that takes the least time and effort for the user?"
+                ],
+                "goal": "With a team of three other designers, we were responsible for simplifying the UI of the financial tool prototype for artists to feel in control and easily understand (educate) the financial aspect of their business as they dedicate more time to their craft",
+                "solution": [
+                    "Redesign of Financial Coach dashboard",
+                    "Financial Coach Dashboard",
+                    "Artists can find all of their learning how to go full-time through managing their finances.",
+                    "Actions to Improve Your Financial Health by taking actionable steps to grow their finances",
+                    "Top Tasks prioritizes what to take care of first",
+                    "Manage My Money section with multiple categories that breakdown their finances for a deeper understanding"
+                ]
+            }
+        },
+        {
+            "name": "Research & Synthesis",
+            "link": "research",
+            "research": {
+                "research": [
+                    "The Riff team presented us with a ton of information. To begin our journey, we had to synthesize this mountain of information",
+                    "Before us, the team(s) researched and analyzed the data, providing them with user stories. Our team's first step in beginning this project was to identify the significant issues in the current Financial Coach framework, which looked like us walking through the existing prototype, diving into the previous design team's workspace, and asking the Riff marketing team lots of questions.",
+                    "We were then presented with a ton of information by the Riff team, including a:",
+                    "Company overview deck",
+                    "Users surveys",
+                    "A user persona",
+                    "15 user stories",
+                    "Several examples of artist budget and revenue sheets",
+                    "Additional files hidden in various slack channels",
+                    "We ventured on our journey by synthesizing this mountain of information into actionable next steps to reimagine the Financial Coach.",
+                    "On top of the research provided by the Riff team, my team also decided to conduct lightning demos to understand better how existing budgeting apps--like Mint, Quicken, and Buxfer--simplify complicated financial information for users."
+                ]
+            }
+        },
+        {
+            "name": "Ideation",
+            "link": "ideation",
+            "ideation": {
+                "architecture": [
+                    "Found a few redundancies and realized we’d need to take a step back",
+                    "After much deliberation, we reduced our user stories into seven red routes we could use as a starting point.",
+                    "Once we created our user flows, we found a few redundancies and realized we’d need to take a step back and get clear on our information architecture to proceed. Creating this new architecture allowed us to envision our key features and start to ideate on our wireframes."
+                ],
+                "wireframes": [
+                    "Found a few redundancies and realized we’d need to take a step back",
+                    "This product was my design team's first time working on a financial product, and while that seemed like a limitation at first, it ultimately proved to be a strength. Approaching this product as a target user would someone relatively new to budgeting and investing prompted us to continually ask questions and determine which pieces needed more simplification. This lens propelled the project forward and received markedly more positive feedback during our user tests.",
+                    "Dashboard Updates",
+                    "We created two new sections for artists to quickly look at their current income and how they can improve it and, for future tense, how they can sustain themselves financially. These sections will significantly benefit artists/creators to help manage their money and grow to become full-time careers. “Budgeting” is where artists can find all their current income information, and “Revenue/Profit” is where artists can learn how to grow their income and increase their profit to become financially sustainable.",
+                    "Condensed the welcome back section",
+                    "We changed the layout",
+                    "Top 3 actions to improve and tasks to complete",
+                    "To simplify the dashboard, we added two new sections. We removed the “financial Sustainability” and replaced it with two areas “Manage my Money” & “Revenue/Profit.”",
+                    "Manage My Money section",
+                    "Including three cards:",
+                    "“My Budget”",
+                    "“Habits”",
+                    "“Payments, Debt, and Safety Net”",
+                    "I created two screens within the profit section that summarize the artist's current profits.",
+                    "“Monthly Profit”",
+                    "Pie chart graphic breakdown of where they are receiving their profit.",
+                    "“Next Steps” is how they can grow their profit to meet their goal.",
+                    "“Detailed Breakdown” gives the artist percentages, and dollar amounts to understand visually.",
+                    "Microscopic view of profits earned as the artist selects each card in the detailed section.",
+                    "I created this screen to assist the artist in planning for the future",
+                    "“Grow My Profit”",
+                    "“Monthly Breakdown” Pie chart graphic breakdown of their current profit.",
+                    "“Monthly Goal” visual of the artist's profit goal.",
+                    "The “Grow your Profit” recommendations section gives artists ways to increase their profit to meet their goals.",
+                    "“Areas to Grow” quick look at different areas that need attention to increase profit growth."
+                ]
+            }
+        },
+        {
+            "name": "Implementation",
+            "link": "implementation",
+            "implementation": {
+                "testing": [
+                    "The Riff team presented us with a ton of information. To begin our journey, we had to synthesize this mountain of information",
+                    "To test our hypotheses, I led 5 moderated usability tests with part-time artists. The goal of determining:",
+                    "View current income and how they can improve it",
+                    "If artists can easily navigate the dashboard",
+                    "If artists can find their spending habits",
+                    "If artists can view their budget",
+                    "How they can sustain themselves financially",
+                    "If artists can view additional funds",
+                    "If artists can view profit",
+                    "If artists can find where they can learn how to grow their profit",
+                    "Overall first impressions"
+                ],
+                "opportunities": [
+                    "Discovering the land of opportunities after testing",
+                    "The burn rate is confusing (the information icon is not enough)",
+                    "Users do not understand why “burn rate: is prioritized",
+                    "The “Habits” tab had too much information (it would be better spread out and decluttered)",
+                    "“Over” is confusing (change to “remaining”)",
+                    "Where they can modify and make changes (does not see the button there)",
+                    "Need “wizard” to suggest options for the user",
+                    "Confusing to locate",
+                    "Choices were between Music Revenue and Profit",
+                    "Confusing to locate",
+                    "Monthly Profit page, more information on “how to grow profit”"
+                ],
+                "success": [
+                    "Glowing moments users experienced",
+                    "REVENUE & PROFITS SCREEN IS STRAIGHTFORWARD",
+                    "The revenue and profits page is more straightforward for users to digest",
+                    "ADDITIONAL FUNDS IS NOT OVERWHELMING",
+                    "The additional fund’s screen is not overwhelming users were able to view information one by one",
+                    "CONVENIENT AVAILABLE ACTIONS",
+                    "The actions available are convenient",
+                    "DASHBOARD IS ORGANIZED",
+                    "The dashboard was clean and organized",
+                    "TASK FEATURE",
+                    "The task feature is convenient and allows the user to focus on their priorities"
+                ],
+                "quotes": [
+                    "“I do like how I can see graphically how much I’ve paid. But if I’m over budget. I need that to scream at me.”“I do like how I can see graphically how much I’ve paid. But if I’m over budget. I need that to scream at me.”",
+                    "“All the graphs on this page are making it a bit overwhelming.”",
+                    "“I don’t understand the difference between music revenue and monthly profit.”",
+                    "“I’m a little confused right here about the project timeline. I’m unsure sure what it means or how I benefit by creating a project timeline.”",
+                    "“Can I modify my budget? Where can I go to find recommendations for how to change my budget if it’s not working for me?”",
+                    "“I’m not sure what burin rate is and why it’s so important to my financial health.”"
+                ],
+                "iteration": [
+                    "Found a few redundancies and realized we’d need to take a step back",
+                    "We also participated in a design review with a Riff design lead that echoed our finding from the first round of user testing: we needed to continue to simplify."
+                ],
+                "changes": [
+                    "CONDENSED THREE SECTIONS ON DASHBOARD",
+                    "Condensed the three sections on the dashboard into two main sections--immediate tasks and “Manage My Money”",
+                    "NEW HIERARCHY",
+                    "Establish a new hierarchy for each page so the user would see the most critical information first, dive deeper into their data next, and have expert recommendations/tips easily accessible on the right side of each page.",
+                    "COMBINED REVENUE & PROFIT INTO ONE SCREEN",
+                    "Combining revenue and profit into one page because multiple users had difficulty differentiating between them and opted to look at both to understand their current financial situation.",
+                    "FOCUSING SOLELY ON GROWTH",
+                    "Creating a separate page focused solely on growth to act as an obvious one-stop-shop for how to plan for the future--another prior area of confusion for users."
+                ]
+            }
+        },
+        {
+            "name": "Conclusion",
+            "link": "conclusion",
+            "conclusion": {
+                "conclusion": [
+                    "The second iteration designs were approved",
+                    "Outcomes",
+                    "The client approved the 2nd iteration designs and planned to use them for the next round of testing. In the future, Riff intends to work with other designers to continue growing their business. During our final meeting, we provided the client with a recap of our process and recommended the next steps. When implemented, we believe our recommendations will allow users who understand how to manage their money and learn how to grow their finances. Hence, they can become full-time artists.",
+                    "Lessons Learned",
+                    "In this project, I tackled many firsts, such as putting together another design team's work, working with a team from different time zones and availability, learning about the fintech space, and holding too tight business and time constraints. And even though this was one of the most challenging projects, it proved to be my most significant growth opportunity. I am most proud of being able to grow my project management skills and my flexibility despite approaching deadlines and creating a budgeting tool with my team. I'm excited to see how the next team takes this product to the next level.",
+                    "In addition, collaboration amongst our team members was paramount to the success of this project. Each designer's unique perspectives and work helped deliver the client's best result."
+                ]
+            }
+        }
+    ]
 }

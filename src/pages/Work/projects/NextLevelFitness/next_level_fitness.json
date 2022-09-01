@@ -1,46 +1,328 @@
 {
- "index": 3,
- "link": "/work/next_level_fitness",
- "ProjectName": "Next Level Fitness",
- "ProjectDescription": "UI/UX Fitness Tracking Mobile App",
- "RoleDescription": "UI/UX Designer / Researcher / Product Design",
- "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles.",
- "sections": [
-  {
-   "name": "Overview",
-   "link": "overview",
-   "Main": "People who live in cities struggle to find the perfect dog to adopt to their lack of unique needs, such as living spaces, schedule & transportation, outdoor space, and other city-specific criteria.",
-   "Text": {
-    "0": "CityPups is a new startup that wants to help people living in cities find the perfect dog to adopt.",
-    "1": "People have not taken action because they do not feel confident that a dog will be a good fit for them AND the dog. Most adoption sites focus on making a connection between people and dogs. This is great for browsing, but it often leads to people falling in love with a dog that needs more space, attention, or activity than they can provide. This leads to disappointment and more indecision. Descriptions of dogs on sites are too general- for example, it may say “this dog doesn’t require a lot of space”- but how small is too small?",
-    "2": "To give people confidence that they will be a great fit both in emotional connection and practical factors related to their lifestyle, CityPups wants to offer an extensive “Find your match” assessment consisting of multiple questions that will narrow down the search and provide dogs that align with their requirements."
-   },
-   "overview": {}
-  },
-  {
-   "name": "Research",
-   "link": "research",
-   "research": {}
-  },
-  {
-   "name": "Synthesis",
-   "link": "synthesis",
-   "synthesis": {}
-  },
-  {
-   "name": "Ideation",
-   "link": "ideation",
-   "ideation": {}
-  },
-  {
-   "name": "Implementation",
-   "link": "implementation",
-   "implementation": {}
-  },
-  {
-   "name": "Conclusion",
-   "link": "conclusion",
-   "conclusion": {}
-  }
- ]
+    "index": 3,
+    "link": "/work/next_level_fitness",
+    "ProjectName": "Next Level Fitness",
+    "ProjectDescription": "UI/UX Fitness Tracking Mobile App",
+    "RoleDescription": "UI/UX Designer / Researcher / Product Design",
+    "GoalDescription": "Reduce the treatment gap by providing educational tools for people with and without mental health struggles and treatment for people with mental health struggles.",
+    "sections": [
+        {
+            "name": "Overview",
+            "link": "overview",
+            "overview": {
+                "objective": {
+                    "main": "The challenge was to create a messaging system for a fictitious company. The deliverables were limited to 4 low-fidelity wireframes, including the brand style guide.",
+                    "role": "This was a solo project done as part of my UX Certificate Program. I completed the discovery (user interviews), definition (prototyping, user testing), and design (branding, wireframes, copywriting.)",
+                    "timeline": "3 months",
+                    "projectType": "Solo Project",
+                    "tools": "Figma & Miro"
+                },
+                "problem": "On average, user engagement is heavy for the first three weeks, then drops off, and users delete the app soon after.",
+                "goal": "The goal is to design a new messaging feature that creates a sustainable engagement environment and an integrated messaging experience throughout the app that provides engagement and repeated usage (loyalty).",
+                "solution": [
+                    "Encourage engagement with a virtual assistant that will keep you accountable.",
+                    "A messaging feature such as a virtual assistant to help monitor your progress and hold you accountable to obtain your goals is the key to unlocking your Next Level Fitness.",
+                    "GET NOTIFICATIONS",
+                    "Whether it's time to workout, monitor your progress, change your schedule, or if you have been working out too much. The virtual assistant will be your partner in keeping you updated to obtain your goals.",
+                    "ASSISTANCE WITH FINDING A WORKOUT",
+                    "Need help finding a workout that will help you reach your goals? The virtual assistant can help.",
+                    "CHOOSE A SPECIFIC WORKOUT BEST FOR YOU",
+                    "Select any suggested workout that aligns with your goals.",
+                    "MANY  WORKOUT OPTIONS",
+                    "You can choose daily workouts, workout programs, and challenges.",
+                    "BEGIN YOUR WORKOUT",
+                    "Read a short description and begin your workout."
+                ]
+            }
+        },
+        {
+            "name": "Research",
+            "link": "research",
+            "research": {
+                "process": [
+                    "I leveraged the double diamond methodology to understand the customer problem and the jobs better to be done.",
+                    "The Discovery phase - I focused on user interviews to qualitatively understand why there was a drop-off in usage.",
+                    "The Design & Validation Phase - I leveraged my findings from discovery to create several iterations which I later turned into a prototype to validate with users using a task-based test with qualitative questions. I then refined my solution using the findings."
+                ],
+                "discovery": [
+                    "For this project, the brief included:",
+                    "The company service description",
+                    "Business goals",
+                    "Identified multiple competitors",
+                    "Requirements of target users",
+                    "Notes from the Project Manager",
+                    "Limited branding information about the personality",
+                    "List of attributes",
+                    "Four low fidelity wireframes",
+                    "I started the Discovery phase with the evaluation of the brief to get myself familiar with the information and requirements to determine which methods were suitable to accomplish the goal on time. Everything was set, research goals and plans identified, and the findings synthesized from this point on."
+                ],
+                "plans": [
+                    "Clarifying the research objective and finding out which research methods work",
+                    "The first step in the discovery phase was to clarify the research objective of the project and which research methods would work best to accomplish the goal.",
+                    "The goal of the research was to understand",
+                    "Why are users abandoning the app?",
+                    "What are competitors doing in this space, and where are the opportunities?",
+                    "To accomplish the objective, the following research methods were used:",
+                    "User Surveys to find the demographic for the preparation used in the next step.",
+                    "Competitive Analysis to determine what information to display and how."
+                ],
+                "research": [
+                    "The four main questions that had to be asked",
+                    "I conducted a quantitative survey with individuals 18-34 years old, very tech-savvy, budget-conscious, and messaging and communicating with friends and family is an integral part of their daily lives to provide direction for my interview guide. My questions focused on the following themes:",
+                    "What motivates users to workout?",
+                    "Is support from family and friends valuable to them?",
+                    "How often are they on their phone?",
+                    "Do they have any workout apps?",
+                    "Finding answers to these questions would give me insight into what drives the user to workout and the value of their relationships."
+                ],
+                "challenge": [
+                    "The race against time",
+                    "This is where the pressure against time started to arise early on. The waiting game is what I was playing while the survey responses were coming in.",
+                    "Once I noticed that it was going to be a struggle to get replies, I started ramping up my approach tactics by repeatedly posting on the Springboard slack channel, I used multiple channels at once while reaching out to peers that I have spoken to in the previous months, along with reaching out to friends and family. After my ramp-up, it resulted in a booming influx of responses."
+                ],
+                "findings": [
+                    "90.9% communicate with family/friends weekly and daily",
+                    "91%",
+                    "of users workout 1-7 days a week",
+                    "45.5%",
+                    "like to workout alone",
+                    "22.7%",
+                    "like to workout alone BUT likes to be a part of a community for support",
+                    "90.9%",
+                    "communicate with their family/friends either everyday or weekly",
+                    "18.2%",
+                    "like to workout with a group for the team support",
+                    "81.8%",
+                    "download new fitness apps to their mobile devices"
+                ],
+                "insights": [
+                    "How I used the findings to conduct qualitative studies:",
+                    "After analyzing the data I received, I decided to focus on two categories (moving forward with user interviews) that provided direction for producing a messaging feature:"
+                ],
+                "interviews": [
+                    "Having support gives the user accountability",
+                    "I received over twenty responses to my survey, and I selected five that met the specific target demographic to interview. Some of the questions asked were:"
+                ],
+                "majorFindings": [
+                    "SUPPORT KEEPS THEM ACCOUNTABLE",
+                    "Users like support because it keeps them accountable, encourages, and provides a sense of community.",
+                    "COMMUNICATE VIA TEXT",
+                    "Users communicate via text (most straightforward, quickest and less commitment) and phone calls (more in-depth conversations) weekly with their friends/family.",
+                    "DO NOT VALUE MESSAGING FEATURE",
+                    "Most users do not find value in a messaging feature because it’s not the primary form of communication."
+                ],
+                "quotes": [
+                    "“Do not have a desire to use it. Notifications can be annoying. Would never check the messaging feature. No one is going to reply immediately.”",
+                    "-Participant 1",
+                    "“Hold me accountable. If done solo, I will slack off and not push myself.”",
+                    "-Participant 2",
+                    "“I text for an easy, quick connect.”",
+                    "-Participant 3"
+                ],
+                "majorInsights": [
+                    "None of the users desired to use a messaging feature",
+                    "Receiving insight from these interviews shocked me because none of the users desired to use a messaging feature. The things that would keep them engaged had nothing to do with if they could communicate with their family or friends but had everything to do with the workout content provided."
+                ]
+            }
+        },
+        {
+            "name": "Synthesis",
+            "link": "synthesis",
+            "synthesis": {
+                "mapping": [
+                    "Most users will not use a messaging feature in a fitness tracking app",
+                    "As I continue in the process, I know change is on the horizon. I began to synthesize my research by using an Affinity Map. This is the best way to visualize trends when I have a lot of information.",
+                    "To create my affinity map, I first extracted all the key points from the interviews and put them on post-it notes. I organized the post-its into categories and found four different sentiments expressed by users in the discussions. Those lead me to determine the following insights:",
+                    "Most users will not use a messaging feature in a fitness tracking app because: “Why do that when I can just text my family member or friend.”",
+                    "Some users have used a messaging feature and liked that it gave them a sense of accountability.",
+                    "Users have done virtual workouts and liked the human interaction.",
+                    "Users did not use apps consistently; however, they utilized YouTube because it is easy and varied, and you can see the instructor while you workout.",
+                    "When using fitness apps, they like the tracking progress and the structured workouts."
+                ],
+                "insights": [
+                    "ow can I fulfill the business goal and satisfy the user as well?",
+                    "Before stepping into this following process of synthesizing, I already knew that I was in a situation where the company wanted a feature that the user did not want nor need. The problem of increasing engagement was not going to be solved by adding a messaging feature between users. However, providing them the best services and variety would be a solution to increase engagement with users. SO NOW WHAT? I ask myself the big one million dollar question. How can I fulfill the business goal and satisfy the user as well?"
+                ],
+                "analysis": [
+                    "All companies (except one) had community-based messaging platforms, but all looked low on activity",
+                    "The brief provided four competitors. The main goal of the competitive research was to evaluate how other solutions addressed the main objectives:",
+                    "What did they do to provide a messaging platform for users?",
+                    "Assessing how they designed their user messaging feature.",
+                    "Determining how they displayed their community feature and how much attention they gave to it.",
+                    "What other services did they offer?",
+                    "Note: I did a little Desktop Research. All companies (except one) had community-based messaging platforms, but all looked low on activity. When looking at reviews via Youtube, most users quickly scan through the community message screens because they do not spend much time there. The main focus was on the services provided through the apps."
+                ],
+                "icons": [
+                    "Community feature",
+                    "Challenge feature",
+                    "Simple, clean, and organized design",
+                    "Ad pop-ups",
+                    "Upgrades to use all tools",
+                    "Feed/Community feature",
+                    "Users can follow each other",
+                    "Clean and organized design",
+                    "accessibility is poor",
+                    "UI design is lacking",
+                    "Leaderboard/Community feature",
+                    "Challenge feature",
+                    "Reward system",
+                    "Access to community feature",
+                    "Lack of one-on-one interactions",
+                    "Customizable feature",
+                    "Organizational design",
+                    "Consistent upgrade prompts",
+                    "Limited features available for the free version",
+                    "Pay to access more"
+                ]
+            }
+        },
+        {
+            "name": "Ideation",
+            "link": "ideation",
+            "ideation": {
+                "design": [
+                    "On the design side, the brief included wireframes of 4 screens and a brief description of the brand's personality and attributes.",
+                    "The Design and Validate phase of the project started the same way as the Discovery phase, by evaluating the brief and getting familiar with the information to set out the plan of methods to create an exclusive product feature. With this being a well-established product already, there was not much of the work required focused on developing the product feature itself."
+                ],
+                "challenge": [
+                    "Creating a virtual assistant chat messaging feature",
+                    "After speaking with my mentor about the insights I gathered. I brainstormed some ideas with him about how to best solve this lack of engagement with users while also satisfying the users' business goals and needs. The idea I landed on was creating a virtual assistant chat messaging feature. The user can interact with the Virtual Assistant and get the necessary workouts and information."
+                ],
+                "architecture": [
+                    "Three major Flows",
+                    "User Flows",
+                    "While analyzing the insights, this stage was where I implemented those findings by building out my user flows. I incorporated the following concepts into my flow:",
+                    "Original Flow plans",
+                    "Virtual Assistant/Chat Box Feature included:",
+                    "New users unfamiliar with working out (Proposed Solution: Suggested Workout)",
+                    "Suggested Workout Flow: Virtual Assistant will provide the user options of workouts they can do by aligning with their goals completed during the onboarding process.",
+                    "Keep users motivated (Proposed Solution: Progress Tracker, Support Buddy Workout)",
+                    "Progress Flow: The Virtual Assistant will allow users to check their progress as they continue to use the app.",
+                    "Support Buddy Workout Flow: The Virtual Assistant will allow the user to have a virtual support buddy/motivator while working out. Note: Based on my asking the users about the support, it seemed relevant at the time to include this flow as if it was needed, but I ultimately eliminated this feature.",
+                    "Note: After creating the flows and testing the Low-Fi screens, I would eventually change the user flows to accommodate the changes made."
+                ],
+                "wireframes": [
+                    "My user flows were the basis for my low-fidelity designs. The designs encompassed the red routes I would soon be testing:",
+                    "Suggested Workout flow, user can receive assistance in finding a workout",
+                    "Progress flow, the user will be prompted to view their progress report",
+                    "Support Buddy Workout flow; the user can have some motivation from the virtual assistant while they workout.",
+                    "As I learned from my primary research, users would use YouTube to find different workouts to ease. I wanted to provide an option to find a workout with ease through the virtual assistant.",
+                    "When users used fitness, they raved about being able to see their progress; to them, it was a great reference and motivator.",
+                    "The users wanted support to encourage them to workout."
+                ]
+            }
+        },
+        {
+            "name": "Implementation",
+            "link": "implementation",
+            "implementation": {
+                "validation": [
+                    "The users overlooked the virtual assistant feature",
+                    "Usability Test One",
+                    "I conducted a usability test with 5 participants from individuals 18-34 years old, very tech-savvy, budget-conscious, and messaging and communicating with friends and family is an integral part of their daily lives. Each participant was given 30 minutes and asked to complete four tasks in addition to qualitative questions throughout. My findings from the testing were:"
+                ],
+                "opportunities": [
+                    "Virtual Assistant Overlooked",
+                    "Most users looked past the icon and went directly to where they were expecting the information to be.",
+                    "Chat copy too heavy",
+                    "The messages in the chat were too long. The users want it to feel like they are texting with short context blurbs.",
+                    "No categories",
+                    "The user wanted more particular exercises to give more simplicity to the feature. They do not want to guess what exercise is included in each category.",
+                    "SUPPORT BUDDY DOES NOT MAKE SENSE",
+                    "All users were not fond of this option. They did not find it helpful and too robotic."
+                ],
+                "success": [
+                    "Virtual Assistant",
+                    "The dialogue was easy for the user to understand. The user liked that the Virtual Assistant provided options for help.",
+                    "TRACKING CAP",
+                    "The user liked that the virtual assistant could monitor the progress.",
+                    "UI DESIGN",
+                    "The user liked how the workout pages were designed with simplicity."
+                ],
+                "mockups": [
+                    "Adding color and notification alert to grab the attention of the user",
+                    "After completing the 1st round of testing, I began to make high-fidelity iterations in prep for the next round of testing. Along with the changes listed above, I made some further fundamental changes beyond adding imagery, color, and contrast during this process were as follows:",
+                    "I completely changed the UI of the Homepage",
+                    "Reason: The original Homepage was very busy, and I wanted to simplify it",
+                    "Changed the Navigation Bar",
+                    "Reason: To increase the ease of usability",
+                    "I added more screens to flush out some of the flows",
+                    "Reason: To complete the experience for the user"
+                ],
+                "insights": [
+                    "Eliminated the Support Buddy flow",
+                    "I eliminated the Support Buddy flow because it did not speak to the user's needs. I decided to stop testing the flow, and I implemented a couple of new flows, which as a result, I changed the structure of the User Flows. The new flows include:"
+                ],
+                "additions": [
+                    "Provide flexibility and insight for the user",
+                    "I added two new flows, both of which are notification prompts. The Rest Safety (Suggestion) flow and the Change Workout Schedule flow. These new additions helped provide flexibility and insight for the user."
+                ],
+                "usability": [
+                    "The users loved the recommendations the virtual assistant provided",
+                    "During my second round of testing, I was looking to test the users' experience using the Virtual Assistant feature. Specifically, I was looking to prove or disprove the following assumptions:",
+                    "Adding the notification prompt to the Homepage will grab the users' attention.",
+                    "Improving the users' experience in the chat will add convenience to the user.",
+                    "The virtual assistant would be valuable to users through AI that provides purposeful insight to the user to reach their goals.",
+                    "Usability Test Two-Findings",
+                    "The overall experience seemed to have improved based on the responses from the users stating, “It was easy, and the layout is simple.” and “The chat seemed straight to the point.” but there were still issues that presented themselves in their experience. The feedback is as follows:"
+                ],
+                "majorOpportunities": [
+                    "Noticed the Virtual Assistant.",
+                    "The user saw the virtual assistant because I rephrased the wording in the task to perform.",
+                    "The chat was confusing",
+                    "The user did not know who was talking and the distinction between the interactive buttons and the message blurbs.",
+                    "The notification copy was too small",
+                    "The user could not read the prompt."
+                ],
+                "majorSuccess": [
+                    "UI DESIGN",
+                    "The user loved the graphics and the UI design of all the flows.",
+                    "Suggestions",
+                    "The user loved the recommendations the Virtual Assistant offered. It gave them the feeling that the app was designed with the idea of caring for the user's well-being.",
+                    "Usability",
+                    "A smooth flow elevates the user’s experience smooth flow."
+                ],
+                "majorInsights": [
+                    "While conducting the testing, two of the three assumptions were proven",
+                    "Assumption 2: The users felt that the chat experience was easy and straight to the point.",
+                    "Assumption 3: The users found the notification of resting for their safety measures helpful in providing information on the benefits of relaxing the body. They liked the UI/UX development; it seemed to show a lot of care for their wellbeing.",
+                    "Prototype complication with the pop-up interaction",
+                    "The main reason the users were having issues identifying the virtual assistant feature as the path to go down is the prototype complication with the pop-up interaction. I could not get this animation to work, so I had to guide the user. However, I firmly believe that if it could pop up, the user would first look to the Virtual Assistant."
+                ],
+                "iteration": [
+                    "Give more attention to the virtual assistant feature",
+                    "After completing the testing, I took the feedback from the users and revised the designs of the issues listed above.",
+                    "1. I increased the size of the notification and changed the location to span the screen's width. This can allow the user to see the prompt and increase the chances of interaction with the virtual assistant.",
+                    "2. I changed the shape of the messages from virtual assistant to the user to reflect a text message. This will give the user clarity of the distinction between the messages and the buttons. I also changed the color of the messages to provide some familiarity with users.",
+                    "3. I gave cohesiveness to the buttons by using primary and secondary color buttons. I also added a drop shadow to help the user identify this as an interactive button.",
+                    "4. I changed the color of the virtual assistant icon and increased the size. I also added a red notification symbol to indicate the user has a message."
+                ],
+                "finalIteration": [
+                    "Prototype",
+                    "To measure how users would interact with the virtual assistant feature, I developed prototypes representing the four different user flows:",
+                    "Suggested Workouts",
+                    "Notifications Flow:",
+                    "Tracking Progress Report",
+                    "Change workout schedule",
+                    "Workout Monitoring"
+                ]
+            }
+        },
+        {
+            "name": "Conclusion",
+            "link": "conclusion",
+            "conclusion": {
+                "conclusion": [
+                    "The designs I created and tested to fulfill the goals of this project did not result in a messaging feature between users. I was able to design a solution in the form of the virtual assistant, which is an interactive messaging feature that has the potential to grow and become a valuable tool for the user and the company. I believe that incorporating this feature will increase the users' engagement.",
+                    "Based on my findings, I learned that users valued a virtual assistant to help the overarching goal of retaining users long term. Some additional opportunities to remember on this project we’re working on in the time frame set and research not aligning with the business hypothesis.",
+                    "This project taught me how to satisfy the client and the user, simplify the research, and not over-analyze the study. In the future, I would brainstorm all kinds of out-of-the-box ideas to meet the client’s goals and spend more time understanding the user in the research process.",
+                    "The Next Level Fitness app can move forward with confidence in growing user engagement and retaining users.",
+                    "Future additions for Next Level Fitness include:",
+                    "Flushing out the challenge flow",
+                    "Adding a nutrition feature",
+                    "Growing the Virtual Assistant feature with more AI capabilities"
+                ]
+            }
+        }
+    ]
 }
