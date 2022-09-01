@@ -16,8 +16,12 @@ import Branding from "./images/Branding.png";
 import emoji1 from "./images/emoji1.png";
 import emoji2 from "./images/emoji2.png";
 import Emoji3 from "./images/Emoji3.png";
+import emoji4 from "./images/emoji4.png";
 import emoji5 from "./images/emoji5.png";
 import emoji6 from "./images/emoji6.png";
+import emp1 from "./images/emp1.png";
+import emp2 from "./images/emp2.png";
+import emp3 from "./images/emp3.png";
 import Fact1 from "./images/Fact1.png";
 import Fact2 from "./images/Fact2.png";
 import Fact3 from "./images/Fact3.png";
@@ -49,6 +53,7 @@ import MEPersona1 from "./images/MEPersona1.png";
 import MEPersona2 from "./images/MEPersona2.png";
 import MEPersona3 from "./images/MEPersona3.png";
 import MEresearchpostit from "./images/MEresearchpostit.png";
+import MEtreatmentpostit from "./images/MEtreatmentpostit.png";
 import MErevision2 from "./images/MErevision2.png";
 import MErevision3 from "./images/MErevision3.png";
 import MESolution from "./images/MESolution.png";
@@ -59,6 +64,12 @@ import MEAffinity from "./images/MEAffinity.png";
 import NewHeaderME from "./images/NewheaderME.png";
 import uj6 from "./images/uj6.png";
 import Userjourney2 from "./images/Userjourney2.png";
+import Solution1 from "./images/Solution1.png";
+import Solution2 from "./images/Solution2.png";
+import Solution3 from "./images/Solution3.png";
+import Solution4 from "./images/Solution4.png";
+import Solution5 from "./images/Solution5.png";
+import Solution6 from "./images/Solution6.png";
 
 export default function MindEvolution() {
     const MEimages = {
@@ -66,8 +77,12 @@ export default function MindEvolution() {
         emoji1,
         emoji2,
         Emoji3,
+        emoji4,
         emoji5,
         emoji6,
+        emp1,
+        emp2,
+        emp3,
         Fact1,
         Fact2,
         Fact3,
@@ -94,6 +109,7 @@ export default function MindEvolution() {
         MEHifi2,
         MEInsight5,
         MEknowledgepostit,
+        MEtreatmentpostit,
         MELogo,
         MEPersona1,
         MEPersona2,
@@ -109,6 +125,12 @@ export default function MindEvolution() {
         NewHeaderME,
         uj6,
         Userjourney2,
+        Solution1,
+        Solution2,
+        Solution3,
+        Solution4,
+        Solution5,
+        Solution6,
     };
 
     return (

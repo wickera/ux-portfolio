@@ -1,25 +1,62 @@
-import '../../sections.scss';
-import { Element } from 'react-scroll';
+import "../../sections.scss";
+import { Element } from "react-scroll";
 
 export const MEConclusion = (props) => {
- return (
-  <Element id='conclusion' name='conclusion' className='project__tab'>
-   <hr></hr>
-   <div className='project__tab--section'>
-    <h4 className='project__tab--section--title'>conclusion</h4>
-    <div className='project__tab--section--sub-section'>
-     <p className='project__tab--section--sub-section--desc'>
-      {/* {props ? props.conclusion.objective.main : null} */}
-     </p>
-     {/* <img
-         alt='Solution #1'
-         src={props ? props.images.Mockup1 : null}
-         className='project__tab--section--img'
-        /> */}
-    </div>
-   </div>
-  </Element>
- );
+    return (
+        <Element id="conclusion" name="conclusion">
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">conclusion</h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[1] : null}
+                        <br></br>
+                        {props ? props.conclusion.main[2] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[3] : null}
+                        <br></br>
+                        {props ? props.conclusion.main[4] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[5] : null}
+                        <br></br>
+                        {props ? props.conclusion.main[6] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[7] : null}
+                        <br></br>
+                        {props ? props.conclusion.main[8] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.main[9] : null}
+                        <br></br>
+                        {props ? props.conclusion.main[10] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">outcomes</h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.outcomes[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.outcomes[1] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.conclusion.outcomes[2] : null}
+                        <br></br>
+                        {props ? props.conclusion.outcomes[3] : null}
+                    </p>
+                </div>
+            </div>
+        </Element>
+    );
 };
 
 export default MEConclusion;
