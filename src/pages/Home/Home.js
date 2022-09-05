@@ -13,7 +13,7 @@ import NextLevelFitness from "../Work/projects/NextLevelFitness/next_level_fitne
 // Project Images
 import CityPupsHeader from "../Work/projects/CityPups/images/CPLanding.png";
 import MindEvolutionHeader from "../Work/projects/MindEvolution/images/MEHeader.png";
-import NextLevelFitnessHeader from "../Work/projects/NextLevelFitness/images/Group 580.png";
+import NextLevelFitnessHeader from "../Work/projects/NextLevelFitness/images/NextLevelFitnessHeaderimage1.png";
 import RiffsFinancialCoachHeader from "../Work/projects/RiffsFinancialCoach/images/workheader.png";
 
 // Images

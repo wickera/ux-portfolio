@@ -59,11 +59,12 @@
                 "plans": [
                     "Clarifying the research objective and finding out which research methods work",
                     "The first step in the discovery phase was to clarify the research objective of the project and which research methods would work best to accomplish the goal.",
-                    "The goal of the research was to understand",
+                    "The goal of the research was to understand:",
                     "Why are users abandoning the app?",
                     "What are competitors doing in this space, and where are the opportunities?",
                     "To accomplish the objective, the following research methods were used:",
                     "User Surveys to find the demographic for the preparation used in the next step.",
+                    "User Interviews to understand what users want and look for in a fitness app.",
                     "Competitive Analysis to determine what information to display and how."
                 ],
                 "research": [
@@ -81,13 +82,13 @@
                     "Once I noticed that it was going to be a struggle to get replies, I started ramping up my approach tactics by repeatedly posting on the Springboard slack channel, I used multiple channels at once while reaching out to peers that I have spoken to in the previous months, along with reaching out to friends and family. After my ramp-up, it resulted in a booming influx of responses."
                 ],
                 "findings": [
-                    "90.9% communicate with family/friends weekly and daily",
+                    "90.9% - communicate with family/friends weekly and daily",
                     "91%",
                     "of users workout 1-7 days a week",
                     "45.5%",
                     "like to workout alone",
                     "22.7%",
-                    "like to workout alone BUT likes to be a part of a community for support",
+                    "like to workout alone BUT like to be a part of a community for support",
                     "90.9%",
                     "communicate with their family/friends either everyday or weekly",
                     "18.2%",
@@ -113,11 +114,11 @@
                 ],
                 "quotes": [
                     "“Do not have a desire to use it. Notifications can be annoying. Would never check the messaging feature. No one is going to reply immediately.”",
-                    "-Participant 1",
+                    "-P2",
                     "“Hold me accountable. If done solo, I will slack off and not push myself.”",
-                    "-Participant 2",
+                    "-P1",
                     "“I text for an easy, quick connect.”",
-                    "-Participant 3"
+                    "-P3"
                 ],
                 "majorInsights": [
                     "None of the users desired to use a messaging feature",
@@ -140,7 +141,7 @@
                     "When using fitness apps, they like the tracking progress and the structured workouts."
                 ],
                 "insights": [
-                    "ow can I fulfill the business goal and satisfy the user as well?",
+                    "How can I fulfill the business goal and satisfy the user as well?",
                     "Before stepping into this following process of synthesizing, I already knew that I was in a situation where the company wanted a feature that the user did not want nor need. The problem of increasing engagement was not going to be solved by adding a messaging feature between users. However, providing them the best services and variety would be a solution to increase engagement with users. SO NOW WHAT? I ask myself the big one million dollar question. How can I fulfill the business goal and satisfy the user as well?"
                 ],
                 "analysis": [
@@ -161,7 +162,7 @@
                     "Feed/Community feature",
                     "Users can follow each other",
                     "Clean and organized design",
-                    "accessibility is poor",
+                    "Accessibility is poor",
                     "UI design is lacking",
                     "Leaderboard/Community feature",
                     "Challenge feature",
@@ -292,10 +293,10 @@
                 "iteration": [
                     "Give more attention to the virtual assistant feature",
                     "After completing the testing, I took the feedback from the users and revised the designs of the issues listed above.",
-                    "1. I increased the size of the notification and changed the location to span the screen's width. This can allow the user to see the prompt and increase the chances of interaction with the virtual assistant.",
-                    "2. I changed the shape of the messages from virtual assistant to the user to reflect a text message. This will give the user clarity of the distinction between the messages and the buttons. I also changed the color of the messages to provide some familiarity with users.",
-                    "3. I gave cohesiveness to the buttons by using primary and secondary color buttons. I also added a drop shadow to help the user identify this as an interactive button.",
-                    "4. I changed the color of the virtual assistant icon and increased the size. I also added a red notification symbol to indicate the user has a message."
+                    "I increased the size of the notification and changed the location to span the screen's width. This can allow the user to see the prompt and increase the chances of interaction with the virtual assistant.",
+                    "I changed the shape of the messages from virtual assistant to the user to reflect a text message. This will give the user clarity of the distinction between the messages and the buttons. I also changed the color of the messages to provide some familiarity with users.",
+                    "I gave cohesiveness to the buttons by using primary and secondary color buttons. I also added a drop shadow to help the user identify this as an interactive button.",
+                    "I changed the color of the virtual assistant icon and increased the size. I also added a red notification symbol to indicate the user has a message."
                 ],
                 "finalIteration": [
                     "Prototype",

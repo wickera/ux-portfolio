@@ -26,7 +26,7 @@ export const MEImplementation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.Group353 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
             </div>
             <hr></hr>
@@ -71,17 +71,17 @@ export const MEImplementation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MErevision2 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MErevision3 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MErevision3 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
             </div>
             <hr></hr>

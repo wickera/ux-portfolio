@@ -19,20 +19,22 @@ export const MESynthesis = (props) => {
                     src={props ? props.images.MEAffinity : null}
                     className="tab-section__content--img"
                 />
+            </div>
+            <div className="tab-section__full ">
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MEknowledgepostit : null}
-                    className="tab-section__content--img"
-                />
-                <img
-                    alt="Solution #3"
-                    src={props ? props.images.MEresearchpostit : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <img
                     alt="Solution #4"
                     src={props ? props.images.MEtreatmentpostit : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Solution #4"
+                    src={props ? props.images.MEtreatmentpostit : null}
+                    className="tab-section__content--row-img"
                 />
             </div>
             <hr></hr>

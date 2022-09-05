@@ -1,25 +1,347 @@
-import '../../sections.scss';
-import { Element } from 'react-scroll';
+import "../../sections.scss";
+import { Element } from "react-scroll";
 
 export const NLFImplementation = (props) => {
- return (
-  <Element id='implementation' name='implementation' className='project__tab'>
-   <hr></hr>
-   <div className='project__tab--section'>
-    <h4 className='project__tab--section--title'>implementation</h4>
-    <div className='project__tab--section--sub-section'>
-     <p className='project__tab--section--sub-section--desc'>
-      {/* {props ? props.conclusion.objective.main : null} */}
-     </p>
-     {/* <img
-         alt='Solution #1'
-         src={props ? props.images.Mockup1 : null}
-         className='project__tab--section--img'
-        /> */}
-    </div>
-   </div>
-  </Element>
- );
+    return (
+        <Element id="implementation" name="implementation">
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    validation usability test #1
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.validation[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        <br></br>
+                        {props ? props.implementation.validation[1] : null}
+                        <br></br>
+                        {props ? props.implementation.validation[2] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    THESE WERE SOME MAJOR KEY FINDINGS OF OPPORTUNITIES
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.opportunities[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.opportunities[1] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.opportunities[2] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.opportunities[3] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.opportunities[4] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.opportunities[5] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.opportunities[6] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.opportunities[7] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    THESE WERE SOME MAJOR KEY FINDINGS OF SUCCESS
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.success[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.success[1] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.success[2] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.success[3] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.success[4] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.success[5] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    1st iteration &amp; hi-fidelity mockups
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.mockups[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.mockups[1] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.mockups[2] : null}
+                        <br></br>
+                        {props ? props.implementation.mockups[3] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.mockups[4] : null}
+                        <br></br>
+                        {props ? props.implementation.mockups[5] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.mockups[6] : null}
+                        <br></br>
+                        {props ? props.implementation.mockups[7] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.hifi1 : null}
+                    className="tab-section__content--img"
+                />
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.hifi2 : null}
+                    className="tab-section__content--img"
+                />
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    these were some major key insights
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.insights[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.insights[1] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.additions[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.additions[1] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.hifinewflows : null}
+                    className="tab-section__content--img"
+                />
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">usability test #2</h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.usability[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.usability[1] : null}
+                    </p>
+                    <ul className="tab-section__content--desc tab-section__content--desc--list">
+                        <li>
+                            {props ? props.implementation.usability[2] : null}
+                        </li>
+                        <li>
+                            {props ? props.implementation.usability[3] : null}
+                        </li>
+                        <li>
+                            {props ? props.implementation.usability[4] : null}
+                        </li>
+                    </ul>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.usability[5] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.usability[6] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    these were some major key findings of opportunities
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props
+                            ? props.implementation.majorOpportunities[0]
+                            : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props
+                            ? props.implementation.majorOpportunities[1]
+                            : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props
+                            ? props.implementation.majorOpportunities[2]
+                            : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props
+                            ? props.implementation.majorOpportunities[3]
+                            : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props
+                            ? props.implementation.majorOpportunities[4]
+                            : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props
+                            ? props.implementation.majorOpportunities[5]
+                            : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    these were some major key findings of success
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.majorSuccess[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.majorSuccess[1] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.majorSuccess[2] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.majorSuccess[3] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.majorSuccess[4] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.majorSuccess[5] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    these were some major key insights
+                </h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.majorInsights[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.majorInsights[1] : null}
+                        <br></br>
+                        {props ? props.implementation.majorInsights[2] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.majorInsights[3] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.majorInsights[4] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">2nd iteration</h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.iteration[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.iteration[1] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.ndhifimocks : null}
+                    className="tab-section__content--row-img"
+                />
+                <div className="tab-section__full--desc">
+                    <p className="tab-section__content--desc">
+                        1. {props ? props.implementation.iteration[2] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full row-reverse">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.ndhifimocks2 : null}
+                    className="tab-section__content--row-img"
+                />
+                <div className="tab-section__full--desc">
+                    <p className="tab-section__content--desc">
+                        2. {props ? props.implementation.iteration[3] : null}
+                        <br></br>
+                        3. {props ? props.implementation.iteration[4] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.ndhifimocks3 : null}
+                    className="tab-section__content--img"
+                />
+                <div className="tab-section__full--desc">
+                    <p className="tab-section__content--desc">
+                        4. {props ? props.implementation.iteration[5] : null}
+                    </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">final iteration</h4>
+                <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        {props ? props.implementation.iteration[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
+                        {props ? props.implementation.iteration[1] : null}
+                    </p>
+                    <ul className="tab-section__content--desc tab-section__content--desc--list">
+                        <li>
+                            {props ? props.implementation.iteration[2] : null}
+                        </li>
+                        <li>
+                            {props ? props.implementation.iteration[3] : null}
+                        </li>
+                        <li>
+                            {props ? props.implementation.iteration[4] : null}
+                        </li>
+                        <li>
+                            {props ? props.implementation.iteration[5] : null}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </Element>
+    );
 };
 
 export default NLFImplementation;

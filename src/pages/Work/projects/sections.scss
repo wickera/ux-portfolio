@@ -18,12 +18,13 @@
         width: 100%;
         margin: 2rem 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        text-align: center;
         flex-direction: row;
 
         &--desc {
-            width: 20rem;
+            width: 40%;
 
             & h5 {
                 margin: 0.5rem 0;
@@ -37,8 +38,9 @@
     }
 
     &__title {
-        width: 17%;
+        width: 20%;
         margin-right: 1rem;
+        padding-right: 1rem;
         font-size: 20px;
         font-weight: 600;
         line-height: 1.4rem;
@@ -72,7 +74,15 @@
         }
 
         &--img {
-            width: 100%;
+            width: 74%;
+        }
+
+        &--row-img {
+            width: 27%;
+        }
+
+        &--icon {
+            width: 10%;
         }
 
         &--desc {
@@ -84,6 +94,10 @@
 
             & span:first-child {
                 text-transform: uppercase;
+            }
+
+            &--list {
+                list-style: inside;
             }
         }
 
@@ -126,4 +140,11 @@ hr {
 .column {
     display: flex;
     flex-direction: column;
+}
+
+.left {
+    text-align: left !important;
+}
+.center {
+    text-align: center !important;
 }

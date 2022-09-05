@@ -49,17 +49,21 @@ export const MEIdeation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MEbrainstorm : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
+            </div>
+            <div className="tab-section__full">
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MEbrainstorm2 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
+            </div>
+            <div className="tab-section__full">
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MEbrainstorm3 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
             </div>
             <hr></hr>
@@ -110,6 +114,8 @@ export const MEIdeation = (props) => {
                     src={props ? props.images.uj6 : null}
                     className="tab-section__content--img"
                 />
+            </div>
+            <div className="tab-section__full">
                 <img
                     alt="Solution #2"
                     src={props ? props.images.uj6 : null}
@@ -145,7 +151,7 @@ export const MEIdeation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.Group467 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <p className="tab-section__content--desc">
                     {props ? props.ideation.sketches[1] : null}
@@ -155,7 +161,7 @@ export const MEIdeation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.Group469 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <p className="tab-section__content--desc">
                     {props ? props.ideation.sketches[2] : null}
@@ -165,7 +171,7 @@ export const MEIdeation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.Group470 : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <p className="tab-section__content--desc">
                     {props ? props.ideation.sketches[3] : null}
@@ -244,12 +250,12 @@ export const MEIdeation = (props) => {
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MELogo : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
                 <img
                     alt="Solution #2"
                     src={props ? props.images.MEstylecolors : null}
-                    className="tab-section__content--img"
+                    className="tab-section__content--row-img"
                 />
             </div>
             <hr></hr>
@@ -261,7 +267,9 @@ export const MEIdeation = (props) => {
                     </p>
                 </div>
             </div>
-            <p className="tab-section__content--desc">Before</p>
+            <div className="tab-section__full">
+                <p className="tab-section__content--title center">Before</p>
+            </div>
             <div className="tab-section__full">
                 <img
                     alt="Solution #2"
@@ -269,7 +277,9 @@ export const MEIdeation = (props) => {
                     className="tab-section__content--img"
                 />
             </div>
-            <p className="tab-section__content--desc">After</p>
+            <div className="tab-section__full">
+                <p className="tab-section__content--title center">After</p>
+            </div>
             <div className="tab-section__full">
                 <img
                     alt="Solution #2"

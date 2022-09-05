@@ -15,7 +15,7 @@ export const MEResearch = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Fact1 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <p className="tab-section__content--desc">
                             {props ? props.research.research[1] : null}
@@ -25,7 +25,7 @@ export const MEResearch = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Fact2 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <p className="tab-section__content--desc">
                             {props ? props.research.research[2] : null}
@@ -35,9 +35,9 @@ export const MEResearch = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Fact3 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
-                        <p className="tab-section__content--desc">
+                        <p className="tab-section__content--desc center">
                             {props ? props.research.research[3] : null}
                         </p>
                     </div>
@@ -113,11 +113,11 @@ export const MEResearch = (props) => {
                 <h4 className="tab-section__title">
                     these were some major key insights
                 </h4>
-                <div className="tab-section__content">
+                <div className="tab-section__content center">
                     <img
                         alt="Solution #2"
                         src={props ? props.images.emoji1 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[0] : null}
@@ -125,7 +125,7 @@ export const MEResearch = (props) => {
                     <img
                         alt="Solution #2"
                         src={props ? props.images.emoji2 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[1] : null}
@@ -133,7 +133,7 @@ export const MEResearch = (props) => {
                     <img
                         alt="Solution #2"
                         src={props ? props.images.Emoji3 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[2] : null}
@@ -141,7 +141,7 @@ export const MEResearch = (props) => {
                     <img
                         alt="Solution #2"
                         src={props ? props.images.emoji4 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[3] : null}
@@ -149,7 +149,7 @@ export const MEResearch = (props) => {
                     <img
                         alt="Solution #2"
                         src={props ? props.images.emoji5 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[4] : null}
@@ -157,7 +157,7 @@ export const MEResearch = (props) => {
                     <img
                         alt="Solution #2"
                         src={props ? props.images.emoji6 : null}
-                        className="tab-section__content--img"
+                        className="tab-section__content--icon"
                     />
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[5] : null}

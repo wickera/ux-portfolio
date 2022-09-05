@@ -7,7 +7,6 @@ import Chat from "../../../../components/chat/chat";
 // Import Project Sections
 import RFCOverview from "./sections/overview";
 import RFCResearch from "./sections/research";
-import RFCSynthesis from "./sections/synthesis";
 import RFCIdeation from "./sections/ideation";
 import RFCImplementation from "./sections/implementation";
 import RFCConclusion from "./sections/conclusion";
@@ -18,6 +17,7 @@ import budget from "./images/budget.png";
 import dashboard3 from "./images/dashboard3.png";
 import dashboard4 from "./images/dashboard4.png";
 import finance from "./images/Finance.png";
+import FinanceOnly from "./images/FinanceONLYTutorialOverview4.png";
 import Group1597 from "./images/Group1597.png";
 import Group1599 from "./images/Group1599.png";
 import Group1602 from "./images/Group1602.png";
@@ -36,6 +36,23 @@ import safetynet from "./images/safetynet.png";
 import testing from "./images/testing.png";
 import wireflows from "./images/wireflows.png";
 import workheader from "./images/workheader.png";
+import Iter1 from "./images/Iter1.png";
+import Iter2 from "./images/Iter2.png";
+import NewBudget from "./images/NEWBUDGETLAYOUT1.png";
+import NewDashboard from "./images/NewDashboard42.png";
+import NewGrowProfit from "./images/NEWGROWMYPROFIT1.png";
+import NewHabits from "./images/NEWHABITS1.png";
+import NewMonthlyProfit from "./images/NEWMONTHLYPROFIT1.png";
+import NewMonthlyRevenue from "./images/NEWMONTHLYREVENUE1.png";
+import NewPayments from "./images/NEWPAYMENTSDEBTSAFETY1.png";
+import prototypeHeader from "./images/prototypeheader.png";
+import ReachMainDashboard from "./images/ReachMaindashboard2.png";
+import researchImages from "./images/researchimages.png";
+import Riffnavbackground from "./images/Riffnavbackgnd.png";
+import Riffnewheader from "./images/Riffnewheader.png";
+import RiffProcessChart from "./images/RiffProcessChart2.png";
+import userflow from "./images/userflowandIA.png";
+import wireflows2 from "./images/wireflows2.png";
 
 export default function RiffsFinancialCoach() {
     const RFCimages = {
@@ -62,17 +79,35 @@ export default function RiffsFinancialCoach() {
         testing,
         wireflows,
         workheader,
+        FinanceOnly,
+        Iter1,
+        Iter2,
+        NewBudget,
+        NewDashboard,
+        NewGrowProfit,
+        NewHabits,
+        NewMonthlyProfit,
+        NewMonthlyRevenue,
+        NewPayments,
+        prototypeHeader,
+        ReachMainDashboard,
+        researchImages,
+        Riffnavbackground,
+        Riffnewheader,
+        RiffProcessChart,
+        userflow,
+        wireflows2,
     };
     return (
         <>
             <div id="rfc" name="rfc">
                 <img
-                    //  src={LandingPhoto}
+                    src={RFCimages.Riffnewheader}
                     alt="Riffs Financial Coach"
                     className="rfc__landing-photo"
                 />
 
-                <Tabs project={project} />
+                <Tabs project={project} bannerImg={RFCimages.Riffnewheader} />
                 <RFCOverview
                     overview={project.sections[0].overview}
                     images={RFCimages}
@@ -81,21 +116,16 @@ export default function RiffsFinancialCoach() {
                     research={project.sections[1].research}
                     images={RFCimages}
                 />
-                <RFCSynthesis
-                    research={project.sections[2].synthesis}
-                    images={RFCimages}
-                />
-
                 <RFCIdeation
-                    ideation={project.sections[3].ideation}
+                    ideation={project.sections[2].ideation}
                     images={RFCimages}
                 />
                 <RFCImplementation
-                    implementation={project.sections[4].implementation}
+                    implementation={project.sections[3].implementation}
                     images={RFCimages}
                 />
                 <RFCConclusion
-                    conclusion={project.sections[5].conclusion}
+                    conclusion={project.sections[4].conclusion}
                     images={RFCimages}
                 />
             </div>
