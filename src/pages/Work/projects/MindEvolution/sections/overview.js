@@ -86,7 +86,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution1 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
@@ -110,7 +110,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution2 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
@@ -134,7 +134,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution3 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
@@ -152,7 +152,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution4 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
@@ -173,7 +173,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution5 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
@@ -191,7 +191,7 @@ export const MEOverview = (props) => {
                         <img
                             alt="Solution #2"
                             src={props ? props.images.Solution6 : null}
-                            className="tab-section__content--img"
+                            className="tab-section__content--row-img"
                         />
                         <div className="tab-section__full--desc">
                             <h5>
