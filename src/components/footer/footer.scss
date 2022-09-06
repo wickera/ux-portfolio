@@ -27,7 +27,7 @@
         padding: 0 1rem;
         background: transparent;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         font-size: 12px;
         font-weight: 600;
@@ -71,7 +71,7 @@
 
         &__credit {
             width: 50%;
-            text-align: center;
+            text-align: right;
         }
     }
 }
