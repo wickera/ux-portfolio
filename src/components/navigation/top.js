@@ -8,7 +8,7 @@ export default function Top() {
 
     return (
         <button onClick={goToTop} className="top">
-            Up
+            <i className="fa-sharp fa-solid fa-arrow-up"></i>
         </button>
     );
 }

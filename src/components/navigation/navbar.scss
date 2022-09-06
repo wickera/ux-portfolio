@@ -99,11 +99,20 @@
 
             &--link {
                 font-weight: 700;
+                font-size: 1.5rem;
             }
+        }
+
+        &__icon {
+            font-size: 1.8rem;
         }
 
         &__icons {
             padding: 0;
+        }
+
+        &__logo {
+            width: 5rem;
         }
     }
     .navbar {
@@ -113,14 +122,6 @@
         align-items: center;
         z-index: 100;
 
-        &__title {
-            padding-left: 1rem;
-
-            &--text {
-                font-size: 1.3rem;
-            }
-        }
-
         &__menu {
             display: flex;
         }
@@ -129,13 +130,14 @@
             width: 40%;
             position: absolute;
             right: 0;
-            top: 60px;
+            top: 77px;
             display: flex;
             flex-direction: column;
             text-align: center;
             list-style: none;
-            backdrop-filter: blur(20px);
             z-index: 10;
+            background-color: rgba(244, 220, 197, 0.7);
+            backdrop-filter: blur(10px);
 
             &-enter-active {
                 opacity: 1;
@@ -153,8 +155,8 @@
 
             &--button {
                 color: black;
-                font-size: 1.4rem;
-                margin: 0 1rem;
+                font-size: 1.7rem;
+                margin: 0 2rem;
                 border: none;
                 background: transparent;
             }
@@ -162,6 +164,7 @@
             & li {
                 width: 100%;
                 padding: 1.5rem 0;
+                font-size: 2rem;
                 text-transform: uppercase;
             }
 

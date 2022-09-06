@@ -174,11 +174,11 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
     .home {
         flex-direction: column-reverse;
         background-color: transparent;
-        padding: 7rem 1rem 1rem;
+        padding: 6rem 1rem 1rem;
 
         &__button {
             width: 100%;
@@ -194,6 +194,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 0 0 2rem;
+
+            &--img {
+                width: 50%;
+            }
         }
 
         &__location {
