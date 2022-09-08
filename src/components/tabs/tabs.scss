@@ -1,82 +1,82 @@
 .tabs {
-    margin: 0 4rem;
+ margin: 0 4rem;
 
-    &__title {
-        margin: 1rem 0;
-        font-size: 36px;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
+ &__title {
+  margin: 1rem 0;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+ }
 
-    &__list {
-        &--link {
-            padding: 0.25rem 1rem;
-            margin: 0.25rem;
-            font-size: 16px;
-            font-family: "OrpheusW05-Regular";
-            font-weight: bold;
-            border: 1px solid #000;
-            background-color: #fff;
-            letter-spacing: 1px;
+ &__list {
+  &--link {
+   padding: 0.25rem 1rem;
+   margin: 0.25rem;
+   font-size: 16px;
+   font-family: 'OrpheusW05-Regular';
+   font-weight: bold;
+   border: 1px solid #000;
+   background-color: #fff;
+   letter-spacing: 1px;
 
-            &-active {
-                font-weight: 700;
-                background-color: #000;
-                color: #fff;
-            }
+   &-active {
+    font-weight: 700;
+    background-color: #000;
+    color: #fff;
+   }
 
-            &:hover {
-                cursor: pointer;
-            }
-        }
+   &:hover {
+    cursor: pointer;
+   }
+  }
 
-        &--static,
-        &--sticky {
-            position: relative;
-            width: 100%;
-            height: 10vh;
-            background-position: 100% 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            list-style: none;
+  &--static,
+  &--sticky {
+   position: relative;
+   width: 100%;
+   height: 10vh;
+   background-position: 100% 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   list-style: none;
 
-            & ul {
-                bottom: 16px;
-                display: flex;
-                flex-direction: row;
-            }
-        }
+   & ul {
+    bottom: 16px;
+    display: flex;
+    flex-direction: row;
+   }
+  }
 
-        &--sticky {
-            position: sticky;
-            top: 63px;
-        }
-    }
+  &--sticky {
+   position: sticky;
+   top: 63px;
+  }
+ }
 }
 
-@media screen and (max-width: 750px) {
-    .tabs {
-        &__list {
-            &--static {
-                height: 12vh;
+@media screen and (max-width: 714px) {
+ .tabs {
+  &__list {
+   &--static {
+    height: 14vh;
 
-                & ul {
-                    height: 10vh;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-            }
-            &--sticky {
-                top: 77px;
-                height: 12vh;
-
-                & ul {
-                    height: 10vh;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-            }
-        }
+    & ul {
+     height: 10vh;
+     flex-wrap: wrap;
+     justify-content: center;
     }
+   }
+   &--sticky {
+    top: 77px;
+    height: 14vh;
+
+    & ul {
+     height: 10vh;
+     flex-wrap: wrap;
+     justify-content: center;
+    }
+   }
+  }
+ }
 }
