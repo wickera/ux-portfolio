@@ -23,7 +23,7 @@ export const RFCIdeation = (props) => {
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
+                    alt="user flows"
                     src={props ? props.images.userflow : null}
                     className="tab-section__content--img"
                 />
@@ -48,7 +48,7 @@ export const RFCIdeation = (props) => {
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
+                    alt="condensed dashboard"
                     src={props ? props.images.maindashboard : null}
                     className="tab-section__content--row-img"
                 />
@@ -73,26 +73,26 @@ export const RFCIdeation = (props) => {
                             <li>
                                 {props ? props.ideation.wireframes[11] : null}
                             </li>
+                            <li>
+                                {props ? props.ideation.wireframes[12] : null}
+                            </li>
                         </ul>
                     </ul>
                 </div>
             </div>
             <div className="tab-section__full row-reverse">
                 <img
-                    alt="Solution #2"
+                    alt="summarized profits"
                     src={props ? props.images.MonthlyProfit2 : null}
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc left">
                     <p className="tab-section__content--title">
-                        {props ? props.ideation.wireframes[12] : null}
+                        {props ? props.ideation.wireframes[13] : null}
                     </p>
                     <ul className="tab-section__content--desc tab-section__content--desc--list">
-                        <li>{props ? props.ideation.wireframes[13] : null}</li>
+                        <li>{props ? props.ideation.wireframes[14] : null}</li>
                         <ul className="tab-section__content--desc tab-section__content--desc--list">
-                            <li>
-                                {props ? props.ideation.wireframes[14] : null}
-                            </li>
                             <li>
                                 {props ? props.ideation.wireframes[15] : null}
                             </li>
@@ -102,26 +102,26 @@ export const RFCIdeation = (props) => {
                             <li>
                                 {props ? props.ideation.wireframes[17] : null}
                             </li>
+                            <li>
+                                {props ? props.ideation.wireframes[18] : null}
+                            </li>
                         </ul>
                     </ul>
                 </div>
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
+                    alt="planning for your financial future"
                     src={props ? props.images.MonthlyGoal2 : null}
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc left">
                     <p className="tab-section__content--title">
-                        {props ? props.ideation.wireframes[18] : null}
+                        {props ? props.ideation.wireframes[19] : null}
                     </p>
                     <ul className="tab-section__content--desc tab-section__content--desc--list">
-                        <li>{props ? props.ideation.wireframes[19] : null}</li>
+                        <li>{props ? props.ideation.wireframes[20] : null}</li>
                         <ul className="tab-section__content--desc tab-section__content--desc--list">
-                            <li>
-                                {props ? props.ideation.wireframes[20] : null}
-                            </li>
                             <li>
                                 {props ? props.ideation.wireframes[21] : null}
                             </li>
@@ -130,6 +130,9 @@ export const RFCIdeation = (props) => {
                             </li>
                             <li>
                                 {props ? props.ideation.wireframes[23] : null}
+                            </li>
+                            <li>
+                                {props ? props.ideation.wireframes[24] : null}
                             </li>
                         </ul>
                     </ul>

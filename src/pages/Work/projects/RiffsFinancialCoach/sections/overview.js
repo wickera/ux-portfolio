@@ -8,13 +8,15 @@ export const RFCOverview = (props) => {
                 <h4 className="tab-section__title">overview</h4>
                 <div className="tab-section__content">
                     <p className="tab-section__content--title">
-                        {props ? props.overview.objective.main[0] : null}
+                        <b>{props ? props.overview.objective.main[0] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
                         {props ? props.overview.objective.main[1] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        <span>My Role</span>
+                        <span>
+                            <b>My Role</b>
+                        </span>
                         <br></br>
                         <span>
                             {props ? props.overview.objective.role : null}
@@ -22,7 +24,9 @@ export const RFCOverview = (props) => {
                     </p>
                     <div className="tab-section__content--info">
                         <div>
-                            <p>Timeline</p>
+                            <p>
+                                <b>Timeline</b>
+                            </p>
                             <p>
                                 {props
                                     ? props.overview.objective.timeline
@@ -30,7 +34,9 @@ export const RFCOverview = (props) => {
                             </p>
                         </div>
                         <div>
-                            <p>Project Type</p>
+                            <p>
+                                <b>Project Type</b>
+                            </p>
                             <p>
                                 {props
                                     ? props.overview.objective.projectType
@@ -38,7 +44,9 @@ export const RFCOverview = (props) => {
                             </p>
                         </div>
                         <div>
-                            <p>Tools Used</p>
+                            <p>
+                                <b>Tools Used</b>
+                            </p>
                             <p>
                                 {props ? props.overview.objective.tools : null}
                             </p>
@@ -53,10 +61,9 @@ export const RFCOverview = (props) => {
                     <p className="tab-section__content--desc">
                         {props ? props.overview.project[0] : null}
                     </p>
-                    <p className="tab-section__content--title">
-                        {props ? props.overview.project[1] : null}
-                    </p>
                     <p className="tab-section__content--desc">
+                        <b>{props ? props.overview.project[1] : null}</b>
+                        <br></br>
                         {props ? props.overview.project[2] : null}
                         <br></br>
                         {props ? props.overview.project[3] : null}
@@ -77,6 +84,9 @@ export const RFCOverview = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">the problem</h4>
                 <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        Want users to feel in control of their finances
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.overview.problem[0] : null}
                     </p>
@@ -92,7 +102,6 @@ export const RFCOverview = (props) => {
                     className="tab-section__content--img"
                 />
             </div>
-            <hr></hr>
             <div className="tab-section">
                 <h4 className="tab-section__title">the goal</h4>
                 <div className="tab-section__content">
@@ -103,7 +112,7 @@ export const RFCOverview = (props) => {
             </div>
             <hr></hr>
             <div className="tab-section">
-                <h4 className="tab-section__title">the goal</h4>
+                <h4 className="tab-section__title">the solution</h4>
                 <div className="tab-section__content">
                     <p className="tab-section__content--title">
                         {props ? props.overview.solution[0] : null}
@@ -120,9 +129,43 @@ export const RFCOverview = (props) => {
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
-                    src={props ? props.images.finance : null}
+                    alt="Dashboard"
+                    src={props ? props.images.NewDashboard : null}
                     className="tab-section__content--img"
+                />
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Budget Dashboard"
+                    src={props ? props.images.NewBudget : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Payment Dashboard"
+                    src={props ? props.images.NewPayments : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="View your spending habits"
+                    src={props ? props.images.NewHabits : null}
+                    className="tab-section__content--row-img"
+                />
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Monthly Revenue Dashboard"
+                    src={props ? props.images.NewMonthlyRevenue : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Monthly Profit Dashboard"
+                    src={props ? props.images.NewMonthlyProfit : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="View how to grow your profit"
+                    src={props ? props.images.NewGrowProfit : null}
+                    className="tab-section__content--row-img"
                 />
             </div>
         </Element>

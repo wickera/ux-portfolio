@@ -110,17 +110,17 @@ export const NLFIdeation = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="tab-section__full">
-                <img
-                    alt="Solution #2"
-                    src={props ? props.images.Wireframes3 : null}
-                    className="tab-section__content--img"
-                />
+            <div className="tab-section__full column">
                 <div className="tab-section__full--desc">
                     <p className="tab-section__content--desc">
                         {props ? props.ideation.wireframes[6] : null}
                     </p>
                 </div>
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.Wireframes3 : null}
+                    className="tab-section__content--img"
+                />
             </div>
         </Element>
     );

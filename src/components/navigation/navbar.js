@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 
 // Assets
-import logo from "../../assets/images/Iam.svg";
+import logo from "../../assets/images/Iam5.png";
 import resume from "../../assets/files/Mia2022Resume.pdf";
 
 export default function Navbar() {

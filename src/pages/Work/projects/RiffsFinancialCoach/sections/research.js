@@ -7,11 +7,12 @@ export const RFCResearch = (props) => {
             <hr></hr>
             <div className="tab-section">
                 <h4 className="tab-section__title">the process</h4>
+                <div className="tab-section__content"></div>
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
-                    src={props ? props.images.Iter1 : null}
+                    alt="Process Diagram"
+                    src={props ? props.images.RiffProcessChart : null}
                     className="tab-section__content--img"
                 />
             </div>
@@ -19,7 +20,7 @@ export const RFCResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">research</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.research.research[0] : null}
                     </p>
                     <p className="tab-section__content--desc">

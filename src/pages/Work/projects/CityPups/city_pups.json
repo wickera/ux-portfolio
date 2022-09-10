@@ -32,7 +32,17 @@
                 "problem": "How might we help dog lovers who live in large city find the best dog for them?",
                 "understand": "I was presented with a challenging brief for this project, which provided me with research highlights, personas, and detailed user interview notes. Below are a few of the highlights that stood out to me from the brief:",
                 "affinity": "While reading through the material of the user interviews, I created an affinity map to organize the user's wants, needs, and desires and find the patterns that produced the overarching categories.",
-                "personas": "Meet Ellie; she is ready for a dog; however, she lacks confidence in the matching process due to a lack of practical factors related to her lifestyle.",
+                "personas": [
+                    "Meet Ellie",
+                    "She is ready for a dog; however, she lacks confidence in the matching process due to a lack of practical factors related to her lifestyle.",
+                    "She is 27 years old, living in NYC, and is ready for a dog.",
+                    "Ellie lives alone in a studio apartment. Now that she does not have roommates, she finally feels “ready” for the responsibility and companionship of a dog. She follows some adoption agencies on Instagram and even “saves” some dogs she wants to adopt. She asks friends and people in her building who have dogs for advice so that she can get some info from people closer to her situation.",
+                    "Frustrations",
+                    "Elle hasn’t taken action because she doesn’t feel 100% confident that a dog will be a good fit for her AND the dog. Most adoption sites focus on making a connection between people and dogs. This is great for browsing, but it often leads to her falling in love with a dog that needs more space, attention, or activity than she can provide, leading to disappointment and more indecision.",
+                    "Goals",
+                    "Ellie wants to find a dog to adopt.",
+                    "She wants to feel confident that they will be an excellent fit for each other- both in emotional connection and practical factors related to her lifestyle."
+                ],
                 "mapping": "The most essential categories for users were a Lack of information (Matching Process), Space, and Training, which are all mapped out to address in the user flow below."
             }
         },

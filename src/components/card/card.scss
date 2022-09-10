@@ -1,117 +1,126 @@
 .card {
- margin: 4rem 0;
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
- &__details {
-  width: 350px;
-  padding: 0 2rem;
-  background-color: transparent;
-  font-weight: 600;
- }
+    &__details {
+        width: 350px;
+        padding: 0 2rem;
+        background-color: transparent;
+        font-weight: 600;
+    }
 
- &__reverse {
-  flex-direction: row-reverse;
- }
+    &__reverse {
+        flex-direction: row-reverse;
+    }
 
- &__button {
-  width: 100%;
-  margin: 1rem 0;
-  padding: 1rem 2rem;
-  background: transparent;
-  border: 2px solid black;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: black;
+    &__button {
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        background: transparent;
+        border: 2px solid black;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        color: black;
 
-  &:hover {
-   cursor: pointer;
-   background: black;
-   color: #ede3df;
-  }
- }
+        &:hover {
+            cursor: pointer;
+            background: black;
+            color: #ede3df;
+        }
+    }
 
- &__img {
-  width: 30vw;
- }
+    &__img {
+        width: 44rem;
+    }
 
- &__project {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 3rem;
-  text-transform: capitalize;
-  color: black;
+    &__project {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 3rem;
+        text-transform: capitalize;
+        color: black;
 
-  &--desc {
-   font-size: 18px;
-   font-weight: 600;
-   line-height: 1.5rem;
-   color: black;
-  }
- }
+        &--desc {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.5rem;
+            color: black;
+            letter-spacing: 1px;
+        }
+    }
 
- &__faq {
-  display: flex;
-  flex-direction: column;
-  color: black;
+    &__faq {
+        display: flex;
+        flex-direction: column;
+        color: black;
 
-  &--left,
-  &--right {
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-  }
-  &--info {
-   margin: 1rem 0 0.5rem;
-   font-size: 18px;
-   font-weight: 600;
-   line-height: 1rem;
-   text-transform: capitalize;
-  }
-  &--desc {
-   font-size: 14px;
-   font-weight: 600;
-   line-height: 1.35rem;
-   letter-spacing: 1px;
-  }
- }
+        &--left,
+        &--right {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        &--info {
+            margin: 1rem 0 0.5rem;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1rem;
+            text-transform: capitalize;
+        }
+        &--desc {
+            font-family: "Open Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.35rem;
+            letter-spacing: 1px;
+        }
+    }
 }
 
-hr {
- margin: 0;
- display: block;
- border-width: 1px;
- border-style: inset;
+#card-hr {
+    margin: 0;
 }
 
 @media screen and (max-width: 750px) {
- .card {
-  width: 85%;
-  flex-direction: column;
+    .card {
+        width: 85%;
+        flex-direction: column;
 
-  &__image {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  }
+        &__project {
+            &--desc {
+                margin: 0.5rem 0;
+            }
+        }
 
-  &__button {
-   width: 100%;
-  }
+        &__faq {
+            margin: 1rem 0;
+        }
 
-  &__details {
-   width: auto;
-   margin: 1rem;
-   padding: 1rem;
-  }
+        &__image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-  &__img {
-   width: 100%;
-   height: 20rem;
-  }
- }
+        &__details {
+            width: auto;
+            margin: 0 1rem 1rem;
+            padding: 0 1rem 1rem;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        &__img {
+            width: 100%;
+            height: 20rem;
+        }
+    }
 }

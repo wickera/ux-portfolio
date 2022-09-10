@@ -288,31 +288,32 @@ export const NLFImplementation = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="tab-section__full row-reverse">
-                <img
-                    alt="Solution #2"
-                    src={props ? props.images.ndhifimocks2 : null}
-                    className="tab-section__content--row-img"
-                />
+            <div className="tab-section__full column">
                 <div className="tab-section__full--desc">
                     <p className="tab-section__content--desc">
                         2. {props ? props.implementation.iteration[3] : null}
                         <br></br>
+                        <br></br>
                         3. {props ? props.implementation.iteration[4] : null}
                     </p>
                 </div>
-            </div>
-            <div className="tab-section__full">
                 <img
                     alt="Solution #2"
-                    src={props ? props.images.ndhifimocks3 : null}
+                    src={props ? props.images.ndhifimocks2 : null}
                     className="tab-section__content--img"
                 />
+            </div>
+            <div className="tab-section__full column">
                 <div className="tab-section__full--desc">
                     <p className="tab-section__content--desc">
                         4. {props ? props.implementation.iteration[5] : null}
                     </p>
                 </div>
+                <img
+                    alt="Solution #2"
+                    src={props ? props.images.ndhifimocks3 : null}
+                    className="tab-section__content--img"
+                />
             </div>
             <hr></hr>
             <div className="tab-section">

@@ -70,6 +70,9 @@ import Solution3 from "./images/Solution3.png";
 import Solution4 from "./images/Solution4.png";
 import Solution5 from "./images/Solution5.png";
 import Solution6 from "./images/Solution6.png";
+import NewCSHeaderimage from "./images/NewCSHeaderimage.png";
+import HMW1 from "./images/HMW1.png";
+import userJourney from "./images/userjourney.png";
 
 export default function MindEvolution() {
     const MEimages = {
@@ -131,17 +134,20 @@ export default function MindEvolution() {
         Solution4,
         Solution5,
         Solution6,
+        NewCSHeaderimage,
+        HMW1,
+        userJourney,
     };
 
     return (
         <>
             <div id="mind-evo" name="mind-evo">
                 <img
-                    src={MEimages.MEHeader}
+                    src={MEimages.NewCSHeaderimage}
                     alt="Mind Evolution"
                     className="me__landing-photo"
                 />
-                <Tabs project={project} bannerImg={MEimages.MEHeader} />
+                <Tabs project={project} bannerImg={MEimages.NewCSHeaderimage} />
                 <MEOverview
                     overview={project.sections[0].overview}
                     images={MEimages}

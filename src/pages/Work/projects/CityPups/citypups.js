@@ -37,6 +37,7 @@ import Profileafter from "./images/Profileafter.png";
 import Profilebefore from "./images/Profilebefore.png";
 import Resultsbefore from "./images/Resultsbefore.png";
 import Resultsafter from "./images/Resultsafter.png";
+import sketch1 from "./images/sketch1.png";
 
 export default function CityPups() {
     const CPimages = {
@@ -66,6 +67,7 @@ export default function CityPups() {
         Profilebefore,
         Resultsafter,
         Resultsbefore,
+        sketch1,
     };
 
     return (

@@ -8,31 +8,34 @@ export const MEConclusion = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">conclusion</h4>
                 <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        Lessons learned
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.conclusion.main[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.main[1] : null}
+                        <b>{props ? props.conclusion.main[1] : null}</b>
                         <br></br>
                         {props ? props.conclusion.main[2] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.main[3] : null}
+                        <b>{props ? props.conclusion.main[3] : null}</b>
                         <br></br>
                         {props ? props.conclusion.main[4] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.main[5] : null}
+                        <b>{props ? props.conclusion.main[5] : null}</b>
                         <br></br>
                         {props ? props.conclusion.main[6] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.main[7] : null}
+                        <b>{props ? props.conclusion.main[7] : null}</b>
                         <br></br>
                         {props ? props.conclusion.main[8] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.main[9] : null}
+                        <b>{props ? props.conclusion.main[9] : null}</b>
                         <br></br>
                         {props ? props.conclusion.main[10] : null}
                     </p>
@@ -49,7 +52,8 @@ export const MEConclusion = (props) => {
                         {props ? props.conclusion.outcomes[1] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        {props ? props.conclusion.outcomes[2] : null}
+                        <b>{props ? props.conclusion.outcomes[2] : null}</b>
+
                         <br></br>
                         {props ? props.conclusion.outcomes[3] : null}
                     </p>

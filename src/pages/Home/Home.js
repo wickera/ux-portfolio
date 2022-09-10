@@ -11,15 +11,15 @@ import CityPups from "../Work/projects/CityPups/city_pups.json";
 import NextLevelFitness from "../Work/projects/NextLevelFitness/next_level_fitness.json";
 
 // Project Images
-import CityPupsHeader from "../Work/projects/CityPups/images/CPLanding.png";
-import MindEvolutionHeader from "../Work/projects/MindEvolution/images/MEHeader.png";
+import CityPupsHeader from "../Work/projects/CityPups/images/Newcpheader.png";
+import MindEvolutionHeader from "../Work/projects/MindEvolution/images/NewCSHeaderimage.png";
 import NextLevelFitnessHeader from "../Work/projects/NextLevelFitness/images/NextLevelFitnessHeaderimage1.png";
-import RiffsFinancialCoachHeader from "../Work/projects/RiffsFinancialCoach/images/workheader.png";
+import RiffsFinancialCoachHeader from "../Work/projects/RiffsFinancialCoach/images/Riffnewheader.png";
 
 // Images
 import headshot from "../../assets/images/miaheadshot.jpg";
 import aboutpic from "../../assets/images/miaabout.jpg";
-import logo from "../../assets/images/Iam.svg";
+import logo from "../../assets/images/Iam1.png";
 
 // Resume
 import resume from "../../assets/files/Mia2022Resume.pdf";
@@ -30,11 +30,11 @@ export default function Home() {
             <div className="home">
                 {/* Landing section on homepage */}
                 <div className="home__desc">
-                    <img
+                    {/* <img
                         src={logo}
                         alt="Mia Lewis Logo"
                         className="home__logo"
-                    />
+                    /> */}
                     <h3 className="home__desc--title">Hello there, I'm Mia.</h3>
                     <p className="home__desc--text">
                         I am a UX/UI Designer &amp; Researcher who uses creative
@@ -66,6 +66,11 @@ export default function Home() {
                     Some of the work I'm most proud of.
                 </h4>
                 <Card
+                    project={NextLevelFitness}
+                    image={NextLevelFitnessHeader}
+                    alt="Next Level Fitness"
+                />
+                <Card
                     project={MindEvolution}
                     image={MindEvolutionHeader}
                     alt="Mind Evolution"
@@ -74,11 +79,6 @@ export default function Home() {
                     project={RiffsFinancialCoach}
                     image={RiffsFinancialCoachHeader}
                     alt="Riffs Financial Coach"
-                />
-                <Card
-                    project={NextLevelFitness}
-                    image={NextLevelFitnessHeader}
-                    alt="Next Level Fitness"
                 />
                 <Card
                     project={CityPups}

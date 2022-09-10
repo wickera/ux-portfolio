@@ -80,14 +80,14 @@ time,
 mark,
 audio,
 video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font-family: 'OrpheusW05-Regular';
- vertical-align: baseline;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -101,32 +101,28 @@ hgroup,
 menu,
 nav,
 section {
- display: block;
+    display: block;
 }
 body {
- line-height: 1;
- font-family: 'OrpheusW05-Regular';
-}
-ol,
-ul {
- list-style: none;
+    line-height: 1;
+    font-family: "OrpheusW05-Regular";
 }
 blockquote,
 q {
- quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
- content: '';
- content: none;
+    content: "";
+    content: none;
 }
 table {
- border-collapse: collapse;
- border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 :root {
- --animate-duration: 1s;
- --animate-delay: 0s;
+    --animate-duration: 1s;
+    --animate-delay: 0s;
 }

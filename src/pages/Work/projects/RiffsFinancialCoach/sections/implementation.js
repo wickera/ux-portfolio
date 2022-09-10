@@ -8,7 +8,7 @@ export const RFCImplementation = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">usability testing</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.implementation.testing[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -148,78 +148,80 @@ export const RFCImplementation = (props) => {
                     these were some major key findings of success
                 </h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[0] : null}
+                    <p className="tab-section__content--title">
+                        <b>{props ? props.implementation.success[0] : null}</b>
                     </p>
                     <br></br>
-                    <p className="tab-section__content--title">
-                        {props ? props.implementation.success[1] : null}
-                    </p>
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[2] : null}
-                    </p>
-                    <br></br>
-                    <p className="tab-section__content--title">
-                        {props ? props.implementation.success[3] : null}
-                    </p>
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[4] : null}
-                    </p>
-                    <br></br>
-                    <p className="tab-section__content--title">
-                        {props ? props.implementation.success[5] : null}
-                    </p>
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[6] : null}
-                    </p>
-                    <br></br>
-                    <p className="tab-section__content--title">
-                        {props ? props.implementation.success[7] : null}
-                    </p>
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[8] : null}
-                    </p>
-                    <br></br>
-                    <p className="tab-section__content--title">
-                        {props ? props.implementation.success[9] : null}
-                    </p>
-                    <p className="tab-section__content--desc">
-                        {props ? props.implementation.success[10] : null}
-                    </p>
+                    <ul className="tab-section__content--desc tab-section__content--desc--list">
+                        <li>
+                            {props ? props.implementation.success[2] : null}
+                        </li>
+                        <br></br>
+                        <li>
+                            {props ? props.implementation.success[4] : null}
+                        </li>
+                        <br></br>
+                        <li>
+                            {props ? props.implementation.success[6] : null}
+                        </li>
+                        <br></br>
+                        <li>
+                            {props ? props.implementation.success[8] : null}
+                        </li>
+                        <br></br>
+                        <li>
+                            {props ? props.implementation.success[10] : null}
+                        </li>
+                    </ul>
                 </div>
             </div>
             <hr></hr>
             <div className="tab-section__full">
-                <div className="tab-section_content">
-                    <p className="tab-section__content--desc">
+                <div
+                    className="tab-section_content center column"
+                    style={{ maxWidth: "500px" }}
+                >
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[0] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 1</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 1
+                    </p>
                     <br></br>
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[1] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 2</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 2
+                    </p>
                     <br></br>
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[2] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 3</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 3
+                    </p>
                     <br></br>
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[3] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 4</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 4
+                    </p>
                     <br></br>
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[4] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 5</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 5
+                    </p>
                     <br></br>
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title center space">
                         {props ? props.implementation.quotes[5] : null}
                     </p>
-                    <p className="tab-section__content--desc">-Participant 1</p>
+                    <p className="tab-section__content--desc center">
+                        -Participant 1
+                    </p>
                 </div>
             </div>
             <hr></hr>
@@ -262,6 +264,68 @@ export const RFCImplementation = (props) => {
                     <p className="tab-section__content--desc">
                         {props ? props.implementation.changes[7] : null}
                     </p>
+                </div>
+            </div>
+            <hr></hr>
+            <div className="tab-section__full">
+                <img
+                    alt="NewDashboard"
+                    src={props ? props.images.NewDashboard : null}
+                    style={{ width: "23%" }}
+                />
+                <img
+                    alt="Budget Dashboard"
+                    src={props ? props.images.NewBudget : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Payment Dashboard"
+                    src={props ? props.images.NewPayments : null}
+                    className="tab-section__content--row-img"
+                />
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="View your spending habits"
+                    src={props ? props.images.NewHabits : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Monthly Revenue Dashboard"
+                    src={props ? props.images.NewMonthlyRevenue : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="Monthly Profit Dashboard"
+                    src={props ? props.images.NewMonthlyProfit : null}
+                    className="tab-section__content--row-img"
+                />
+                <img
+                    alt="View how to grow your profit"
+                    src={props ? props.images.NewGrowProfit : null}
+                    className="tab-section__content--row-img"
+                />
+            </div>
+            <hr></hr>
+            <div className="tab-section">
+                <h4 className="tab-section__title">
+                    explore the financial coach
+                </h4>
+                <div className="tab-section__content center">
+                    <img
+                        alt=""
+                        src={props ? props.images.prototypeHeader : null}
+                        className="tab-section__content--img"
+                    />
+                    <a
+                        href="https://www.figma.com/proto/pKauOqcsaHrJrqLK9nFVEl/Financial-Tool-Prototype?page-id=2130%3A33938&node-id=2130%3A34728&viewport=729%2C464%2C0.13&scaling=min-zoom&starting-point-node-id=2130%3A34728"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <button className="tab-section__full--button">
+                            View Clickable Prototype
+                        </button>
+                    </a>
                 </div>
             </div>
         </Element>

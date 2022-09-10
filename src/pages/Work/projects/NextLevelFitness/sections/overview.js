@@ -4,7 +4,6 @@ import { Element } from "react-scroll";
 export const NLFOverview = (props) => {
     return (
         <Element id="overview" name="overview">
-            <hr></hr>
             <div className="tab-section">
                 <h4 className="tab-section__title">overview</h4>
                 <div className="tab-section__content">
