@@ -23,10 +23,7 @@ export const MEResearch = (props) => {
                     className="tab-section__content--row-img"
                     style={{ borderRadius: "10rem" }}
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     {props ? props.research.research[1] : null}
                 </p>
             </div>
@@ -37,10 +34,7 @@ export const MEResearch = (props) => {
                     className="tab-section__content--row-img"
                     style={{ borderRadius: "10rem" }}
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     {props ? props.research.research[2] : null}
                 </p>
             </div>
@@ -51,10 +45,7 @@ export const MEResearch = (props) => {
                     className="tab-section__content--row-img"
                     style={{ borderRadius: "10rem" }}
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     {props ? props.research.research[3] : null}
                 </p>
             </div>
@@ -99,10 +90,7 @@ export const MEResearch = (props) => {
                     src={props ? props.images.ME72 : null}
                     className="tab-section__content--row-img"
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     <span className="tab-section__content--title">72%</span>
                     <br></br>
                     {props ? props.research.survey[1] : null}
@@ -115,10 +103,7 @@ export const MEResearch = (props) => {
                     row-
                     className="tab-section__content--row-img"
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     <span className="tab-section__content--title">32%</span>
                     <br></br>
                     {props ? props.research.survey[2] : null}
@@ -130,10 +115,7 @@ export const MEResearch = (props) => {
                     src={props ? props.images.ME52 : null}
                     className="tab-section__content--row-img"
                 />
-                <p
-                    className="tab-section__content--desc"
-                    style={{ width: "25%" }}
-                >
+                <p className="tab-section__content--desc">
                     <span className="tab-section__content--title">52%</span>
                     <br></br>
                     {props ? props.research.survey[3] : null}
@@ -197,7 +179,7 @@ export const MEResearch = (props) => {
             </div>
             <hr></hr>
             <div className="tab-section column center">
-                <p className="tab-section__content--title">
+                <p className="tab-section__content--title center">
                     {props ? props.research.quote[0] : null}
                 </p>
                 <p className="tab-section__content--desc">

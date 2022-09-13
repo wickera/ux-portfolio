@@ -11,7 +11,9 @@ export const NLFOverview = (props) => {
                         {props ? props.overview.objective.main : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        <span>My Role</span>
+                        <span>
+                            <b>My Role</b>
+                        </span>
                         <br></br>
                         <span>
                             {props ? props.overview.objective.role : null}
@@ -19,7 +21,9 @@ export const NLFOverview = (props) => {
                     </p>
                     <div className="tab-section__content--info">
                         <div>
-                            <p>Timeline</p>
+                            <p>
+                                <b>Timeline</b>
+                            </p>
                             <p>
                                 {props
                                     ? props.overview.objective.timeline
@@ -27,7 +31,9 @@ export const NLFOverview = (props) => {
                             </p>
                         </div>
                         <div>
-                            <p>Project Type</p>
+                            <p>
+                                <b>Project Type</b>
+                            </p>
                             <p>
                                 {props
                                     ? props.overview.objective.projectType
@@ -35,7 +41,9 @@ export const NLFOverview = (props) => {
                             </p>
                         </div>
                         <div>
-                            <p>Tools Used</p>
+                            <p>
+                                <b>Tools Used</b>
+                            </p>
                             <p>
                                 {props ? props.overview.objective.tools : null}
                             </p>

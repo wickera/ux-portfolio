@@ -56,37 +56,37 @@ export const CPImplementation = (props) => {
                     major key findings &amp; changes
                 </h4>
                 <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        Add more Questions
+                    </p>
                     <p className="tab-section__content--desc ">
-                        <h5 className="tab-section__content--title">
-                            Add more Questions
-                        </h5>
                         {props ? props.implementation.findings[0] : null}
                     </p>
+                    <p className="tab-section__content--title">
+                        Eliminate specific categories
+                    </p>
                     <p className="tab-section__content--desc ">
-                        <h5 className="tab-section__content--title">
-                            Eliminate specific categories
-                        </h5>
                         {props ? props.implementation.findings[1] : null}
                     </p>
-                    <p className="tab-section__content--desc ">
-                        <h5 className="tab-section__content--title">
-                            unsure of adopting a dog
-                        </h5>
-                        {props ? props.implementation.findings[2] : null}
+                    <p className="tab-section__content--title">
+                        unsure of adopting a dog
                     </p>
                     <p className="tab-section__content--desc ">
-                        <h5 className="tab-section__content--title">
-                            remove detailed dropdown
-                        </h5>
+                        {props ? props.implementation.findings[2] : null}
+                    </p>
+                    <p className="tab-section__content--title">
+                        remove detailed dropdown
+                    </p>
+                    <p className="tab-section__content--desc ">
                         {props ? props.implementation.findings[3] : null}
                     </p>
 
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.implementation.findings[4] : null}
-                    </h5>
+                    </p>
                     <div className="tab-section__full">
                         <div className="tab-section__full--desc">
-                            <span>Before Usability Testing</span>
+                            <h5>Before Usability Testing</h5>
                             <img
                                 alt="Home Before Usability Testing"
                                 src={
@@ -98,7 +98,7 @@ export const CPImplementation = (props) => {
                             />
                         </div>
                         <div className="tab-section__full--desc">
-                            <span>After Usability Testing</span>
+                            <h5>After Usability Testing</h5>
                             <img
                                 alt="Home After Usability Testing"
                                 src={
@@ -118,12 +118,12 @@ export const CPImplementation = (props) => {
                         </p>
                     </div>
 
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.implementation.findings[4] : null}
-                    </h5>
+                    </p>
                     <div className="tab-section__full">
                         <div className="tab-section__full--desc">
-                            <span>Before Usability Testing</span>
+                            <h5>Before Usability Testing</h5>
                             <img
                                 alt="Home Before Usability Testing"
                                 src={props ? props.images.Resultsbefore : null}
@@ -131,7 +131,7 @@ export const CPImplementation = (props) => {
                             />
                         </div>
                         <div className="tab-section__full--desc">
-                            <span>After Usability Testing</span>
+                            <h5>After Usability Testing</h5>
                             <img
                                 alt="Home After Usability Testing"
                                 src={props ? props.images.Resultsafter : null}
@@ -150,12 +150,12 @@ export const CPImplementation = (props) => {
                             {props ? props.implementation.findings[11] : null}
                         </p>
                     </div>
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.implementation.findings[4] : null}
-                    </h5>
+                    </p>
                     <div className="tab-section__full">
                         <div className="tab-section__full--desc">
-                            <span>Before Usability Testing</span>
+                            <h5>Before Usability Testing</h5>
                             <img
                                 alt="Home Before Usability Testing"
                                 src={props ? props.images.Profilebefore : null}
@@ -163,7 +163,7 @@ export const CPImplementation = (props) => {
                             />
                         </div>
                         <div className="tab-section__full--desc">
-                            <span>After Usability Testing</span>
+                            <h5>After Usability Testing</h5>
                             <img
                                 alt="Home After Usability Testing"
                                 src={props ? props.images.Profileafter : null}

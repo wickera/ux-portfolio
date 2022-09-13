@@ -117,12 +117,12 @@ export const MEIdeation = (props) => {
                 <img
                     alt="epics and user journeys"
                     src={props ? props.images.userJourney : null}
-                    style={{ width: "40%" }}
+                    className="tab-section__content--med-img"
                 />
                 <img
                     alt="epics and user journeys"
                     src={props ? props.images.Userjourney2 : null}
-                    style={{ width: "30%" }}
+                    className="tab-section__content--med-img"
                 />
             </div>
             <hr></hr>

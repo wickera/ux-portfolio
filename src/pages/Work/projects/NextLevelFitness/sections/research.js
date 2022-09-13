@@ -86,19 +86,11 @@ export const NLFResearch = (props) => {
                     <p className="tab-section__content--desc">
                         {props ? props.research.research[1] : null}
                     </p>
-                    <ul className="tab-section__content--desc--list">
-                        <li className="tab-section__content--desc">
-                            {props ? props.research.research[2] : null}
-                        </li>
-                        <li className="tab-section__content--desc">
-                            {props ? props.research.research[3] : null}
-                        </li>
-                        <li className="tab-section__content--desc">
-                            {props ? props.research.research[4] : null}
-                        </li>
-                        <li className="tab-section__content--desc">
-                            {props ? props.research.research[5] : null}
-                        </li>
+                    <ul className="tab-section__content--desc tab-section__content--desc--list">
+                        <li>{props ? props.research.research[2] : null}</li>
+                        <li>{props ? props.research.research[3] : null}</li>
+                        <li>{props ? props.research.research[4] : null}</li>
+                        <li>{props ? props.research.research[5] : null}</li>
                     </ul>
                     <p className="tab-section__content--desc">
                         {props ? props.research.research[6] : null}

@@ -149,7 +149,7 @@ export const RFCImplementation = (props) => {
                 </h4>
                 <div className="tab-section__content">
                     <p className="tab-section__content--title">
-                        <b>{props ? props.implementation.success[0] : null}</b>
+                        {props ? props.implementation.success[0] : null}
                     </p>
                     <br></br>
                     <ul className="tab-section__content--desc tab-section__content--desc--list">

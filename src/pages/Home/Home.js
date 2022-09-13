@@ -19,7 +19,6 @@ import RiffsFinancialCoachHeader from "../Work/projects/RiffsFinancialCoach/imag
 // Images
 import headshot from "../../assets/images/miaheadshot.jpg";
 import aboutpic from "../../assets/images/miaabout.jpg";
-import logo from "../../assets/images/Iam1.png";
 
 // Resume
 import resume from "../../assets/files/Mia2022Resume.pdf";
@@ -30,11 +29,6 @@ export default function Home() {
             <div className="home">
                 {/* Landing section on homepage */}
                 <div className="home__desc">
-                    {/* <img
-                        src={logo}
-                        alt="Mia Lewis Logo"
-                        className="home__logo"
-                    /> */}
                     <h3 className="home__desc--title">Hello there, I'm Mia.</h3>
                     <p className="home__desc--text">
                         I am a UX/UI Designer &amp; Researcher who uses creative

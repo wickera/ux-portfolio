@@ -8,7 +8,7 @@ export const MEOverview = (props) => {
                 <h4 className="tab-section__title">Overview</h4>
                 <div className="tab-section__content">
                     <p className="tab-section__content--title">
-                        <b>{props ? props.overview.objective.main[0] : null}</b>
+                        {props ? props.overview.objective.main[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
                         {props ? props.overview.objective.main[1] : null}
