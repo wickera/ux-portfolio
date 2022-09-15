@@ -16,28 +16,25 @@ export default function About() {
                 </div>
                 <p className="about__desc--text">
                     I come from a multi-generational creative family, from
-                    fashion designers to paint artists, dancers, singers,
-                    tailors, and writers. So, you can say that being creative
-                    runs through my veins. I learned at a young age to express
-                    myself using the arts. Fashion and dance were the two
-                    choices of passion that I decided to pursue. At a young age,
-                    I loved having an idea in my head, sketching it out,
-                    developing the concept into a product, and seeing someone
-                    wear it was the ultimate high for me regarding fashion. For
-                    dance, the same rules apply, but instead of creating
-                    something that people could wear, I was able to create
-                    something people could feel through movement. In pursuing
-                    fashion, I decided to get my degree in product Development
-                    at Fashion Institute of Design &amp; Merchandising. While
-                    pursuing my degree, I became intrigued with questions
-                    surrounding the word "Why," such as, "Why do people wear
-                    what they wear?" and "Why do people behave the way they
-                    do?". These questions of why behind the behavior I could not
-                    shake compelled me into action, and I decided to continue my
-                    education and get a BA degree in Psychology and Fashion
-                    Merchandising at TCU. After receiving my degree, I intend to
-                    pursue my MA in Psychology; however, life happened, and I
-                    did not pursue a Master's in Psychology.
+                    fashion designers to painters, dancers, singers, tailors,
+                    and writers. So, you can say that being creative runs
+                    through my veins. I learned at a young age to express myself
+                    using the arts. Fashion and dance were the two choices of
+                    passion that I decided to pursue. At a young age, I loved
+                    having an idea in my head, sketching it out, developing the
+                    concept into a product, and seeing someone wear it was the
+                    ultimate high for me regarding fashion. For dance, the same
+                    rules apply, but instead of creating something that people
+                    could wear, I was able to create something people could feel
+                    through movement. In pursuing fashion, I decided to get my
+                    degree in product Development at the Fashion Institute of
+                    Design &amp; Merchandising. While pursuing my degree, I
+                    became intrigued with questions surrounding the word "why,"
+                    such as, "why do people wear what they wear?" and "why do
+                    people behave the way they do?". These questions of why
+                    behind the behavior I could not shake compelled me into
+                    action, and I decided to continue my education and get a BA
+                    degree in Psychology and Fashion Merchandising at TCU.
                 </p>
                 <div className="about__image right">
                     <img
@@ -51,11 +48,11 @@ export default function About() {
                     In 2018, life afforded me a detour, resulting in landing an
                     Office Manager position at Projekt202, a software
                     development consulting agency in Dallas, Texas. Working at
-                    p202 was monumental because I was introduced to the UX world
-                    here. Seeing how problems were addressed and solutions were
+                    p202 was monumental because I was introduced to the UX
+                    world. Seeing how problems were addressed and solutions were
                     developed was enlightening. I realized that I could use
-                    Psychology and Fashion in terms of creativity to create
-                    products that can positively impact others' lives.
+                    Psychology and Fashion to creatively build products that can
+                    positively impact others' lives.
                 </p>
                 <p className="about__desc--text">
                     Fast forward to 2020, a big year for the entire world, but
