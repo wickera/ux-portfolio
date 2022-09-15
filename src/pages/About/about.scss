@@ -1,48 +1,183 @@
 .about {
- padding: 10rem 7rem;
- display: flex;
- flex-direction: row-reverse;
- justify-content: center;
- align-items: center;
+    padding: 7rem 14rem 4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 
- &__desc {
-  padding-right: 2rem;
+    &__desc {
+        padding-right: 2rem;
 
-  &--title {
-   margin: 1rem 0;
-   text-align: center;
-   font-family: 'OrpheusW05-Regular';
-   font-size: 2rem;
-   font-weight: 700;
-  }
-  &--text {
-   margin: 1rem 0;
-   font-size: 1.1rem;
-   font-weight: 700;
-   line-height: 1.5rem;
-   letter-spacing: 1px;
-  }
- }
+        &--content {
+            width: 100%;
+            height: 77vh;
+            position: relative;
+            display: flex;
+            align-items: center;
 
- &__image {
-  width: 100%;
+            &--text {
+                z-index: 44;
+                width: 50%;
+                padding: 2rem;
+                position: absolute;
+                background-color: bisque;
+                line-height: 2rem;
+                font-size: 16px;
+            }
 
-  &--img {
-   width: 100%;
-   box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
-   -webkit-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
-   -moz-box-shadow: 3px 4px 44px 6px rgba(0, 0, 0, 0.2);
-  }
- }
+            &--image {
+                width: 55%;
+                position: absolute;
+
+                &--img {
+                    width: 100%;
+                    border-radius: 1rem;
+                }
+            }
+        }
+
+        &--list {
+            list-style-position: outside;
+            list-style-type: disc;
+            padding-left: 2rem;
+            text-align: left;
+
+            & ul > li {
+                list-style-position: inside;
+                padding-left: 1rem;
+            }
+        }
+        &--text {
+            margin: 1rem 0;
+            font-size: 16px;
+            line-height: 2rem;
+            letter-spacing: 1px;
+        }
+        &--title {
+            margin: 1rem 0;
+            text-align: center;
+            font-family: "OrpheusW05-Regular";
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+
+    &__image {
+        width: 16rem;
+        margin: 0 2rem;
+
+        &--img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1320px) {
+    .about {
+        padding: 7rem 2rem 4rem;
+
+        &__desc {
+            &--content {
+                padding: 1rem;
+                height: auto;
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                &--image {
+                    position: relative;
+                    width: 45%;
+                }
+
+                &--text {
+                    position: relative;
+                    width: auto;
+                    max-width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 750px) {
- .about {
-  padding: 5rem 3rem;
-  flex-direction: column;
+    .about {
+        padding: 5rem 0 0;
+        flex-direction: column;
 
-  &__desc {
-   padding: 0;
-  }
- }
+        &__desc {
+            padding: 0;
+
+            &--content {
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+
+                &--reverse {
+                    flex-direction: column-reverse;
+                }
+
+                &--text {
+                    width: 100%;
+                    margin: 0;
+                    padding: 1rem 0 0;
+                    border-radius: 0;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &--image {
+                    width: 66%;
+                    margin: 1rem;
+                    position: relative;
+
+                    &--img {
+                        border-radius: 0;
+                    }
+                }
+            }
+
+            &--text {
+                padding: 1rem;
+            }
+
+            &--list {
+                padding: 0 1rem 1rem 2rem;
+            }
+        }
+
+        &__image {
+            width: 52%;
+            margin: 1rem 1rem 0;
+
+            &--img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.left {
+    float: left;
+    left: 0;
+}
+
+.right {
+    float: right;
+    right: 0;
+}
+
+.bottom {
+    margin-bottom: 2rem;
 }
