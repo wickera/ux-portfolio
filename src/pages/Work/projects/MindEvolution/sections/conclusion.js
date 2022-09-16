@@ -41,7 +41,6 @@ export const MEConclusion = (props) => {
                     </p>
                 </div>
             </div>
-            <hr></hr>
             <div className="tab-section">
                 <h4 className="tab-section__title">outcomes</h4>
                 <div className="tab-section__content">

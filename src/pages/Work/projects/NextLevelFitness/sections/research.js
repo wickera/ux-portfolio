@@ -8,7 +8,7 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">the process</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.research.process[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -30,7 +30,7 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">the discovery</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.research.discovery[0] : null}
                     </p>
                     <ul className="tab-section__content--desc tab-section__content--desc--list">
@@ -52,7 +52,7 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">research plans</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.research.plans[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -80,9 +80,9 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">research</h4>
                 <div className="tab-section__content">
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.research.research[0] : null}
-                    </h5>
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.research.research[1] : null}
                     </p>
@@ -101,9 +101,9 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">challenge</h4>
                 <div className="tab-section__content">
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.research.challenge[0] : null}
-                    </h5>
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.research.challenge[1] : null}
                     </p>
@@ -118,7 +118,7 @@ export const NLFResearch = (props) => {
                     these were some major key findings
                 </h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.research.findings[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -153,9 +153,9 @@ export const NLFResearch = (props) => {
                     these were some major key insights
                 </h4>
                 <div className="tab-section__content">
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.research.insights[0] : null}
-                    </h5>
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.research.insights[1] : null}
                     </p>
@@ -172,9 +172,9 @@ export const NLFResearch = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">user interviews</h4>
                 <div className="tab-section__content">
-                    <h5 className="tab-section__content--title">
+                    <p className="tab-section__content--title">
                         {props ? props.research.interviews[0] : null}
-                    </h5>
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.research.interviews[1] : null}
                     </p>
@@ -210,40 +210,30 @@ export const NLFResearch = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="tab-section__full">
-                <img
-                    alt="insights chart"
-                    src={props ? props.images.Insightschart : null}
-                    className="tab-section__content--img"
-                />
-            </div>
             <hr></hr>
             <div className="tab-section__full">
-                <p className="tab-section__content--desc">
-                    {props ? props.research.quotes[0] : null}
-                    <br></br>
-                    <span className="tab-section__content--title">
+                <div className="column center" style={{ maxWidth: "500px" }}>
+                    <p className="tab-section__content--title center">
+                        {props ? props.research.quotes[0] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
                         {props ? props.research.quotes[1] : null}
-                    </span>
-                </p>
-            </div>
-            <div className="tab-section__full">
-                <p className="tab-section__content--desc">
-                    {props ? props.research.quotes[2] : null}
+                    </p>
                     <br></br>
-                    <span className="tab-section__content--title">
+                    <p className="tab-section__content--title center">
+                        {props ? props.research.quotes[2] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
                         {props ? props.research.quotes[3] : null}
-                    </span>
-                </p>
-            </div>
-            <div className="tab-section__full">
-                <p className="tab-section__content--desc">
-                    {props ? props.research.quotes[4] : null}
+                    </p>
                     <br></br>
-                    <span className="tab-section__content--title">
+                    <p className="tab-section__content--title center">
+                        {props ? props.research.quotes[4] : null}
+                    </p>
+                    <p className="tab-section__content--desc">
                         {props ? props.research.quotes[5] : null}
-                    </span>
-                </p>
+                    </p>
+                </div>
             </div>
             <hr></hr>
             <div className="tab-section">

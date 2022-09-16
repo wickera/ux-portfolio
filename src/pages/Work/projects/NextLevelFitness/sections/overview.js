@@ -72,7 +72,7 @@ export const NLFOverview = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">the solution</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.overview.solution[0] : null}
                     </p>
                     <p className="tab-section__content--desc">

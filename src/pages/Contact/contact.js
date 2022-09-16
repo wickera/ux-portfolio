@@ -1,13 +1,13 @@
 import "./contact.scss";
-import miafair from "../../assets/images/miafair.jpg";
+import miaabout from "../../assets/images/miaabout.jpg";
 
 export const Contact = () => {
     return (
         <div className="contact" id="contact" name="contact">
             <div className="contact__image">
                 <img
-                    alt="contact"
-                    src={miafair}
+                    alt="Mia smiling with arms crossed"
+                    src={miaabout}
                     className="contact__image--img"
                 />
             </div>

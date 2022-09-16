@@ -132,20 +132,31 @@ export const CPIdeation = (props) => {
                     <p className="tab-section__content--desc">
                         {props ? props.ideation.crazy[3] : null}
                     </p>
-                    <img
-                        alt="City Pups Mapping"
-                        src={props ? props.images.sketch1 : null}
-                        className="tab-section__content--img"
-                    />
                     <p className="tab-section__content--desc">
                         {props ? props.ideation.crazy[4] : null}
                     </p>
-                    <img
-                        alt="City Pups Mapping"
-                        src={props ? props.images.Crazy81 : null}
-                        className="tab-section__content--img"
-                    />
                 </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="City Pups Mapping"
+                    src={props ? props.images.sketch1 : null}
+                    className="tab-section__content--img"
+                />
+            </div>
+            <div className="tab-section">
+                <div className="tab-section__content">
+                    <p className="tab-section__content--desc">
+                        {props ? props.ideation.crazy[4] : null}
+                    </p>
+                </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="City Pups Mapping"
+                    src={props ? props.images.Crazy81 : null}
+                    className="tab-section__content--med-img"
+                />
             </div>
             <hr></hr>
 

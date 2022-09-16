@@ -130,8 +130,7 @@
         &__menu-slideout {
             width: 40%;
             position: absolute;
-            right: 0;
-            top: 77px;
+            top: 69px;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -165,7 +164,7 @@
             & li {
                 width: 100%;
                 padding: 1.5rem 0;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 text-transform: uppercase;
             }
 

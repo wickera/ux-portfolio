@@ -56,7 +56,7 @@ export const Tabs = (props) => {
                     smooth={true}
                     hashSpy={true}
                     isDynamic={true}
-                    offset={-200}
+                    offset={-177}
                     duration={1000}
                     delay={0}
                     spyThrottle={0}

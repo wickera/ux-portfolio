@@ -15,19 +15,19 @@ export const MEIdeation = (props) => {
                         {props ? props.ideation.how[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.how[1] : null}
+                        <b>&#187; {props ? props.ideation.how[1] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.how[2] : null}
+                        <b>&#187; {props ? props.ideation.how[2] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.how[3] : null}
+                        <b>&#187; {props ? props.ideation.how[3] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.how[4] : null}
+                        <b>&#187; {props ? props.ideation.how[4] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.how[5] : null}
+                        <b>&#187; {props ? props.ideation.how[5] : null}</b>
                     </p>
                 </div>
             </div>
@@ -97,13 +97,13 @@ export const MEIdeation = (props) => {
                         {props ? props.ideation.stories[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.stories[1] : null}
+                        <b>&#187; {props ? props.ideation.stories[1] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.stories[2] : null}
+                        <b>&#187; {props ? props.ideation.stories[2] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
-                        &#187; {props ? props.ideation.stories[3] : null}
+                        <b>&#187; {props ? props.ideation.stories[3] : null}</b>
                     </p>
                     <p className="tab-section__content--desc">
                         {props ? props.ideation.stories[4] : null}
@@ -203,22 +203,22 @@ export const MEIdeation = (props) => {
                 </h4>
                 <div className="tab-section__content">
                     <p className="tab-section__content--desc">
-                        <b>{props ? props.ideation.insights[0] : null}</b>
+                        {props ? props.ideation.insights[0] : null}
                         <br></br>
                         {props ? props.ideation.insights[1] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        <b>{props ? props.ideation.insights[2] : null}</b>
+                        {props ? props.ideation.insights[2] : null}
                         <br></br>
                         {props ? props.ideation.insights[3] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        <b>{props ? props.ideation.insights[4] : null}</b>
+                        {props ? props.ideation.insights[4] : null}
                         <br></br>
                         {props ? props.ideation.insights[5] : null}
                     </p>
                     <p className="tab-section__content--desc">
-                        <b>{props ? props.ideation.insights[6] : null}</b>
+                        {props ? props.ideation.insights[6] : null}
                         <br></br>
                         {props ? props.ideation.insights[7] : null}
                     </p>

@@ -64,6 +64,13 @@ export const CPOverview = (props) => {
                     </p>
                 </div>
             </div>
+            <div className="tab-section__full">
+                <img
+                    alt="Design Sprint sticky note map"
+                    src={props ? props.images.DesignSprintGraphic : null}
+                    className="tab-section__content--med-img"
+                />
+            </div>
             <div className="tab-section">
                 <h4 className="tab-section__title">the goal</h4>
                 <div className="tab-section__content">

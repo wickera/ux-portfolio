@@ -25,7 +25,7 @@ export default function Navbar() {
             link: "https://linkedin.com/in/mia-lewis",
             icon: "fa-brands fa-linkedin-in",
         },
-        { link: resume, icon: "fa-regular fa-envelope" },
+        { link: resume, icon: "fa-regular fa-file-lines" },
     ];
 
     const links = (routes) => {

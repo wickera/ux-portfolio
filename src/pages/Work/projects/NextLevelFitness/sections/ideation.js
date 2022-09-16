@@ -8,7 +8,7 @@ export const NLFIdeation = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">design</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.ideation.design[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -32,6 +32,9 @@ export const NLFIdeation = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">information architecture</h4>
                 <div className="tab-section__content">
+                    <p className="tab-section__content--title">
+                        Three Major Flows
+                    </p>
                     <p className="tab-section__content--title">
                         {props ? props.ideation.architecture[1] : null}
                     </p>
@@ -89,8 +92,8 @@ export const NLFIdeation = (props) => {
             <div className="tab-section__full">
                 <img
                     alt="Solution #2"
-                    src={props ? props.images.Wireframes1 : null}
-                    className="tab-section__content--row-img"
+                    src={props ? props.images.Wireframes3 : null}
+                    className="tab-section__content--med-img"
                 />
                 <div className="tab-section__full--desc">
                     <p className="tab-section__content--desc">
@@ -110,7 +113,7 @@ export const NLFIdeation = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="tab-section__full column">
+            <div className="tab-section__full row-reverse">
                 <div className="tab-section__full--desc">
                     <p className="tab-section__content--desc">
                         {props ? props.ideation.wireframes[6] : null}
@@ -118,8 +121,8 @@ export const NLFIdeation = (props) => {
                 </div>
                 <img
                     alt="Solution #2"
-                    src={props ? props.images.Wireframes3 : null}
-                    className="tab-section__content--img"
+                    src={props ? props.images.Wireframes1 : null}
+                    className="tab-section__content--med-img"
                 />
             </div>
         </Element>

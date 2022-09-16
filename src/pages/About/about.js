@@ -1,5 +1,8 @@
 import "./about.scss";
-import miafair from "../../assets/images/miafair.jpg";
+import image1 from "../../assets/images/image1.jpeg";
+import image2 from "../../assets/images/image2.jpeg";
+import image3 from "../../assets/images/image3.jpeg";
+import image4 from "../../assets/images/image4.png";
 
 export default function About() {
     return (
@@ -9,8 +12,8 @@ export default function About() {
                 <h2 className="about__desc--title">Nice to meet you.</h2>
                 <div className="about__image left">
                     <img
-                        src={miafair}
-                        alt="About"
+                        src={image1}
+                        alt="Mia leaning against post"
                         className="about__image--img"
                     />
                 </div>
@@ -38,8 +41,8 @@ export default function About() {
                 </p>
                 <div className="about__image right">
                     <img
-                        src={miafair}
-                        alt="About"
+                        src={image2}
+                        alt="Mia smiling in front of fence"
                         className="about__image--img"
                     />
                 </div>
@@ -103,8 +106,8 @@ export default function About() {
                     </div>
                     <div className="about__desc--content--image right">
                         <img
-                            src={miafair}
-                            alt="About"
+                            src={image3}
+                            alt="Mia and her father at TCU football game"
                             className="about__desc--content--image--img"
                         />
                     </div>
@@ -112,8 +115,8 @@ export default function About() {
                 <div className="about__desc--content about__desc--content--reverse">
                     <div className="about__desc--content--image">
                         <img
-                            src={miafair}
-                            alt="About"
+                            src={image4}
+                            alt="Mia and friends silly pose in costumes"
                             className="about__desc--content--image--img"
                         />
                     </div>

@@ -55,7 +55,7 @@ export const NLFSynthesis = (props) => {
             <div className="tab-section">
                 <h4 className="tab-section__title">competitor analysis</h4>
                 <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
+                    <p className="tab-section__content--title">
                         {props ? props.synthesis.analysis[0] : null}
                     </p>
                     <p className="tab-section__content--desc">
@@ -82,7 +82,7 @@ export const NLFSynthesis = (props) => {
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc">
-                    <p className="tab-section__content--title">Likes</p>
+                    <p className="tab-section__content--title center">Likes</p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[0] : null}
                         <br></br>
@@ -90,7 +90,9 @@ export const NLFSynthesis = (props) => {
                         <br></br>
                         {props ? props.synthesis.icons[2] : null}
                     </p>
-                    <p className="tab-section__content--title">Opportunities</p>
+                    <p className="tab-section__content--title center">
+                        Opportunities
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[3] : null}
                         <br></br>
@@ -105,7 +107,7 @@ export const NLFSynthesis = (props) => {
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc">
-                    <p className="tab-section__content--title">Likes</p>
+                    <p className="tab-section__content--title center">Likes</p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[5] : null}
                         <br></br>
@@ -113,7 +115,9 @@ export const NLFSynthesis = (props) => {
                         <br></br>
                         {props ? props.synthesis.icons[7] : null}
                     </p>
-                    <p className="tab-section__content--title">Opportunities</p>
+                    <p className="tab-section__content--title center">
+                        Opportunities
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[8] : null}
                         <br></br>
@@ -128,7 +132,7 @@ export const NLFSynthesis = (props) => {
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc">
-                    <p className="tab-section__content--title">Likes</p>
+                    <p className="tab-section__content--title center">Likes</p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[10] : null}
                         <br></br>
@@ -136,7 +140,9 @@ export const NLFSynthesis = (props) => {
                         <br></br>
                         {props ? props.synthesis.icons[12] : null}
                     </p>
-                    <p className="tab-section__content--title">Opportunities</p>
+                    <p className="tab-section__content--title center">
+                        Opportunities
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[13] : null}
                         <br></br>
@@ -151,13 +157,15 @@ export const NLFSynthesis = (props) => {
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc">
-                    <p className="tab-section__content--title">Likes</p>
+                    <p className="tab-section__content--title center">Likes</p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[15] : null}
                         <br></br>
                         {props ? props.synthesis.icons[16] : null}
                     </p>
-                    <p className="tab-section__content--title">Opportunities</p>
+                    <p className="tab-section__content--title center">
+                        Opportunities
+                    </p>
                     <p className="tab-section__content--desc">
                         {props ? props.synthesis.icons[17] : null}
                         <br></br>

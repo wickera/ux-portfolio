@@ -6,23 +6,6 @@ export const CPResearch = (props) => {
         <Element id="research" name="research">
             <hr></hr>
             <div className="tab-section">
-                <h4 className="tab-section__title">the problem</h4>
-                <div className="tab-section__content">
-                    <p className="tab-section__content--desc">
-                        {props ? props.research.problem : null}
-                    </p>
-                </div>
-            </div>
-            <div className="tab-section__full">
-                <img
-                    alt="Design Sprint sticky note map"
-                    src={props ? props.images.DesignSprintGraphic : null}
-                    className="tab-section__content--img"
-                />
-            </div>
-            <hr></hr>
-
-            <div className="tab-section">
                 <h4 className="tab-section__title">
                     day one: understand &amp; map
                 </h4>
@@ -109,12 +92,14 @@ export const CPResearch = (props) => {
                     <p className="tab-section__content--desc">
                         {props ? props.research.mapping : null}
                     </p>
-                    <img
-                        alt="User Flow Mapping"
-                        src={props ? props.images.Userflowmapping : null}
-                        className="tab-section__content--img"
-                    />
                 </div>
+            </div>
+            <div className="tab-section__full">
+                <img
+                    alt="User Flow Mapping"
+                    src={props ? props.images.Userflowmapping : null}
+                    className="tab-section__content--img"
+                />
             </div>
         </Element>
     );

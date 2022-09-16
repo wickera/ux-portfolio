@@ -92,12 +92,12 @@ export const MEImplementation = (props) => {
             <div className="tab-section__full" style={{ flexDirection: "row" }}>
                 <img
                     alt="iPhone with mental assessment"
-                    src={props ? props.images.MErevision2 : null}
+                    src={props ? props.images.MErevision1 : null}
                     style={{ width: "15%" }}
                 />
                 <img
                     alt="iPhone with assessment results"
-                    src={props ? props.images.MErevision3 : null}
+                    src={props ? props.images.MErevision2 : null}
                     style={{ width: "15%" }}
                 />
                 <img

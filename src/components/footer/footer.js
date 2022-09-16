@@ -8,7 +8,7 @@ export default function Footer() {
                 <ul className="footer__links">
                     <li>
                         <a href={resume} alt='Download Mia"s Resume' download>
-                            <i className="fa-regular fa-envelope footer__icon"></i>
+                            <i className="fa-regular fa-file-lines footer__icon"></i>
                         </a>
                     </li>
                     <li>

@@ -54,6 +54,7 @@ import MEPersona2 from "./images/MEPersona2.png";
 import MEPersona3 from "./images/MEPersona3.png";
 import MEresearchpostit from "./images/MEresearchpostit.png";
 import MEtreatmentpostit from "./images/MEtreatmentpostit.png";
+import MErevision1 from "./images/MErevision1.png";
 import MErevision2 from "./images/MErevision2.png";
 import MErevision3 from "./images/MErevision3.png";
 import MESolution from "./images/MESolution.png";
@@ -118,6 +119,7 @@ export default function MindEvolution() {
         MEPersona2,
         MEPersona3,
         MEresearchpostit,
+        MErevision1,
         MErevision2,
         MErevision3,
         MESolution,
