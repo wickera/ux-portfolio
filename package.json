@@ -2,6 +2,7 @@
     "name": "mias-ux-portfolio",
     "version": "1.0.0",
     "private": true,
+    "homepage": "iammialewis.com",
     "dependencies": {
         "animate.css": "^4.1.1",
         "classnames": "^2.3.1",
