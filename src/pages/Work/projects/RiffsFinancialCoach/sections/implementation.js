@@ -287,7 +287,7 @@ export const RFCImplementation = (props) => {
             <div className="tab-section__full">
                 <img
                     alt="View your spending habits"
-                    src={props ? props.images.NewHabits : null}
+                    src={props ? props.images.newhabits : null}
                     className="tab-section__content--row-img"
                 />
                 <img

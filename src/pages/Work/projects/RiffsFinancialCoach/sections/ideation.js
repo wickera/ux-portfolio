@@ -49,7 +49,7 @@ export const RFCIdeation = (props) => {
             <div className="tab-section__full">
                 <img
                     alt="condensed dashboard"
-                    src={props ? props.images.maindashboard : null}
+                    src={props ? props.images.ReachMainDashboard : null}
                     className="tab-section__content--row-img"
                 />
                 <div className="tab-section__full--desc left">
@@ -140,14 +140,14 @@ export const RFCIdeation = (props) => {
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
+                    alt="original designs"
                     src={props ? props.images.designs : null}
                     className="tab-section__content--img"
                 />
             </div>
             <div className="tab-section__full">
                 <img
-                    alt="Solution #2"
+                    alt="wire flows"
                     src={props ? props.images.wireflows2 : null}
                     className="tab-section__content--img"
                 />

@@ -12,25 +12,20 @@ import CPConclusion from "./sections/conclusion";
 
 // Import Images, assign to variable to pass to sections
 import AffinityMap from "./images/AffinityMap.png";
-import CPLanding from "./images/CPLanding.png";
 import CPHeader from "./images/Newcpheader.png";
 import Crazy81 from "./images/Crazy-81.png";
-import crazy81 from "./images/crazy81.png";
 import DesignSprintGraphic from "./images/DesignSprintGraphic.png";
 import Ellie from "./images/Ellie.png";
 import Group9 from "./images/Group 9.png";
 import Group167 from "./images/Group167.png";
 import Interviews from "./images/Interviews.png";
-import LighteningDemo2 from "./images/Lighteningdemo2.png";
 import LighteningDemo12 from "./images/Lighteningdemo12.png";
 import Mockup1 from "./images/Mockup1.png";
 import Mockup2 from "./images/Mockup2.png";
 import Mockup3 from "./images/Mockup3.png";
 import Mockup4 from "./images/Mockup4.png";
-import newcitypups from "./images/newcitypups.png";
 import Storyboard1 from "./images/Storyboard1.png";
 import Userflowmapping from "./images/Userflowmapping.png";
-import testing from "./images/testing.png";
 import Homeaftertesting from "./images/Homeaftertesting.png";
 import Homebeforetesting from "./images/Homebeforetesting.png";
 import Profileafter from "./images/Profileafter.png";
@@ -42,25 +37,20 @@ import sketch1 from "./images/sketch1.png";
 export default function CityPups() {
     const CPimages = {
         AffinityMap,
-        CPLanding,
         CPHeader,
         Crazy81,
-        crazy81,
         DesignSprintGraphic,
         Ellie,
         Group9,
         Group167,
         Interviews,
         LighteningDemo12,
-        LighteningDemo2,
         Mockup1,
         Mockup2,
         Mockup3,
         Mockup4,
-        newcitypups,
         Storyboard1,
         Userflowmapping,
-        testing,
         Homeaftertesting,
         Homebeforetesting,
         Profileafter,
