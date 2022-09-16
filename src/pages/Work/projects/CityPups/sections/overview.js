@@ -68,7 +68,7 @@ export const CPOverview = (props) => {
                 <img
                     alt="Design Sprint sticky note map"
                     src={props ? props.images.DesignSprintGraphic : null}
-                    className="tab-section__content--med-img"
+                    className="tab-section__content--img"
                 />
             </div>
             <div className="tab-section">

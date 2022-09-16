@@ -20,6 +20,7 @@ import Group9 from "./images/Group 9.png";
 import Group167 from "./images/Group167.png";
 import Interviews from "./images/Interviews.png";
 import LighteningDemo12 from "./images/Lighteningdemo12.png";
+import LighteningDemo2 from "./images/Lighteningdemo2.png";
 import Mockup1 from "./images/Mockup1.png";
 import Mockup2 from "./images/Mockup2.png";
 import Mockup3 from "./images/Mockup3.png";
@@ -45,6 +46,7 @@ export default function CityPups() {
         Group167,
         Interviews,
         LighteningDemo12,
+        LighteningDemo2,
         Mockup1,
         Mockup2,
         Mockup3,
