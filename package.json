@@ -1,6 +1,6 @@
 {
     "name": "mias-ux-portfolio",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "private": true,
     "dependencies": {
         "animate.css": "^4.1.1",
@@ -15,11 +15,12 @@
         "source-map-explorer": "^2.5.2"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "analyze": "source-map-explorer 'build/static/js/*.js'",
         "build": "react-scripts build",
-        "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "analyze": "source-map-explorer 'build/static/js/*.js'"
+        "start": "react-scripts start",
+        "surge": "surge ./build",
+        "test": "react-scripts test"
     },
     "eslintConfig": {
         "extends": [
