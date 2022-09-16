@@ -169,6 +169,7 @@ hr {
 .row-reverse {
     flex-direction: row-reverse;
 }
+
 .row {
     flex-direction: row;
 }
@@ -177,6 +178,7 @@ hr {
     display: flex;
     flex-direction: column;
 }
+
 .space {
     line-height: 1.5rem;
 }
@@ -184,12 +186,14 @@ hr {
 .left {
     text-align: left;
 }
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .text {
     text-decoration: none;
 }
@@ -222,6 +226,7 @@ hr {
             font-size: 16px;
         }
     }
+
     .tab-section {
         margin: 2rem 1rem;
         flex-direction: column;

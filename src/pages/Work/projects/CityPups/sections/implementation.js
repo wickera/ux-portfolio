@@ -5,7 +5,6 @@ export const CPImplementation = (props) => {
     return (
         <Element id="implementation" name="implementation">
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">day four: prototype</h4>
                 <div className="tab-section__content">
@@ -38,7 +37,6 @@ export const CPImplementation = (props) => {
                 </a>
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">day five: test</h4>
                 <div className="tab-section__content">

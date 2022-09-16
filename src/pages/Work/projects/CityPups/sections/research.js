@@ -26,7 +26,6 @@ export const CPResearch = (props) => {
                 />
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">affinity map</h4>
                 <div className="tab-section__content">
@@ -44,7 +43,6 @@ export const CPResearch = (props) => {
                 </div>
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">personas</h4>
                 <div className="tab-section__content">
@@ -82,7 +80,6 @@ export const CPResearch = (props) => {
                 </div>
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">mapping</h4>
                 <div className="tab-section__content">

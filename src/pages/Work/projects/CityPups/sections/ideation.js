@@ -5,7 +5,6 @@ export const CPIdeation = (props) => {
     return (
         <Element id="ideation" name="ideation">
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">
                     day 2: sketch the solution
@@ -19,7 +18,6 @@ export const CPIdeation = (props) => {
                     </p>
                 </div>
             </div>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">lightening demos</h4>
 
@@ -113,7 +111,6 @@ export const CPIdeation = (props) => {
                 </div>
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">crazy 8's</h4>
                 <div className="tab-section__content">
@@ -159,7 +156,6 @@ export const CPIdeation = (props) => {
                 />
             </div>
             <hr></hr>
-
             <div className="tab-section">
                 <h4 className="tab-section__title">day three: decide</h4>
                 <div className="tab-section__content">
