@@ -6,6 +6,7 @@ import { CSSTransition } from "react-transition-group";
 
 // Assets
 import logo from "../../assets/images/Iam5.png";
+import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -25,7 +26,7 @@ export default function Navbar() {
             icon: "fa-brands fa-linkedin-in",
         },
         {
-            link: "%PUBLIC_URL%/MiaLewisResume.pdf",
+            link: resume,
             icon: "fa-regular fa-file-lines",
         },
     ];
@@ -58,6 +59,7 @@ export default function Navbar() {
                         replace="true"
                         target="_blank"
                         rel="noopener noreferrer"
+                        without
                         onClick={() => setOpen(!open)}
                     >
                         <i className={icon} aria-hidden="true"></i>

@@ -20,6 +20,9 @@ import RiffsFinancialCoachHeader from "../Work/projects/RiffsFinancialCoach/imag
 import headshot from "../../assets/images/miaheadshot.jpg";
 import aboutpic from "../../assets/images/miaabout.jpg";
 
+// Resume
+import resume from "../../assets/files/MiaLewisResume.pdf";
+
 export default function Home() {
     return (
         <div id="home" name="home">
@@ -37,8 +40,11 @@ export default function Home() {
                         <span>Los Angeles County</span>
                     </div>
                     <a
-                        href="%PUBLIC_URL%/MiaLewisResume.pdf"
+                        href={resume}
                         alt='View Mia"s Resume'
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        without
                     >
                         <button className="home__button">View Resume</button>
                     </a>
