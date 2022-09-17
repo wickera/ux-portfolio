@@ -56,7 +56,6 @@ export default function Navbar() {
                         replace="true"
                         target="_blank"
                         rel="noopener noreferrer"
-                        download={e.icon.includes("envelope") ? true : false}
                         onClick={() => setOpen(!open)}
                     >
                         <i className={icon} aria-hidden="true"></i>

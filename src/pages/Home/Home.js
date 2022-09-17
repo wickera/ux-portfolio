@@ -39,10 +39,8 @@ export default function Home() {
                         <i className="fa fa-location-dot home__location--icon"></i>
                         <span>Los Angeles County</span>
                     </div>
-                    <a href={resume} alt='Download Mia"s Resume' download>
-                        <button className="home__button">
-                            Download Resume
-                        </button>
+                    <a href={resume} alt='View Mia"s Resume'>
+                        <button className="home__button">View Resume</button>
                     </a>
                 </div>
                 <div className="home__image">

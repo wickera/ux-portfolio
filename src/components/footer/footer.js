@@ -7,7 +7,13 @@ export default function Footer() {
             <div className="footer__container">
                 <ul className="footer__links">
                     <li>
-                        <a href={resume} alt='Download Mia"s Resume' download>
+                        <a
+                            href={resume}
+                            alt='Download Mia"s Resume'
+                            replace="true"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <i className="fa-regular fa-file-lines footer__icon"></i>
                         </a>
                     </li>
