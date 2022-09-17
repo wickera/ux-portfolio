@@ -64,7 +64,7 @@ export default function About() {
                     Bootcamp, and here I am today.
                 </p>
                 <p className="about__desc--text bottom">
-                    <b>Goals:</b>
+                    <b>Goals</b>
                     <br></br>I pride myself on my desire to help others. To
                     create a product that positively impacts people's lives. In
                     a world where it is profits over people, I want to be able
@@ -121,7 +121,7 @@ export default function About() {
                         />
                     </div>
                     <div className="about__desc--content--text right">
-                        <b>Likes &amp; Hobbies:</b>
+                        <b>Likes &amp; Hobbies</b>
                         <ul className="about__desc--list">
                             <li>Working out</li>
                             <li>Painting</li>
