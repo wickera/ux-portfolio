@@ -21,7 +21,7 @@ import headshot from "../../assets/images/miaheadshot.jpg";
 import aboutpic from "../../assets/images/miaabout.jpg";
 
 // Resume
-import resume from "../../assets/files/Mia2022Resume.pdf";
+import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Home() {
     return (

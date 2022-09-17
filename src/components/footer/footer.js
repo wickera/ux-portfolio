@@ -1,5 +1,5 @@
 import "./footer.scss";
-import resume from "../../assets/files/Mia2022Resume.pdf";
+import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Footer() {
     return (

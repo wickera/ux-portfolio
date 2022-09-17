@@ -6,7 +6,7 @@ import { CSSTransition } from "react-transition-group";
 
 // Assets
 import logo from "../../assets/images/Iam5.png";
-import resume from "../../assets/files/Mia2022Resume.pdf";
+import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
