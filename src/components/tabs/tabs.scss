@@ -2,7 +2,7 @@
     margin: 0 4rem;
 
     &__title {
-        margin: 1rem 0;
+        padding: 1rem 0 0;
         font-size: 36px;
         font-weight: 400;
         letter-spacing: 1px;
@@ -13,7 +13,6 @@
             padding: 0.25rem 1rem;
             margin: 0.25rem;
             font-size: 14px;
-            font-family: "OrpheusW05-Regular";
             font-weight: bold;
             border: 1px solid #000;
             background-color: #fff;
@@ -34,27 +33,27 @@
         &--sticky {
             position: relative;
             width: 100%;
-            height: 11vh;
+            height: auto;
             display: flex;
             flex-direction: column;
             align-items: center;
 
             & ul {
-                list-style: none;
-                bottom: 16px;
+                margin: 1rem 0;
                 display: flex;
                 flex-direction: row;
+                list-style: none;
             }
         }
 
         &--sticky {
             position: sticky;
-            top: 63px;
+            top: 70px;
         }
     }
 }
 
-@media screen and (max-width: 714px) {
+@media screen and (min-width: 389px) and (max-width: 689px) {
     .tabs {
         &__title {
             font-size: 1.75rem;
@@ -62,22 +61,50 @@
 
         &__list {
             &--static {
-                height: 15vh;
+                height: 8rem;
 
                 & ul {
-                    height: 10vh;
+                    height: 100%;
                     flex-wrap: wrap;
                     justify-content: center;
+                    align-content: space-between;
                 }
             }
             &--sticky {
-                top: 66px;
-                height: 15vh;
+                height: 8rem;
 
                 & ul {
-                    height: 10vh;
+                    height: 100%;
                     flex-wrap: wrap;
                     justify-content: center;
+                    align-content: space-between;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 388px) {
+    .tabs {
+        &__list {
+            &--static {
+                height: 11rem;
+
+                & ul {
+                    height: 100%;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: space-between;
+                }
+            }
+            &--sticky {
+                height: 11rem;
+
+                & ul {
+                    height: 100%;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: space-between;
                 }
             }
         }

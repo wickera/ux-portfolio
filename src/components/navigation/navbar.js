@@ -94,12 +94,23 @@ export default function Navbar() {
                     </div>
                 </ul>
             </CSSTransition>
-            <div className="nav__title navbar__title">
-                <img src={logo} alt="Mia Lewis Logo" className="nav__logo" />
-                <h1 className="nav__title--text navbar__title--text">
-                    Mia Lewis
-                </h1>
-            </div>
+            <Link
+                to="/"
+                replace="true"
+                tabIndex={tabIndex}
+                className="nav__links--link"
+            >
+                <div className="nav__title navbar__title">
+                    <img
+                        src={logo}
+                        alt="Mia Lewis Logo"
+                        className="nav__logo"
+                    />
+                    <h1 className="nav__title--text navbar__title--text">
+                        Mia Lewis
+                    </h1>
+                </div>
+            </Link>
             <ul className="nav__links">
                 {links(pages)}
                 {socialMedia()}
