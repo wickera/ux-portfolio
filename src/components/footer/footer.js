@@ -1,5 +1,4 @@
 import "./footer.scss";
-import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Footer() {
     return (
@@ -8,7 +7,7 @@ export default function Footer() {
                 <ul className="footer__links">
                     <li>
                         <a
-                            href={resume}
+                            href="%PUBLIC_URL%/MiaLewisResume.pdf"
                             alt='Download Mia"s Resume'
                             replace="true"
                             target="_blank"

@@ -6,7 +6,6 @@ import { CSSTransition } from "react-transition-group";
 
 // Assets
 import logo from "../../assets/images/Iam5.png";
-import resume from "../../assets/files/MiaLewisResume.pdf";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -25,7 +24,10 @@ export default function Navbar() {
             link: "https://linkedin.com/in/mia-lewis",
             icon: "fa-brands fa-linkedin-in",
         },
-        { link: resume, icon: "fa-regular fa-file-lines" },
+        {
+            link: "%PUBLIC_URL%/MiaLewisResume.pdf",
+            icon: "fa-regular fa-file-lines",
+        },
     ];
 
     const links = (routes) => {
