@@ -1,7 +1,7 @@
 {
  "name": "mias-ux-portfolio",
- "homepage": "https://iammialewis.com",
  "version": "1.0.0",
+ "homepage": "iammialewis.surge.sh",
  "private": true,
  "dependencies": {
   "animate.css": "^4.1.1",
