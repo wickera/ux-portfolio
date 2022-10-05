@@ -3,51 +3,64 @@ import { Element } from 'react-scroll';
 
 export const MEOverview = (props) => {
  return (
-  <Element id='overview' name='overview'>
+  <Element name='overview'>
    <div className='tab-section'>
     <h4 className='tab-section__title'>Overview</h4>
     <div className='tab-section__content'>
+     <p className='tab-section__content--title'>What is mind evolution?</p>
+     <p className='tab-section__content--desc'>
+      Mind Evolution is a product service app on iOS designed to help people
+      mental health conditions. <b>The problem:</b> on average, it takes 11
+      years from the onset of mental health symptoms to receive treatment, and
+      this phenomenon is called the <b>"Treatment Gap"</b>. With{' '}
+      <b>280 million people worldwide who have depression</b> and{' '}
+      <b>
+       over 700,000 people who die from suicide yearly, Mind Evolution seeks to
+       ait in reducing the Treatment Gap
+      </b>{' '}
+      by empowering them to take control of their healing journey through
+      education and application.
+     </p>
      <p className='tab-section__content--title'>
-      The treatment gap has to be addressed
+      The Goal &amp; Design Objective
      </p>
      <p className='tab-section__content--desc'>
-      There are 280 million people worldwide have depression, and over 700,000
-      people die from suicide yearly; if we do not address this issue, our
-      society will continue to be plagued by this crisis.
+      To create a visually clean, simple, seamless and accessible app that aims
+      to reduce the treatment gap by{' '}
+      <b>
+       empowering people mental health conditions take control of their own
+       mental health journey through education and application.
+      </b>
      </p>
      <p className='tab-section__content--desc'>
-      <span>
-       <b>The Problem</b>
-      </span>
+      <b>Challenge:</b> The time it takes to receive treatment. <br></br>
+      <b>Solution:</b> Providing easily accessible services for individuals to
+      receive the help they need quickly and in one place.<br></br>
+      <b>Outcome:</b> More individuals receiving help in a short amount of time.
       <br></br>
-      <span>
-       It takes on average, 11 years for an individual to receive treatment. How
-       might we reduce the Treatment Gap?
-      </span>
+      <b>Process:</b> Double Diamond.<br></br>
+      <b>Result:</b> Make users feel empowered and encouraged to be proactive in
+      their healing journey.<br></br>
+     </p>
+     <p className='tab-section__content--title'>
+      My Role &amp; UI/UX Design Methods
      </p>
      <p className='tab-section__content--desc'>
-      <span>
-       <b>The Goal</b>
-      </span>
+      <b>Role:</b> solo UI/UX Designer and UX Researcher.
       <br></br>
-      <span>
-       EMPOWER PEOPLE WITH MENTAL HEALTH CONDITIONS TO TAKE CONTROL OF THEIR OWN
-       MENTAL HEALTH JOURNEY
-      </span>
-     </p>
-     <p className='tab-section__content--desc'>
-      <span>
-       <b>My Role</b>
-      </span>
-      <br></br>
-      <span>{props ? props.overview.objective.role : null}</span>
+      <b>User Research:</b> secondary research (Desktop research); heuristics,
+      surveys, user interviews, moderated usability testing. <br></br>
+      <b>User Experience:</b> personas, user journeys, user stories, user flows,
+      empathy mapping, site mapping. <br></br>
+      <b>User Interface:</b> sketches, wireframes, prototyping, visual design,
+      interactive design.
      </p>
      <div className='tab-section__content--info'>
       <div>
        <p>
         <b>Timeline</b>
        </p>
-       <p>{props ? props.overview.objective.timeline : null}</p>
+       <p>8 months</p>
       </div>
       <div>
        <p>
@@ -59,7 +72,7 @@ export const MEOverview = (props) => {
        <p>
         <b>Tools Used</b>
        </p>
-       <p>{props ? props.overview.objective.tools : null}</p>
+       <p>Figma, Miro, Marvel Pop, Hand Sketches</p>
       </div>
      </div>
     </div>
@@ -68,122 +81,70 @@ export const MEOverview = (props) => {
    <div className='tab-section'>
     <h4 className='tab-section__title'>the solution</h4>
     <div className='tab-section__content'>
-     <p className='tab-section__content--title'>
-      {props ? props.overview.solutions[0] : null}
+     <p className='tab-section__content--title center'>
+      Taking control of your mental health is essential
      </p>
     </div>
    </div>
-   <div className='tab-section__full row-reverse'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution1 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[1] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[2] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[3] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[4] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[5] : null}
+   <div className='tab-section__content--solution'>
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='personalized dashboard'
+      src={props ? props.images.Solution1 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      Personalized Dashboard
      </p>
     </div>
-   </div>
-   <div className='tab-section__full'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution2 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[6] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[7] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[8] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[9] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[10] : null}
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='recommendations'
+      src={props ? props.images.Solution2 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      Tailored Recommendations
      </p>
     </div>
-   </div>
-   <div className='tab-section__full row-reverse'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution3 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[11] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[12] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[13] : null}
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='assessment question'
+      src={props ? props.images.Solution3 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      Take an Assessment
      </p>
     </div>
-   </div>
-   <div className='tab-section__full'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution4 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[14] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[15] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[16] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[17] : null}
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='best treatment plan recommendations'
+      src={props ? props.images.Solution4 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      best treatment plan for your needs
      </p>
     </div>
-   </div>
-   <div className='tab-section__full row-reverse'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution5 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[18] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[19] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[20] : null}
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='track your progress'
+      src={props ? props.images.Solution5 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      Track Your Progress
      </p>
     </div>
-   </div>
-   <div className='tab-section__full'>
-    <img
-     alt='Solution #2'
-     src={props ? props.images.Solution6 : null}
-     className='tab-section__content--row-img'
-    />
-    <div className='tab-section__full--desc'>
-     <h5>{props ? props.overview.solutions[21] : null}</h5>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[22] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[23] : null}
-     </p>
-     <p className='tab-section__content--desc'>
-      &#187; {props ? props.overview.solutions[24] : null}
+    <div className='tab-section__content--solution--column'>
+     <img
+      alt='call for help'
+      src={props ? props.images.Solution6 : null}
+      className='tab-section__content--solution--column--img'
+     />
+     <p className='tab-section__content--solution--column--desc'>
+      Call For Help
      </p>
     </div>
    </div>
