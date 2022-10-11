@@ -18,34 +18,34 @@ export const MEResearch = (props) => {
     </div>
    </div>
    <div className='me__content--full'>
-    <div className='me__content--full column'>
+    <div className='me__content--full--column'>
      <img
       alt='51 point 5'
       src={props ? props.images.Fact1 : null}
-      style={{ borderRadius: '1rem', width: '50%' }}
+      style={{ borderRadius: '1rem', width: '20vw', maxWidth: '50%' }}
      />
-     <p className='me__content--desc'>
+     <p className='me__content--full--desc'>
       Mental health conditions are common in the US, with 51.5 million adults
       having symptoms.
      </p>
     </div>
-    <div className='me__content--full column'>
+    <div className='me__content--full--column'>
      <img
       alt='650'
       src={props ? props.images.Fact2 : null}
-      style={{ borderRadius: '1rem', width: '50%' }}
+      style={{ borderRadius: '1rem', width: '20vw', maxWidth: '50%' }}
      />
-     <p className='me__content--desc'>
+     <p className='me__content--full--desc'>
       Over 650 million people worldwide live with mental health conditions.
      </p>
     </div>
-    <div className='me__content--full column'>
+    <div className='me__content--full--column'>
      <img
       alt='30 to 50 percent'
       src={props ? props.images.Fact3 : null}
-      style={{ borderRadius: '1rem', width: '50%' }}
+      style={{ borderRadius: '1rem', width: '20vw', maxWidth: '50%' }}
      />
-     <p className='me__content--desc'>
+     <p className='me__content--full--desc'>
       With mental health conditions on the rise, the increase in awareness, and
       mental health apps and telehealth, 30-50% of people still go untreated.
      </p>
@@ -78,7 +78,7 @@ export const MEResearch = (props) => {
    </div>
    <hr></hr>
    <div className='me column center'>
-    <p className='me__content--title center'>
+    <p className='me__content--full--quote center'>
      {props ? props.research.quote[0] : null}
     </p>
     <p className='me__content--desc'>

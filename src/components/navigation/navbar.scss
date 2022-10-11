@@ -1,184 +1,184 @@
 .nav {
-    z-index: 100;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0.75rem;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+ z-index: 100;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ padding: 0.75rem;
+ background-color: white;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
 
-    &__logo {
-        width: 5rem;
-    }
+ &__logo {
+  width: 5rem;
+ }
 
-    &__title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+ &__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-        &--text {
-            padding: 0 1rem;
-            font-size: 20px;
-            color: black;
-            font-weight: 400;
-            font-family: "Noto Serif", serif;
-        }
-    }
+  &--text {
+   padding: 0 1rem;
+   font-size: 20px;
+   color: black;
+   font-weight: 400;
+   font-family: 'Noto Serif', serif;
+  }
+ }
 
-    &__icon {
-        font-size: 18px;
+ &__icon {
+  font-size: 18px;
 
-        &:hover {
-            cursor: pointer;
-            color: black;
-        }
-    }
+  &:hover {
+   cursor: pointer;
+   color: black;
+  }
+ }
 
-    &__links {
-        padding: 0 3rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
+ &__links {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 
-        li {
-            margin: 0 0.6rem;
-            font-size: 14px;
-            font-family: "Open Sans", sans-serif;
-            text-transform: capitalize;
-            letter-spacing: 1px;
-            color: black;
+  li {
+   margin: 0 0.6rem;
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   text-transform: capitalize;
+   letter-spacing: 1px;
+   color: black;
 
-            &:hover {
-                cursor: pointer;
-                font-weight: 700;
-            }
-        }
+   &:hover {
+    cursor: pointer;
+    font-weight: 700;
+   }
+  }
 
-        &--link {
-            padding-bottom: 0.25rem;
-            font-size: 16px;
-            font-weight: 400;
-            text-decoration: none;
-            border: none;
-            color: black;
+  &--link {
+   padding-bottom: 0.25rem;
+   font-size: 16px;
+   font-weight: 400;
+   text-decoration: none;
+   border: none;
+   color: black;
 
-            &:active {
-                color: black;
-                border-bottom: 1px solid;
-                border-color: black;
-                text-decoration: none;
-                border: none;
-            }
+   &:active {
+    color: black;
+    border-bottom: 1px solid;
+    border-color: black;
+    text-decoration: none;
+    border: none;
+   }
 
-            &:focus {
-                border-bottom: 2px solid;
-                border-color: black;
-                text-decoration: none;
-                border: none;
-            }
+   &:focus {
+    border-bottom: 2px solid;
+    border-color: black;
+    text-decoration: none;
+    border: none;
+   }
 
-            &:hover {
-                cursor: pointer;
-                font-weight: 700;
-                border-bottom: 1px solid;
-                border-color: black;
-                text-decoration: none;
-                border: none;
-            }
-        }
-    }
+   &:hover {
+    cursor: pointer;
+    font-weight: 700;
+    border-bottom: 1px solid;
+    border-color: black;
+    text-decoration: none;
+    border: none;
+   }
+  }
+ }
 }
 
 .navbar {
-    &__menu,
-    &__menu-slideout {
-        display: none;
-    }
+ &__menu,
+ &__menu-slideout {
+  display: none;
+ }
 }
 
 @media screen and (max-width: 750px) {
-    .nav {
-        &__links {
-            display: none;
+ .nav {
+  &__links {
+   display: none;
 
-            &--link {
-                font-weight: 700;
-                font-size: 1.4rem;
-            }
-        }
+   &--link {
+    font-weight: 700;
+    font-size: 1.4rem;
+   }
+  }
 
-        &__icon {
-            font-size: 1.5rem;
-        }
+  &__icon {
+   font-size: 1.5rem;
+  }
 
-        &__icons {
-            padding: 0;
-        }
+  &__icons {
+   padding: 0;
+  }
 
-        &__logo {
-            width: 5rem;
-        }
-    }
-    .navbar {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 100;
+  &__logo {
+   width: 5rem;
+  }
+ }
+ .navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 
-        &__menu {
-            display: flex;
-        }
+  &__menu {
+   display: flex;
+  }
 
-        &__menu-slideout {
-            width: 40%;
-            position: absolute;
-            top: 69px;
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            list-style: none;
-            z-index: 10;
-            background-color: rgba(244, 220, 197, 0.7);
-            backdrop-filter: blur(10px);
+  &__menu-slideout {
+   width: 40%;
+   position: absolute;
+   top: 69px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   list-style: none;
+   z-index: 10;
+   background-color: rgba(244, 220, 197, 0.7);
+   backdrop-filter: blur(10px);
 
-            &-enter-active {
-                opacity: 1;
-                transition: opacity 1s;
-                animation: slideInRight;
-                animation-duration: 1s;
-            }
+   &-enter-active {
+    opacity: 1;
+    transition: opacity 1s;
+    animation: slideInRight;
+    animation-duration: 1s;
+   }
 
-            &-exit-active {
-                opacity: 0;
-                transition: opacity 1s;
-                animation: slideOutRight;
-                animation-duration: 1s;
-            }
+   &-exit-active {
+    opacity: 0;
+    transition: opacity 1s;
+    animation: slideOutRight;
+    animation-duration: 1s;
+   }
 
-            &--button {
-                color: black;
-                font-size: 1.7rem;
-                margin: 0 2rem;
-                border: none;
-                background: transparent;
-            }
+   &--button {
+    color: black;
+    font-size: 1.7rem;
+    margin: 0 2rem;
+    border: none;
+    background: transparent;
+   }
 
-            & li {
-                width: 100%;
-                padding: 1.5rem 0;
-                font-size: 1.5rem;
-                text-transform: uppercase;
-            }
+   & li {
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+   }
 
-            &--icons {
-                display: flex;
-                flex-direction: row;
-            }
-        }
-    }
+   &--icons {
+    display: flex;
+    flex-direction: row;
+   }
+  }
+ }
 }
