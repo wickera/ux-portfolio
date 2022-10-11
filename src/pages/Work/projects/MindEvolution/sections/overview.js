@@ -1,4 +1,5 @@
 import '../../sections.scss';
+import '../mindevolution.scss';
 import { Element } from 'react-scroll';
 
 export const MEOverview = (props) => {
