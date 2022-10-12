@@ -56,17 +56,19 @@ export const MESynthesis = (props) => {
        <div className='me__content--table--row'>
         <div className='me__content--table--row--black'>
          <h6>Theme 1: Research</h6>
-         <ol>
-          <li>Where is the centralized place to find all of the knowledge</li>
-          <li>Trying to find information is like a research project</li>
-          <li>Finding reputable resources is challenging</li>
-         </ol>
+         <ul>
+          <li>
+           1. Where is the centralized place to find all of the knowledge
+          </li>
+          <li>2. Trying to find information is like a research project</li>
+          <li>3. Finding reputable resources is challenging</li>
+         </ul>
         </div>
         <div className='me__content--table--row--equal'>=</div>
        </div>
       </td>
       <td className='me__content--table--row--border'>
-       <div className='me__content--table--row'>
+       <div className='me__content--table--row me__content--table--row--column'>
         <div className='me__content--table--row--orange'>
          <img
           alt='empathy map persona'
@@ -104,13 +106,13 @@ export const MESynthesis = (props) => {
        <div className='me__content--table--row'>
         <div className='me__content--table--row--black'>
          <h6>Theme 2: Treatment</h6>
-         <ol>
+         <ul>
           <li>
-           Treatment is not easily found, even for someone in a fairly
+           1. Treatment is not easily found, even for someone in a fairly
            privileged position.
           </li>
-          <li>Mental Health treatment is a luxury</li>
-         </ol>
+          <li>2. Mental Health treatment is a luxury</li>
+         </ul>
         </div>
         <div className='me__content--table--row--equal'>=</div>
        </div>
@@ -131,26 +133,26 @@ export const MESynthesis = (props) => {
        <div className='me__content--table--row'>
         <div className='me__content--table--row--black'>
          <h6>Theme 3: Knowledge</h6>
-         <ol>
+         <ul>
           <li>
-           I do not know enough, but still gaining knowledge of personal mental
-           health
+           1. I do not know enough, but still gaining knowledge of personal
+           mental health
           </li>
           <li>
-           Pretty well versed in mental health knowledge, but wants to learn
+           2. Pretty well versed in mental health knowledge, but wants to learn
            more.
           </li>
           <li>
-           People in society don't understand it collectively because they do
+           3. People in society don't understand it collectively because they do
            not prioritize mental health.
           </li>
-         </ol>
+         </ul>
         </div>
         <div className='me__content--table--row--equal'>=</div>
        </div>
       </td>
       <td className='me__content--table--row--border'>
-       <div className='me__content--table--row'>
+       <div className='me__content--table--row me__content--table--row--column'>
         <div className='me__content--table--row--orange'>
          <img
           alt='empathy map persona'

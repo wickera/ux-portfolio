@@ -15,7 +15,7 @@ export default function Navbar() {
 
  const pages = [
   { name: 'home', link: '/' },
-  { name: 'work', link: '/work' },
+  //   { name: 'work', link: '/work' },
   { name: 'about', link: '/about' },
   { name: 'contact', link: './contact' }
  ];

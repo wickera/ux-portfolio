@@ -7,13 +7,9 @@ import Card from '../../components/card/card';
 // Projects
 import MindEvolution from '../Work/projects/MindEvolution/mind_evolution.json';
 import RiffsFinancialCoach from '../Work/projects/RiffsFinancialCoach/riffs_financial_coach.json';
-import CityPups from '../Work/projects/CityPups/city_pups.json';
-import NextLevelFitness from '../Work/projects/NextLevelFitness/next_level_fitness.json';
 
 // Project Images
-import CityPupsHeader from '../Work/projects/CityPups/images/Newcpheader.png';
 import MindEvolutionHeader from '../Work/projects/MindEvolution/images/NewCSHeaderimage.png';
-import NextLevelFitnessHeader from '../Work/projects/NextLevelFitness/images/NextLevelFitnessHeaderimage1.png';
 import RiffsFinancialCoachHeader from '../Work/projects/RiffsFinancialCoach/images/Riffnewheader.png';
 
 // Images
@@ -58,12 +54,7 @@ export default function Home() {
 
    {/* Case Study Cards */}
    <div className='home__work'>
-    <h4 className='home__work--title'>Some of the work I'm most proud of.</h4>
-    <Card
-     project={NextLevelFitness}
-     image={NextLevelFitnessHeader}
-     alt='Next Level Fitness'
-    />
+    <h4 className='home__work--title'>Check out some examples of my work.</h4>
     <Card
      project={MindEvolution}
      image={MindEvolutionHeader}
@@ -74,7 +65,6 @@ export default function Home() {
      image={RiffsFinancialCoachHeader}
      alt='Riffs Financial Coach'
     />
-    <Card project={CityPups} image={CityPupsHeader} alt='City Pups' />
    </div>
 
    {/* About Section */}
